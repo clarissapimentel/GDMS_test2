@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Web Integration</title>
+  </head>
+
+  <body>
+    <h1>Web Integration: Configuration</h1>
+    <p>All configuration options can be viewed and modified from the "Web" tab in 
+    the ISYS Configuration dialog. To open this dialog, select "File", the
+    "Configure..." from the ISYS main window.</p>
+
+    <p>Before attempting to use any web component, you must configure the
+    browser that ISYS will use (ISYS will remind you the first time you
+    attempt to use a web component). In the "Web Browser" section, either type
+    in the path to your browser executable or click the "Browse..." button to
+    locate it. The "Arguments" field can be used to pass any special arguments
+    that may be needed to start your browser. The special string "$url" can be
+    used to tell ISYS where to include the URL of the web page that is to be
+    opened.</p>
+
+    <p>The "Port" field, under the "Web Proxy" section can be used to configure
+    the port upon which ISYS's web proxy will be installed. You should only
+    need to change this value if you have another program or process that is
+    using the default port (8080). If you change the port, click the "Restart" 
+    button.</p>
+
+    <p>The "Network Proxy" section allows you to specify the host and port of
+    an HTTP proxy that may be installed on your local network. If you normally
+    have to specify proxy settings in your web browser, then you will have to
+    specify those same settings here. Contact your network administrator if
+    you are not sure whether a network proxy is being used on your
+    network. <i>You will also have to configure your web browser such that it
+    avoids using your network's HTTP proxy for "localhost" URLs</i> (i.e.,
+    URLs that start with "http://localhost/"). Both Internet Explorer and
+    Netscape Navigator allow you to specify a list of domains that will not be
+    requested via the proxy. You will need to add "localhost" to this
+    list. Contact your network administrator if you are not sure how to make
+    these changes.</p>
+
+    <p>The "DynamicDiscovery" section allows you to configure the color used
+    for DynamicDiscovery hyperlinks and the modifier keys that are used to
+    perform DynamicDiscovery in your web browser. The color can be modified
+    simply by clicking the "Choose..." button and then using the resultant
+    dialog to select a color. For the modifier keys, any combination of keys
+    can be selected. These are the keys that must be held down while clicking
+    a DynamicDiscovery hyperlink in your browser, if you want DynamicDiscovery
+    to be performed. "Ctrl" works best for Netscape Navigator, while "Alt" is
+    a good choice for Windows Explorer.</p>
+
+  </body>
+</html>

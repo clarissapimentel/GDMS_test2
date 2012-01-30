@@ -1,0 +1,6 @@
+#specifying color ranges symbolically (matching those names found in java.awt.Color)
+0	4	blue	blue
+4	8	blue	green
+8	12	green	yellow
+12	16	yellow	red
+16	100	red	red

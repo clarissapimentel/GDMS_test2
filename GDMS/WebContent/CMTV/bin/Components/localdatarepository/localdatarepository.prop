@@ -1,0 +1,2 @@
+localdatarepository.spclass=org.ncgr.isys.ncgr.localdatarepository.LocalDataRepositoryServiceProvider
+localdatarepository.classpath=Components/localdatarepository/lib

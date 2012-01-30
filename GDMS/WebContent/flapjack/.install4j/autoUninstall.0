@@ -1,0 +1,1 @@
+<AutoUninstall><Action CLASSNAME="com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction"><Property VALUE="C:\Program Files\Flapjack\flapjack.exe" NAME="executable"/><Property VALUE=".flapjack" NAME="extension"/></Action><Action CLASSNAME="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction"/></AutoUninstall>

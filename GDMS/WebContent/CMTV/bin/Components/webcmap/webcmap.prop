@@ -1,0 +1,2 @@
+webcmap.spclass=org.ncgr.isys.ncgr.webcmap.CMapServiceProvider
+org.ncgr.isys.ncgr.webcmap.cmap_instance_urls=http://www.gramene.org/db/cmap/feature_search http://www.comparative-legumes.org/cgi-bin/cmap/feature_search 

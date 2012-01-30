@@ -1,0 +1,11 @@
+# Version text to be displayed in About dialog box
+ISYSVersion=ISYS build $Name:  $
+
+# Scenario page URL; be sure to include the protocol (e.g. http://)
+ScenarioURL=http://www.ncgr.org/isys/scenario.html
+ISYSProjectURL=http://www.ncgr.org/isys/
+
+#the string_munger* properties allow string attribute values to be 
+#subjected to arbitrary transformations before comparison in the
+# test of IsysObject equivalence; case-insensitivity is the most typical usage
+isys.string_munger1=org.ncgr.isys.util.UpperCaseMunger

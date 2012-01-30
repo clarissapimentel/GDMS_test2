@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>ISYS: Static Services</title>
+  </head>
+
+  <body>
+    <h1>ISYS: Static Services</h1>
+
+    <p>Static services are services that a component depends upon to function
+    properly. Static services allow components to share their functionality
+    with one another, thereby eliminating "duplication of effort". Some
+    components will provide static services, while other components will make
+    use of these services (some components may do both).</p>
+
+    <p>From the user's perspective, the most significant aspect of static
+    services is that they introduce a level of configurability into the ISYS
+    platform. A component that relies upon a specific type of static service
+    can in fact be supplied that service by any other component (including
+    itself). If more than one component supplies the required static service,
+    the user is allowed to choose which implementation will be used. This
+    configuration is done via the "File | Configure..." menu option in the
+    ISYS main window. On the Services tab of the "ISYS Configuration" dialog
+    box, the user will be shown a list of every static service that is
+    required by at least one component. Each of these required static services
+    is mapped to an specific implementation (the mapping is denoted by the
+    "->" arrow), which is provided by a particular component. The user can
+    change any of these mappings by selecting the desired row and clicking the
+    "Map..."  button. The user can then select an alternative implementation
+    that is to be used. All components that require a given static service
+    will be made to use the selected implementation.</p>
+
+    <p>For example, in the default configuration of ISYS there exists at least
+    one component that relies upon having available a similarity search
+    service, which happens to be named "SimSearchSvc". Two other
+    components--the Remote Sequence Similarity Search component and the Local
+    Sequence Similarity Search component--provide implementations of this
+    static service. Using the ISYS Configuration dialog box, the user can
+    select whether the "RemoteNcbiBlastSvc" or the (local) "NcbiBlastSvc"
+    implementation is to be used, which will determine whether BLAST searches
+    are performed by a remote server or the local, host computer. (Please note
+    that the "NcbiBlastSvc" service will only be available if the user has
+    installed BLAST on her own computer and properly configured the
+    Components/simsearch/simsearch.prop file.) </p>
+  </body>
+</html>

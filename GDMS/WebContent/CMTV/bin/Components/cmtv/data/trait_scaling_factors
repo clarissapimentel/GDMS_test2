@@ -1,0 +1,8 @@
+#Assign weighting factors based on Trait attribute
+org.ncgr.isys.objectmodel.PhenotypicTraitName=scaling_factor
+FFLW=0.5
+PHT=0.2
+EHT=0.2
+ENO=0.7
+ASI=0.7
+GY=1.0

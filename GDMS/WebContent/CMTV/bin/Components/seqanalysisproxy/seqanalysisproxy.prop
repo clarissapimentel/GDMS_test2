@@ -1,0 +1,3 @@
+# This component's ServiceProvider classes
+seqanalysis.local.spclass=org.ncgr.isys.ncgr.seqanalysisproxy.LocalBlastSvcProvider
+#seqanalysis.remote.spclass=org.ncgr.isys.ncgr.seqanalysisproxy.RemoteBlastSvcProvider

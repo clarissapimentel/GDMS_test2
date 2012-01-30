@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_01" class="java.beans.XMLDecoder"> 
+ <object class="org.ncgr.cmtv.style.MapDisplayConfiguration"> 
+  <void property="horizontal"> 
+    <boolean>true</boolean>
+  </void>
+  <void property="mappedObjectContainerConfigurations"> 
+   <void method="add"> 
+    <object class="org.ncgr.cmtv.style.MappedObjectContainerDisplayConfiguration"> 
+     <void property="globalDataTransformRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Sequence Features</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="linearMapWidgetFactoryRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Colored Bars</string> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

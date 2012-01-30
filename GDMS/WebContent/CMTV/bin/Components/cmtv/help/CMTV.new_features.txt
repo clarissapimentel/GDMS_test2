@@ -1,0 +1,204 @@
+Map "repositories":
+
+In order to facilitate the process of loading data into the tool from files of marker and trait data stored locally, we have developed some simple wrappers for some of the flatfile parsers that behave as "map repository" interfaces; these essentially allow data stored in files to behave like a simple database, with some basic query facilities. These interfaces provide two services to the tool: providing a listing of all maps in the repository, and loading the data for one or more maps into the tool. Note that the same services could be implemented with more complex backends, and could be plugged into the tool to be usable in the same way.
+
+These services can be invoked directly, via the File->Load ... menu, or indirectly, via the
+"Find combinable map data" function which will be discussed shortly. When the menu option is
+selected, you will first see a dialog that lists all the repositories upon which the "List
+maps" service can be invoked. As many of these services as are selected will be invoked in parallel. An implementation of "map listing" may prompt the user to filter the results based on some criteria, allowing the user, for example, to list only maps from a certain experimental cross or of a given chromosome. After the maps meeting these criteria are located, they are presented in a dialog that allows the user to manually inspect the results before requesting that some subset of the maps be loaded into the tool. (To be fully accurate, we should mention that when trait data is loaded "indirectly" via the Find combinable map data menu, another filter dialog is presented before the final list of maps that allows filtering by threshold across a range on the map.) The full set of data for the maps indicated by user selection are then loaded from the repository using the second service implemented by these data providers.
+
+To try this feature, first select the File->Load->Retrieve list of maps available via ISYS Services menu, then choose one of the services presented. You should
+first see a dialog in which the left hand side gives a set of properties (e.g.
+LinkageGroup, CrossName) and the right hand side gives legal values of the
+selected property. Multiple selected values for a given property are treated
+as logically disjunctive (e.g. Linkage Group 1 OR 2), while multiple property restrictions are treated as logically conjunctive (e.g. Linkage Group 1 AND Cross Name C2); if no value is selected for a given property it is not considered. After specifying Linkage Group- -> Ch1, you should receive a list of two maps. Clicking OK in this table will load the selected maps into the tool, where you will see them appear as entries in the Map List in the upper left hand side.
+
+***This section could use some more discussion of the difference between the
+marker data and the trait data. Also, perhaps some discussion of why one might
+want to separate data into logically distinct data sources, when it is all
+local...
+
+Visualization of "raw" QTL data:
+
+Many data providers present QTL data as regions on maps whose
+likelihood ratios or LOD scores are above some threshold value, and indeed the
+tool can display this sort of data like any other object whose location is
+an interval on the map. However, there is also value to be gained by
+presenting the complete distribution of scores for a QTL across the entire
+map; sometimes, regions that do not meet a strictly defined threshold can
+still lend weight to the assessment of a region's significance for a certain
+trait. With this perspective in mind (and mindful of the importance of other
+sorts of numerical distributions such as average GC content in sequence data),
+we extended the tool to be able to visualize and manipulate data of this kind.
+
+The default layout is specified so that traits are displayed using a graphical
+representation that maps numerical values to colors. This mapping is
+controlled by a file specified in the compmapviewer.prop file as:
+compmapviewer.continuous_distribution_color_map
+
+This file simply specifies ranges of numerical values and the color ranges
+to which they should be mapped (colors may be specified either using the set of "named values" defined in java.awt.Color as static instances, or as RGB value triples as in the supplied qtl_color_map2 file). Values falling within the ranges will be linearly
+interpolated (using the RGB values of the colors on the endpoints as the basis
+of the interpolation). You can edit this file and reload the mapping
+dynamically using the main menu's 
+View->Reload color map->For continuous distributions item (the file it loads
+is determined at startup time by the property mentioned above).
+
+Another visualization that is useful for this data is a standard histogram
+display. This can be enabled by bringing up the Layout Dialog 
+from the main menu's View->Customize Layout item, and selecting 
+"Create graph renderings of distributions" in the tab labeled Panel 3 
+("Continuous distributions"). See the section "Customize Layout" in
+the online help for more details on using the Layout Dialog.
+
+The same two visualizations can also be used to display aggregate
+representations of sets of trait data. In a map frame's View menu, you will
+see two checkbox items for "Show aggregate graph distribution" and "Show
+aggregate color distribution". When these are checked and trait data has been
+loaded into the tool, the last widgets in the display (furthest from the ruler
+that represents the coordinates of the map) are dynamically computed averages
+of the set of traits that are present in the visualization at any given time.
+
+Graphical attributes of the displays for mapped objects can be modified 
+based on the attributes of the underlying data 
+(see discussion in online help under "Defining the Graphical Properties of
+Your Maps"). In the same manner, the trait widgets have some graphical
+properties that can be modified in this way. As an example, you can map
+the phenotypic trait name to a "scaling factor", which modifies the intensity
+of the trait display in the singular trait representations, and weights the
+contribution of the trait to the average value in the aggregate
+distributions. To see this, load some traits onto one of the marker maps (as
+described in the section on "Combinable maps"). Select the main menu's item 
+"View->Load IsysAttribute-based property assignments from file" and select
+the file "trait_scaling_factors; next, go back to View and select the new
+checkbox item "From file trait_scaling_factors...". You should see some of the
+traits pale, corresponding to the scaling factor corresponding to the trait in 
+the file. In addition, the contribution of each trait to the aggregate
+distribution should have changed in accordance with these values.
+
+In order to help visualize large sets of traits, it is also possible to adjust
+the width of the graphical representations. To do this, go to the main menu's
+View -> Set widget width menu item and follow the basic instructions given
+in the online help for using the "Set color/font" option; to apply the change
+to all traits, use "for user-defined rule" and choose "Continuous
+Distributions".
+
+Some other features that are useful for manipulating these QTL distributions
+are:
+    Sorting by value: 
+        Right-click on any of the non-aggregate traits, and you
+        should see a menu option to sort the traits by the value of the
+        distribution at that position (note that although you will see the 
+        same option when right-clicking on the aggregate, at this time the
+        sorting will not be applied to the simple traits in this case)
+
+    Selecting by threshold:
+        Right-click in a frame that contains trait data, and you should see
+        an option to select traits by threshold. Choosing this menu item
+        will bring up the threshold filter dialog described elsewhere, and
+        the traits meeting the criteria specified will be selected.
+
+    Removing from view:
+        Traits that have been added to a view (as described below in the
+        section on "Combinable maps") can be removed by selecting
+        them (e.g. by using the filter threshold) and choosing the frame's
+        Edit->Remove selected mapped objects item. You can also do this to
+        data that has been originally loaded as part of the map, although it
+        is simply removed from the visual representation, and not the
+        underlying data model.
+
+"Combinable maps":
+
+Map combination refers to the ability of the viewer to take data from distinct maps and to integrate it into a single visual representation. There are a number of different cases that are supported by the tool, but in general, the idea is that if a translation can be established from the coordinates of one map onto another map, then the data from the two maps can be integrated into a single consistent representation. The tool's ability to find maps with data that can be combined onto a given map can be accessed from the Map comparison menu of a window on the viewer's desktop (using the map represented in that window as the target of the data integration); two options are provided: 
+    -one searches all data already loaded into memory in the tool
+    -one searches all data in a given map repository
+In the latter case, the regular filtering options of the repository will be used to restrict the set against which the search is performed (if desired); also, for trait data, an option is provided to filter out data not meeting a specified threshold over a user-defined span on the map.
+
+The first and simplest case in which combinability is used is when map data that conceptually refers to a single map has been split into separate representations for logistical reasons. For example, the software that computes the linkage disequilibrium between markers in crossing experiments may be distinct from that which calculates the QTL scores for trait data measured in the same crosses. In such cases, the tool uses user-specified metadata attributes associated with the maps to determine when two separate maps actually refer to the same thing and can be treated as one. For example, with the supplied marker/trait data from CIMMYT, the cross name and linkage group attributes are sufficient to establish equivalence of the coordinates between the appropriate marker map and any of the traits that were measured for that cross; if the tool is being used for inter-species work, one would probably wish to include the species in the set of metadata used to determine coordinate equivalence. Coordinate equivalence means that the numbers associated with the positions on one map can be treated for all intents and purposes as if they belonged to any other equivalent map.
+
+To exercise this feature, open one of the maps loaded in the first section by
+selecting it in the Map List, and hitting the "View separately" button. After
+the visual representation is created, go to the "Map comparison" menu of the
+internal frame in which the map is displayed, and choose the "Find combinable
+maps from repository" menu item. You will be presented with the
+attribute-based restriction dialog first, which you can click OK to ignore,
+and then you should see another dialog that allows you to specify a threshold
+filter to be placed on the trait data that will be loaded. The endpoints of
+the range on the map to which the threshold is restricted are initially set to
+correspond to the region on the map determined by the last drag-select (or the
+endpoints of the map if no subregion has been selected); although these can be
+manually altered if desired. If no number is specified as the threshold, no
+filtering will be done. Try specifying no threshold and see how many traits
+are
+presented in the list dialog. Then cancel the load and try this sequence again
+from the "Find combinable" menu, this time specifying a threshold value of 15.
+
+The next case in which map data can be dynamically combined is in the case of a consensus map and its input marker maps. In order to construct the consensus map in the first place, it is necessary to establish transformations from the coordinates of objects on the input maps onto the coordinates of the consensus. Map combinability in this case simply reuses these coordinate transforms for either the input marker maps or any of their coordinate equivalent maps. In practice, since the marker data will typically be fully integrated from the marker maps onto the consensus, the interesting feature here is the ability to display the trait data from the separate crosses in the unifying representation of the consensus map. You may notice in some of the graphical representations of the traits that certain areas of the traits seem more or less dense when viewed in the consensus framework; this is because different regions on the input map from which a trait is derived have different transformation ratios, in order to preserve the relationship of a position to the bounding interval.
+
+To test this function, first create a consensus map using a map comparison
+between the two marker maps loaded in the first step (see the online help
+section "Building Consensus Maps" for more detailed instructions). Next, invoke
+the Map Comparison -> Find combinable maps from repository menu on the consensus
+map. You should be presented with the same opportunities to filter by
+attributes and threshold values, and finally with a list of traits
+corresponding to the marker maps used to construct the map.  Note that you
+can also combine the data from the input marker maps onto the consensus;
+this differs from the use of the "Marker manipulation" menu of the
+consensus maps in that the latter statically combines the data permanently
+onto the consensus map, whereas this simply loads the markers transiently
+into the graphical representation using the same underlying coordinate
+transforms.
+
+The final case for combinable data supported by the tool at this time is that of "reference maps". The idea behind reference maps is similar to that of consensus maps in that they are maps that are typically constructed by researchers by taking many individual maps published by different groups using different marker sets and creating aggregate representations that attempt to combine all the positional information in a single consistent framework; see, for example the IBM neighbors maps constructed at MaizeDB, or the Composite Genetic Maps for Soybean in LIS. From the point of view of the tool, the main difference is that unlike the consensus maps that it has helped to create, in the case of these maps it does not have an explicit representation of the input maps or the coordinate transformations used to take data from the input to the reference map. However, provided that one is willing to accept the accuracy of these maps, the tool allows them to serve as a framework for integrating other data sets by allowing combinability from any map that has a "valid" map comparison to the reference map (by valid, we mean that it is usable for establishing a coordinate transformation from the given map onto the reference). 
+
+It should perhaps be pointed out that the tool has no preset knowledge of which maps are useful as reference maps and which are not; indeed, this may be somewhat relative to the question being asked in any given study (although having a reasonably large set of common markers is certainly the natural criterion). Because of this, the tool allows the user to designate any map as a reference map; once a map is specified as a reference, the tool will allow combinability of any map that has a valid comparison, or any map that is coordinate equivalent to it. This last point means that the trait data can be combined onto these reference maps provided that the coordinate equivalent marker map has a coordinate transformation onto it. 
+
+As a convenience, the tool is configured to automatically construct coordinate  translations between any map designated as a reference and the maps found in designated repositories. This means that reference maps will appear to automatically have "combinable" data, when in fact the work is being done behind the scenes. This is similar to the "Find comparable maps" options (described more fully in the online help under "Letting the Viewer Find Comparable Maps"), except that those are directed only to search against maps loaded into the tool, and the map comparisons constructed here are further processed to generate coordinate translations from the compared map to the reference map. 
+
+Currently, the tool is also configured to handle visualization of reference maps slightly differently from other maps; since they tend to be extremely marker dense, the data on reference maps is displayed on an "as needed" basis. A map that is designated as a reference map at the time it is visualized will appear with no mapped object (e.g. marker) data; as data is combined into this visualization, the subset of mapped objects on the reference that served as the basis for constructing the coordinate transformations will be added to the display. Finally, subsets of mapped objects on the marker map can be "forced" into the view by selecting a region on the map (via a rectangle drag-select), and right-clicking for the "Show objects in region" menu item on the popup. This can be useful when a set of combined traits has indicated a region of interest on the map, and you would like to see which objects have been located in that region for
+further analysis.
+
+To test the reference map features, begin by loading in one of the IBM
+neighbors maps using the File -> Load -> MaizeGDB XML Parser menu item, and
+selecting ibm1.xml. When the entry for the map appears in the Map List in the
+upper left hand side of the main frame, click on the checkbox in the
+"Reference" column. Next, click the "View separately" button, and you should
+see what appears to be an empty map. When you select the Map comparisons ->
+Find combinable maps menu option here, you should ultimately (after doing any
+filtering you desire) see a list of
+both the marker maps that had significant co-linearity to the reference map,
+as well as the traits that were found to be coordinate-equivalent with those
+marker maps. Notice that when traits are loaded onto the reference map, a
+subset of mapped objects (the ones that are co-linear with the marker map) 
+appear in the graphical representation. To obtain more detail, simply
+drag-select a region of interest (e.g. corresponding to a conserved LOD peak
+in the QTL data), and right-click to see the popup menu; from there, choose
+the "Show objects in region:" menu item, and afterwards, right-click
+again and choose "Zoom to:" to focus in on that region.
+
+An interesting case of reference maps are "bins maps"; these are maps in which
+many markers and other sorts of data have been coarsely assigned to bins,
+without any attempt to resolve order between the markers in the bins. You can
+load the maize bins maps using the same MaizeGDBParser, and when treated as a
+reference map, you can load trait data onto them as with the IBM reference
+maps. In this case, when you find an interesting region and "Show objects",
+you will see all the objects piled up at the bin boundaries; although this 
+graphical representation is somewhat awkward, you can select the objects 
+and display them in the table viewer (via the right-click menu) to see how
+a much larger set of qtls have been mapped to these bins.
+
+Gene expression data:
+
+***TO BE WRITTEN***
+
+
+Session persistence:
+
+As a final note, we have added a function that allows the user to save the
+entire state of a session (including the graphical configuration of the
+current display). This session persistance mechanism should be useful for
+extended exploration of data using the tool. It should be noted, however, that
+the format of the files saved is binary and not guaranteed to be compatible
+with future releases of the tool, so it should not be considered a long-term
+persistence mechanism. The menu options for saving and loading sessions can
+be found under the main File menu.

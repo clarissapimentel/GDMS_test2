@@ -1,0 +1,8 @@
+org.ncgr.isys.service.SimSearchSvc=org.ncgr.isys.ncgr.simsearch.NcbiBlastSvc
+org.ncgr.isys.service.SimSearchBrowserService=org.ncgr.isys.ncgr.simsearch.SimSearchBrowserSvc
+org.ncgr.isys.service.TableViewerService=org.ncgr.isys.ncgr.tableviewer.TableViewerService
+org.ncgr.isys.service.MapGroupingService=org.ncgr.isys.ncgr.compmapviewer.cgiar_ext.CgiarMapGroupingService
+org.ncgr.isys.service.RetrieveAnnotatedLinearObjectService=org.ncgr.isys.ncgr.entrez.RetrieveAnnotatedLinearObjectService
+org.ncgr.isys.service.DetermineCorrespondences=org.ncgr.cmtv.services.HashingSetCorrespondenceService
+org.ncgr.isys.service.MapListing=org.ncgr.isys.service.MapListing
+org.ncgr.isys.service.RetrieveMultipleSequenceTextObjectsService=org.ncgr.isys.ncgr.entrez.RetrieveAnnotatedLinearObjectService

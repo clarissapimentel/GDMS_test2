@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Web Integration</title>
+  </head>
+
+  <body>
+    <h1>Web Integration: Limitations</h1>
+    Please note the following limitations of the Web Integration feature:
+    <ul>
+      <li>Only Netscape Navigator 4.x or higher and Internet Explorer 5.x and higher are supported.</li>
+      <li>No cookie support. Web sites that require the use of cookies may
+        fail or not function as expected.</li>
+      <li>ISYS may not be able to properly modify some web sites which may
+        allow some hyperlinks to be retrieved directly from a remote web
+        server, rather than through the ISYS HTTP proxy. If this happens, the
+        returned web page (and all subsequent pages) will not exhibit ISYS
+        integrated behavior. If the page's URL does not start with
+        "http://localhost:8080" (the port may be different for your
+        installation), then the web page will not be integrated.</li>
+      <li>Web pages will only exhibit integrated behavior when ISYS is
+        running.</li>
+      <li>No support for https (Secure HTTP) or any other protocols (ftp,
+        etc.) besides HTTP. If you navigate to a URL that uses a protocol
+        other than HTTP, the requested web page (and all subsequent web pages)
+        will not exhibit ISYS integrated behavior.</li>
+      <li>The ISYS HTTP proxy does not support the retrieval of compressed
+        HTML pages. This may result is slightly slower response times.</li>
+      <li>Web pages that refresh or redirect themselves with the META tag's
+        HTTP-EQUIV="Refresh" attribute will not work for web pages loaded via
+        ISYS.</li>
+      <li>Internet Explorer does not work well on UNIX environments; subsequent 
+        iexplorer processes will not display new browser windows and there is
+        no apparent way of requesting an existing iexplorer process to open a
+        new window. If you have information regarding this limitation please
+        contact isys@ncgr.org.</li>
+    </ul>
+  </body>
+</html>

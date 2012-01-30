@@ -1,0 +1,54 @@
+# This component's ServiceProvider classes
+org.ncgr.cmtv.spclass=org.ncgr.cmtv.isys.CompMapViewerProvider
+
+#File choosers will be initialized to this location
+org.ncgr.cmtv.default_directory=Components/cmtv/data
+
+#The attributes of the data that will be usable for primary functions such
+#as sorting, grouping, mapped object comparison, etc.; must be tab-delimited
+#class names
+org.ncgr.cmtv.aspects=org.ncgr.isys.objectmodel.Name	org.ncgr.isys.objectmodel.MarkerName	org.ncgr.isys.objectmodel.PhenotypicTraitName	org.ncgr.isys.objectmodel.GeneSymbol	org.ncgr.isys.objectmodel.Identifier	org.ncgr.isys.objectmodel.Type	org.ncgr.isys.objectmodel.CrossName	org.ncgr.isys.objectmodel.ExperimentalFactor	org.ncgr.isys.objectmodel.ECNumber	org.ncgr.isys.objectmodel.LinkageGroupName
+
+# file encoding the mapping of numerical values to color ranges for continuous
+# distributions (like qtl lod scores)
+org.ncgr.cmtv.continuous_distribution_color_map=Components/cmtv/data/qtl_color_map
+
+# file encoding the mapping of numerical values to color ranges for 
+# discontinuous distributions (like gene expression scores)
+org.ncgr.cmtv.discontinuous_distribution_color_map=Components/cmtv/data/expression_color_map
+
+#values used to represent minimum and maximum values of distributions for 
+#histogram widgets
+org.ncgr.cmtv.AggregateDistributionWidget.maxValueInRange=50
+org.ncgr.cmtv.AggregateDistributionWidget.minValueInRange=0
+org.ncgr.cmtv.AggregateDistributionWidget.maxColorInRange=red
+org.ncgr.cmtv.AggregateDistributionWidget.minColorInRange=blue
+org.ncgr.cmtv.ExpressionBarWidget.maxValueInRange=12
+org.ncgr.cmtv.ExpressionBarWidget.minValueInRange=0
+org.ncgr.cmtv.ExpressionBarWidget.maxColorInRange=green
+org.ncgr.cmtv.ExpressionBarWidget.minColorInRange=red
+org.ncgr.cmtv.binSize=10
+
+# the following is for the CgiarGeneExpressionFileParser
+cgiar_ext.CgiarGeneExpressionFileParser.COLUMN_SEPARATOR=\\t
+cgiar_ext.CgiarGeneExpressionFileParser.COMMENT_START=#
+cgiar_ext.CgiarGeneExpressionFileParser.MISSING_VALUE_IN_FILE=
+
+#FIXME: package structures
+org.ncgr.cmtv.default_correspondence_service=org.ncgr.cmtv.services.HashingSetCorrespondenceService
+
+#set this to the name of the localdatarepository containing comparable linkage
+#maps if you want reference map auto-comparison
+org.ncgr.cmtv.repositories_for_reference_map_comparison=Linkage_Map
+
+#controls whether feature groups are given borders, and what style to use;
+#current choices are line and title
+org.ncgr.cmtv.group_borders=title
+org.ncgr.cmtv.borders=title
+
+#autoload the property assignment rule files defined here (tab-delimited)
+org.ncgr.cmtv.FileBasedIsysAttributePropertyAssignmentRules=Components/cmtv/data/maxthresh.par	Components/cmtv/data/trait_colors.par	Components/cmtv/data/expression_color_map	Components/cmtv/data/name_color.txt	Components/cmtv/data/graphical_properties.sample
+
+#the xml file detailing the available internal services (renderers, filters, etc.)
+#to be made available by the CMTV
+org.ncgr.cmtv.services=Components/cmtv/conf/serviceRegistry.xml

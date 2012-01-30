@@ -1,0 +1,5 @@
+"C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene/createproject.exe" 
+-map="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.map" 
+-genotypes="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.dat" 
+-project="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\001200982723223.flapjack" 
+"C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\001200982723223.flapjack"

@@ -1,0 +1,2 @@
+cgiarmapprovider.spclass=org.ncgr.isys.ncgr.compmapviewer.cgiar_ext.CgiarMapServiceProvider
+cgiarmapprovider.repository.expr=Components/cgiarmapprovider/data/cgiar_expression

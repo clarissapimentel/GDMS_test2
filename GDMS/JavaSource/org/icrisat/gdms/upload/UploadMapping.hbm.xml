@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="org.icrisat.gdms.upload">
+	<class name="DatasetBean" table="dataset">
+  		<id name="dataset_id" column="dataset_id">
+  			
+  		</id>
+  		
+  		<property name="dataset_type"/>
+  		<property name="genus"/>
+  		<property name="species"/>
+  		<property name="template_date"/>
+  		<property name="datatype"/>
+  		<property name="remarks"/>
+  		<property name="dataset_desc"/>
+  		
+  		
+	</class> 
+  
+  	<class name="ConditionsBean" table="dataset_details">
+  		<id name="dataset_id" column="dataset_id">
+  			
+  		</id>
+  		<property name="method_name"/>
+  		<property name="method_desc"/>
+  		<property name="missing_data"/>
+  	</class>  
+ 
+
+  
+   	<class name="CharArrayBean" table="char_values">
+  		<composite-id name="comKey" class="CharArrayCompositeKey">
+  			<key-property name="dataset_id"/>
+  			<key-property name="dataorder_index"/>
+  		</composite-id>		
+  			<property name="char_value"/>
+  			<property name="gid"/>
+  			<property name="marker_id"/>
+  			<property name="germplasm_name"></property>
+  	</class>
+
+
+  	<class name="GenotypeUsersBean" table="dataset_users">
+  		<id name="dataset_id"></id>
+	  	<property name="user_id"></property>
+  	</class>
+
+	<class name="MarkerInfoBean" table="marker">
+		<id name="markerId" column="marker_id"></id>
+	  	<property name="marker_type"></property>
+	  	<property name="marker_name"></property>
+	  	<property name="crop"></property>
+	  	<property name="accession_id"></property>
+	  	<property name="reference"></property>
+	  	<property name="genotype"></property>
+	  	<property name="ploidy"></property>
+	</class>
+	
+	
+	
+	<class name="MarkerLinkagemapBean" table="marker_linkagemap">
+	  <id name="markerId" column="marker_id"></id>
+	  <property name="linkagemap_id"></property>
+	  <property name="linkage_group"></property>
+	  <property name="start_position"></property>
+	  <property name="end_position"></property>
+	  <property name="map_unit"></property>
+  </class>
+  
+    <class name="LinkagemapBean" table="linkagemap">    
+	  <id name="linkagemap_id" column="linkagemap_id"></id>
+	  <property name="linkagemap_name"></property>
+	  <property name="linkagemap_type"></property>	 
+  </class>
+
+	<class name="MarkerUserInfoBean" table="marker_user_info">
+	  <id name="marker_id"></id>
+	  <property name="principal_investigator"></property>
+	  <property name="contact"></property>
+	  <property name="institute"></property>
+	  <property name="incharge_person"></property>
+  </class>
+  
+   <class name="SNPMarkerBean" table="snp_marker">
+  	<id name="marker_id"></id>
+  	<property name="assay_type"></property>
+  	<property name="forward_primer"></property>
+  	<property name="reverse_primer"></property>
+  	<property name="product_size"></property>
+  	<property name="expected_product_size"></property>
+  	<property name="position_on_reference_sequence"></property>
+  	<property name="motif"></property>
+  	<property name="annealing_temp"></property>
+  	<property name="sequence"></property>  	
+  </class>
+  
+  <class name="SSRMarkerBean" table="ssr_marker">
+	  <id name="marker_id"></id>
+	  <property name="assay_type"></property>
+	  <property name="repeats"></property>
+	  <property name="no_of_repeats"></property>
+	  <property name="ssr_type"></property>
+	  <property name="sequence"></property>
+	  <property name="sequence_length"></property>
+	  <property name="min_allele"></property>
+	  <property name="max_allele"></property>
+	  <property name="ssr_nr"></property>
+	  <property name="size_of_repeat_motif"></property>
+	  <property name="forward_primer"></property>
+	  <property name="reverse_primer"></property>
+	  <property name="product_size"></property>
+	  <property name="primer_length"></property>
+	  <property name="forward_primer_temp"></property>
+	  <property name="reverse_primer_temp"></property>
+	  <property name="annealing_temp"></property>
+	  <property name="elongation_temp"></property>
+	  <property name="fragment_size_expected"></property>
+	  <property name="fragment_size_observed"></property>
+	  <property name="amplification"></property>
+  </class>
+  
+  
+  
+  
+  <class name="MarkerAliasBean" table="marker_alias">
+  	<id name="markerId" column="marker_id"></id>
+  	<property name="alias"></property>
+  </class>
+
+
+	<class name="IntArrayBean" table="allele_values">
+  		<composite-id name="comKey" class="IntArrayCompositeKey">
+  			<key-property name="dataset_id"/>
+  			<key-property name="dataorder_index"/>
+  		</composite-id>		
+		<property name="allele_raw_value"/>
+		<property name="gid"/>
+		<property name="marker_id"/>
+		<property name="allele_bin_value"></property>
+  	</class>
+	
+	<class name="DArTDetailsBean" table="dart_details">
+	  <id name="dataset_id"></id>
+	  <property name="marker_id"></property>
+	  <property name="clone_id"></property>
+	  <property name="qvalue"></property>
+	  <property name="reproducibility"></property>
+	  <property name="call_rate"></property>
+	  <property name="pic_value"></property>
+	  <property name="discordance"></property>
+	</class>
+	
+	<class name="QTLLinkageMapBean" table="qtl_linkagemap">
+		<id name="linkagemap_id"></id>
+		<property name="qtl_id"></property>
+		<property name="linkage_group"></property>		
+		<property name="min_position"></property>
+		<property name="max_position"></property>
+		<property name="trait"></property>
+		<property name="experiment"></property>
+		<property name="left_flanking_marker"></property>
+		<property name="right_flanking_marker"></property>
+		<property name="effect"></property>
+		<property name="lod"></property>
+		<property name="r_square"></property>
+		<property name="interactions"></property>
+	</class>
+	<class name="QTLBean" table="qtl">
+		<id name="dataset_id"></id>
+		<property name="qtl_id"></property>
+		<property name="qtl_name"></property>
+	</class>
+	
+	<class name="GermplasmBean" table="germplasm_temp">
+		<id name="gid"></id>
+		<property name="germplasm_name"></property>	
+	</class>
+	
+	<class name="UsersBean" table="users">
+		<id name="userid"></id>
+		<property name="instalid"></property>
+		<property name="ustatus"></property>		
+		<property name="uaccess"></property>
+		<property name="utype"></property>
+		<property name="uname"></property>
+		<property name="upswd"></property>
+		<property name="personid"></property>
+		<property name="adate"></property>
+		<property name="cdate"></property>
+		
+	</class>
+	
+</hibernate-mapping>

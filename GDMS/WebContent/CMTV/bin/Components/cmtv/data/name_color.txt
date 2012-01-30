@@ -1,0 +1,4 @@
+org.ncgr.isys.objectmodel.Name=color
+a=blue
+b=green
+c=red

@@ -1,0 +1,3 @@
+"C:/Program Files/Flapjack/createproject.exe" -map="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.map" -genotypes="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.dat" -traits="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.phe" -qtls="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.qtl" -project="C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.flapjack" 
+"C:\Program Files\iMAS2.0\webapps\iMAS\Software\Qugene\OutputFiles\001201142091351\001201142091351.flapjack"
+ exit

@@ -1,0 +1,848 @@
+ IRREML(V1.0) - REML ANALYSIS  FILE PHENO252   21/ 2/11 14:31
+ ------------------------------------------------------------------ :PAGE   1
+ THE IRREML PROGRAM WAS WRITTEN BY DOUGLAS CLARKSON OF SCIENCEOPS FOR IRRI
+ 
+ Command File: C:\DOCUMENTS AND SETTINGS\GMALLIKARJUN.ICRISAT\DESKTOP\DESKTOP IT
+ EMS\IMAS DATASETS\DATASETS\1\PHENO_1.gfc
+ 
+ Data File: PHENO252
+ 
+ Number of Records:  1024 Non missing observations:  1024
+ 
+ Number of Columns in the Fixed Effects Model:   128
+ 
+ Number of columns in the random effects model:   256
+ 
+ Variables in Data Set: REPL  BLOCK  GENOTYPE$  DHII  SHTII
+ 
+ Classification Variables: REPL  BLOCK  GENOTYPE$
+ 
+ Levels of the classification variables
+
+    4 CODES:(Number  Label) for Variable: REPL        
+(  1            1)(  2            2)(  3            3)(  4            4)(
+
+   32 CODES:(Number  Label) for Variable: BLOCK       
+(  1            1)(  2            2)(  3            3)(  4            4)(  5            5)
+(  6            6)(  7            7)(  8            8)(  9            9)( 10           10)
+( 11           11)( 12           12)( 13           13)( 14           14)( 15           15)
+( 16           16)( 17           17)( 18           18)( 19           19)( 20           20)
+( 21           21)( 22           22)( 23           23)( 24           24)( 25           25)
+( 26           26)( 27           27)( 28           28)( 29           29)( 30           30)
+( 31           31)( 32           32)(
+
+  256 CODES:(Number  Label) for Variable: GENOTYPE$   
+(  1 1           )(  2 2           )(  3 3           )(  4 4           )(  5 5           )
+(  6 6           )(  7 7           )(  8 8           )(  9 9           )( 10 10          )
+( 11 11          )( 12 12          )( 13 13          )( 14 14          )( 15 15          )
+( 16 16          )( 17 17          )( 18 18          )( 19 19          )( 20 20          )
+( 21 21          )( 22 22          )( 23 23          )( 24 24          )( 25 25          )
+( 26 26          )( 27 27          )( 28 28          )( 29 29          )( 30 30          )
+( 31 31          )( 32 32          )( 33 33          )( 34 34          )( 35 35          )
+( 36 36          )( 37 37          )( 38 38          )( 39 39          )( 40 40          )
+( 41 41          )( 42 42          )( 43 43          )( 44 44          )( 45 45          )
+( 46 46          )( 47 47          )( 48 48          )( 49 49          )( 50 50          )
+( 51 51          )( 52 52          )( 53 53          )( 54 54          )( 55 55          )
+( 56 56          )( 57 57          )( 58 58          )( 59 59          )( 60 60          )
+( 61 61          )( 62 62          )( 63 63          )( 64 64          )( 65 65          )
+( 66 66          )( 67 67          )( 68 68          )( 69 69          )( 70 70          )
+( 71 71          )( 72 72          )( 73 73          )( 74 74          )( 75 75          )
+( 76 76          )( 77 77          )( 78 78          )( 79 79          )( 80 80          )
+( 81 81          )( 82 82          )( 83 83          )( 84 84          )( 85 85          )
+( 86 86          )( 87 87          )( 88 88          )( 89 89          )( 90 90          )
+( 91 91          )( 92 92          )( 93 93          )( 94 94          )( 95 95          )
+( 96 96          )( 97 97          )( 98 98          )( 99 99          )(100 C1          )
+(101 C2          )(102 P1          )(103 P2          )(104 100         )(105 101         )
+(106 102         )(107 103         )(108 104         )(109 105         )(110 106         )
+(111 107         )(112 108         )(113 109         )(114 110         )(115 111         )
+(116 112         )(117 113         )(118 114         )(119 115         )(120 116         )
+(121 117         )(122 118         )(123 119         )(124 120         )(125 121         )
+(126 122         )(127 123         )(128 124         )(129 125         )(130 126         )
+(131 127         )(132 128         )(133 129         )(134 130         )(135 131         )
+(136 132         )(137 133         )(138 134         )(139 135         )(140 136         )
+(141 137         )(142 138         )(143 139         )(144 140         )(145 141         )
+(146 142         )(147 143         )(148 144         )(149 145         )(150 146         )
+(151 147         )(152 148         )(153 149         )(154 150         )(155 151         )
+(156 152         )(157 153         )(158 154         )(159 155         )(160 156         )
+(161 157         )(162 158         )(163 159         )(164 160         )(165 161         )
+(166 162         )(167 163         )(168 164         )(169 165         )(170 166         )
+(171 167         )(172 168         )(173 169         )(174 170         )(175 171         )
+(176 172         )(177 173         )(178 174         )(179 175         )(180 176         )
+(181 177         )(182 178         )(183 179         )(184 180         )(185 181         )
+(186 182         )(187 183         )(188 184         )(189 185         )(190 186         )
+(191 187         )(192 188         )(193 189         )(194 190         )(195 191         )
+(196 192         )(197 193         )(198 194         )(199 195         )(200 196         )
+(201 197         )(202 198         )(203 199         )(204 200         )(205 201         )
+(206 202         )(207 203         )(208 204         )(209 205         )(210 206         )
+(211 207         )(212 208         )(213 209         )(214 210         )(215 211         )
+(216 212         )(217 213         )(218 214         )(219 215         )(220 216         )
+(221 217         )(222 218         )(223 219         )(224 220         )(225 221         )
+(226 222         )(227 223         )(228 224         )(229 225         )(230 226         )
+(231 227         )(232 228         )(233 229         )(234 230         )(235 231         )
+(236 232         )(237 233         )(238 234         )(239 235         )(240 236         )
+(241 237         )(242 238         )(243 239         )(244 240         )(245 241         )
+(246 242         )(247 243         )(248 244         )(249 245         )(250 246         )
+(251 247         )(252 248         )(253 249         )(254 250         )(255 251         )
+(256 252         )(
+ 
+ Model Specification
+ 
+ Intercept in model: Yes
+ 
+ The Fixed Effects Model
+     DHII = Intercept + REPL + BLOCK(REPL)
+ 
+ The Random Effects Terms
+     GENOTYPE$
+ 
+
+ RANDOM EFFECT COVARIANCE MODEL.  1 SPECIFIED STRUCTURES
+ TERM              PARAMETER INDICES  STRUCTURE
+ ----------------------------------------------------------
+ GENOTYPE$                     1- 1  diagonal
+
+ RESIDUAL EFFECT COVARIANCE MODEL.  0 SPECIFIED STRUCTURES
+ TERM              PARAMETER INDICES  STRUCTURE
+ ----------------------------------------------------------
+ RESIDUAL                            sigmasq(1)xI
+ Message: Relative function convergence
+ 
+ Final REML criterion:    -2959.669521139579501
+ 
+ Variance/Covariance component parameters
+ Dep Name             Coef    Std. Error      Z       Pr > |Z|   Component
+  1 GENOTYPE$(1) ..  0.6930      0.1024       6.769      0.1300E-10   98.88    
+ 
+ The scale parameters
+ Dep.  Sigma_Squared Std. Error      Z         Pr > |Z|
+Dep(1) .......     142.7       7.952       17.94      0.5605E-71
+ 
+ Asymptotic Covariance Matrix of the Variance/Covariance Components
+                               1           2
+     1   1 GENOTYPE$(1)..   0.105E-01  -0.432
+     2 Dep(1)............  -0.432        63.2
+ 
+        Fixed Effect ANOVA Table - Partial Wald Tests
+        Denominator Degrees of Freedom: Residual DF
+ Dep Effect     DFNum   DFDen   F - Statistic   P > |F|
+  1        REPL      3 896.00        1.545       0.2015    
+  1 BLOCK(REPL)    124 896.00        3.184       0.3299E-22
+ 
+        ANOVA Table for Sequentially Deleted Fixed Effects
+        Denominator Degrees of Freedom: Residual DF
+ Dep Effect     DFNum   DFDen   F - Statistic   P > |F|
+  1 BLOCK(REPL)    124 896.00        3.185       0.3251E-22
+  1        REPL      3 896.00        31.11       0.3908E-18
+
+ Plot of residuals against predicted values
+           ..............................................................
+           :                          *                                 :
+           :                  **  2 * * *  **2                          :
+           :              ** *  222*2* 2*63*42**                        :
+           :       * *     * *2 324225244564624333**                    :
+      10. -:       *     *22 **624453973278935523 3 22                  :
+           :      **     *22*2*7334756396666882789282423*               :
+           :        **2*332*32**264665495993963343*353423*3             :
+           :          4*3* 22349583889873949496562**52 4 2*3 *          :
+           : *    2  3  222*4448633255646*534734 443****                :
+     -10. -:    * *  * *3*222 49349654552345*24***2** * ***     *       :
+           :        * 3*2*3**3*2242*424242 2**2    **                   :
+           :   *        *** 2**2* * 2 32 2** **   2     *               :
+           :       *   *  * 2    2* 2*2 2        *                      :
+           :               2 *   2*** * *                               :
+     -30. -:                 *                                          :
+           :         *     *                                            :
+           :                     *                                      :
+           :                                                            :
+           :          *                                                 :
+     -50. -:                                                            :
+           :............................................................:
+            :         :         :         :         :         :
+           30.       45.       60.       75.       90.      105.
+ 
+               Balanced Least Squares Means Random
+ Dep Level           LSMean   Std. Error
+  1  GENOTYPE$ 1      64.03       5.418    
+  1  GENOTYPE$ 2      52.99       5.418    
+  1  GENOTYPE$ 3      71.09       5.418    
+  1  GENOTYPE$ 4      70.79       5.418    
+  1  GENOTYPE$ 5      79.61       5.418    
+  1  GENOTYPE$ 6      66.53       5.418    
+  1  GENOTYPE$ 7      61.70       5.418    
+  1  GENOTYPE$ 8      78.23       5.418    
+  1  GENOTYPE$ 9      75.23       5.418    
+  1  GENOTYPE$ 10     66.98       5.418    
+  1  GENOTYPE$ 11     81.04       5.418    
+  1  GENOTYPE$ 12     70.08       5.418    
+  1  GENOTYPE$ 13     75.68       5.418    
+  1  GENOTYPE$ 14     78.76       5.418    
+  1  GENOTYPE$ 15     61.85       5.418    
+  1  GENOTYPE$ 16     65.93       5.418    
+  1  GENOTYPE$ 17     73.85       5.418    
+  1  GENOTYPE$ 18     74.03       5.418    
+  1  GENOTYPE$ 19     69.69       5.418    
+  1  GENOTYPE$ 20     60.97       5.418    
+  1  GENOTYPE$ 21     77.27       5.418    
+  1  GENOTYPE$ 22     67.00       5.418    
+  1  GENOTYPE$ 23     66.08       5.418    
+  1  GENOTYPE$ 24     53.80       5.418    
+  1  GENOTYPE$ 25     81.83       5.418    
+  1  GENOTYPE$ 26     76.57       5.418    
+  1  GENOTYPE$ 27     74.88       5.418    
+  1  GENOTYPE$ 28     72.53       5.418    
+  1  GENOTYPE$ 29     77.23       5.418    
+  1  GENOTYPE$ 30     67.96       5.418    
+  1  GENOTYPE$ 31     61.75       5.418    
+  1  GENOTYPE$ 32     71.58       5.418    
+  1  GENOTYPE$ 33     70.62       5.418    
+  1  GENOTYPE$ 34     72.72       5.418    
+  1  GENOTYPE$ 35     75.74       5.418    
+  1  GENOTYPE$ 36     73.08       5.418    
+  1  GENOTYPE$ 37     58.19       5.418    
+  1  GENOTYPE$ 38     68.61       5.418    
+  1  GENOTYPE$ 39     63.64       5.418    
+  1  GENOTYPE$ 40     71.17       5.418    
+  1  GENOTYPE$ 41     72.45       5.418    
+  1  GENOTYPE$ 42     64.67       5.418    
+  1  GENOTYPE$ 43     78.44       5.418    
+  1  GENOTYPE$ 44     71.46       5.418    
+  1  GENOTYPE$ 45     77.15       5.418    
+  1  GENOTYPE$ 46     74.64       5.418    
+  1  GENOTYPE$ 47     64.59       5.418    
+  1  GENOTYPE$ 48     78.67       5.418    
+  1  GENOTYPE$ 49     80.82       5.418    
+  1  GENOTYPE$ 50     62.98       5.418    
+  1  GENOTYPE$ 51     55.14       5.418    
+  1  GENOTYPE$ 52     70.91       5.418    
+  1  GENOTYPE$ 53     55.44       5.418    
+  1  GENOTYPE$ 54     69.15       5.418    
+  1  GENOTYPE$ 55     65.33       5.418    
+  1  GENOTYPE$ 56     79.42       5.418    
+  1  GENOTYPE$ 57     72.81       5.418    
+  1  GENOTYPE$ 58     83.71       5.418    
+  1  GENOTYPE$ 59     79.32       5.418    
+  1  GENOTYPE$ 60     75.77       5.418    
+  1  GENOTYPE$ 61     58.48       5.418    
+  1  GENOTYPE$ 62     66.43       5.418    
+  1  GENOTYPE$ 63     79.53       5.418    
+  1  GENOTYPE$ 64     69.84       5.418    
+  1  GENOTYPE$ 65     69.13       5.418    
+  1  GENOTYPE$ 66     78.80       5.418    
+  1  GENOTYPE$ 67     58.65       5.418    
+  1  GENOTYPE$ 68     70.43       5.418    
+  1  GENOTYPE$ 69     70.50       5.418    
+  1  GENOTYPE$ 70     63.19       5.419    
+  1  GENOTYPE$ 71     68.09       5.419    
+  1  GENOTYPE$ 72     67.58       5.418    
+  1  GENOTYPE$ 73     80.39       5.418    
+  1  GENOTYPE$ 74     85.30       5.418    
+  1  GENOTYPE$ 75     57.81       5.418    
+  1  GENOTYPE$ 76     72.20       5.418    
+  1  GENOTYPE$ 77     61.52       5.418    
+  1  GENOTYPE$ 78     65.09       5.419    
+  1  GENOTYPE$ 79     82.03       5.419    
+  1  GENOTYPE$ 80     67.41       5.418    
+  1  GENOTYPE$ 81     76.39       5.418    
+  1  GENOTYPE$ 82     74.89       5.418    
+  1  GENOTYPE$ 83     59.27       5.418    
+  1  GENOTYPE$ 84     74.75       5.418    
+  1  GENOTYPE$ 85     67.90       5.418    
+  1  GENOTYPE$ 86     73.64       5.419    
+  1  GENOTYPE$ 87     69.29       5.419    
+  1  GENOTYPE$ 88     54.05       5.418    
+  1  GENOTYPE$ 89     76.42       5.418    
+  1  GENOTYPE$ 90     61.58       5.418    
+  1  GENOTYPE$ 91     86.46       5.418    
+  1  GENOTYPE$ 92     74.65       5.418    
+  1  GENOTYPE$ 93     78.17       5.418    
+  1  GENOTYPE$ 94     69.38       5.419    
+  1  GENOTYPE$ 95     79.18       5.419    
+  1  GENOTYPE$ 96     87.87       5.418    
+  1  GENOTYPE$ 97     77.87       5.418    
+  1  GENOTYPE$ 98     78.77       5.419    
+  1  GENOTYPE$ 99     70.12       5.419    
+  1  GENOTYPE$ C1     82.02       5.418    
+  1  GENOTYPE$ C2     81.09       5.418    
+  1  GENOTYPE$ P1     80.92       5.418    
+  1  GENOTYPE$ P2     42.28       5.418    
+  1  GENOTYPE$ 100    68.34       5.420    
+  1  GENOTYPE$ 101    81.59       5.420    
+  1  GENOTYPE$ 102    75.35       5.420    
+  1  GENOTYPE$ 103    80.54       5.419    
+  1  GENOTYPE$ 104    73.34       5.418    
+  1  GENOTYPE$ 105    75.52       5.418    
+  1  GENOTYPE$ 106    82.07       5.419    
+  1  GENOTYPE$ 107    59.85       5.419    
+  1  GENOTYPE$ 108    69.04       5.420    
+  1  GENOTYPE$ 109    58.53       5.420    
+  1  GENOTYPE$ 110    62.98       5.420    
+  1  GENOTYPE$ 111    65.60       5.419    
+  1  GENOTYPE$ 112    77.75       5.418    
+  1  GENOTYPE$ 113    72.40       5.418    
+  1  GENOTYPE$ 114    55.08       5.419    
+  1  GENOTYPE$ 115    81.87       5.419    
+  1  GENOTYPE$ 116    86.13       5.420    
+  1  GENOTYPE$ 117    76.23       5.420    
+  1  GENOTYPE$ 118    60.77       5.420    
+  1  GENOTYPE$ 119    62.13       5.419    
+  1  GENOTYPE$ 120    61.70       5.418    
+  1  GENOTYPE$ 121    74.07       5.418    
+  1  GENOTYPE$ 122    62.78       5.419    
+  1  GENOTYPE$ 123    64.38       5.419    
+  1  GENOTYPE$ 124    66.08       5.420    
+  1  GENOTYPE$ 125    61.88       5.420    
+  1  GENOTYPE$ 126    68.91       5.420    
+  1  GENOTYPE$ 127    81.28       5.419    
+  1  GENOTYPE$ 128    83.29       5.418    
+  1  GENOTYPE$ 129    71.32       5.418    
+  1  GENOTYPE$ 130    78.07       5.418    
+  1  GENOTYPE$ 131    77.33       5.418    
+  1  GENOTYPE$ 132    72.13       5.418    
+  1  GENOTYPE$ 133    82.24       5.418    
+  1  GENOTYPE$ 134    69.31       5.418    
+  1  GENOTYPE$ 135    69.12       5.418    
+  1  GENOTYPE$ 136    77.63       5.418    
+  1  GENOTYPE$ 137    70.85       5.418    
+  1  GENOTYPE$ 138    81.59       5.418    
+  1  GENOTYPE$ 139    79.26       5.418    
+  1  GENOTYPE$ 140    72.06       5.418    
+  1  GENOTYPE$ 141    78.49       5.418    
+  1  GENOTYPE$ 142    62.32       5.418    
+  1  GENOTYPE$ 143    67.44       5.418    
+  1  GENOTYPE$ 144    73.89       5.418    
+  1  GENOTYPE$ 145    61.36       5.418    
+  1  GENOTYPE$ 146    80.06       5.418    
+  1  GENOTYPE$ 147    57.18       5.418    
+  1  GENOTYPE$ 148    78.66       5.418    
+  1  GENOTYPE$ 149    71.66       5.418    
+  1  GENOTYPE$ 150    84.60       5.418    
+  1  GENOTYPE$ 151    58.49       5.418    
+  1  GENOTYPE$ 152    67.71       5.418    
+  1  GENOTYPE$ 153    50.40       5.418    
+  1  GENOTYPE$ 154    46.75       5.418    
+  1  GENOTYPE$ 155    68.91       5.418    
+  1  GENOTYPE$ 156    80.35       5.418    
+  1  GENOTYPE$ 157    71.69       5.418    
+  1  GENOTYPE$ 158    73.87       5.418    
+  1  GENOTYPE$ 159    63.79       5.418    
+  1  GENOTYPE$ 160    71.53       5.418    
+  1  GENOTYPE$ 161    65.63       5.417    
+  1  GENOTYPE$ 162    70.79       5.417    
+  1  GENOTYPE$ 163    69.81       5.417    
+  1  GENOTYPE$ 164    65.15       5.417    
+  1  GENOTYPE$ 165    83.97       5.417    
+  1  GENOTYPE$ 166    52.75       5.417    
+  1  GENOTYPE$ 167    75.85       5.417    
+  1  GENOTYPE$ 168    67.12       5.417    
+  1  GENOTYPE$ 169    68.91       5.417    
+  1  GENOTYPE$ 170    54.76       5.417    
+  1  GENOTYPE$ 171    85.07       5.417    
+  1  GENOTYPE$ 172    67.94       5.417    
+  1  GENOTYPE$ 173    79.54       5.417    
+  1  GENOTYPE$ 174    72.09       5.417    
+  1  GENOTYPE$ 175    77.45       5.417    
+  1  GENOTYPE$ 176    59.38       5.417    
+  1  GENOTYPE$ 177    79.56       5.417    
+  1  GENOTYPE$ 178    76.90       5.417    
+  1  GENOTYPE$ 179    61.53       5.417    
+  1  GENOTYPE$ 180    60.80       5.417    
+  1  GENOTYPE$ 181    70.94       5.417    
+  1  GENOTYPE$ 182    70.62       5.417    
+  1  GENOTYPE$ 183    75.12       5.417    
+  1  GENOTYPE$ 184    68.94       5.417    
+  1  GENOTYPE$ 185    75.90       5.417    
+  1  GENOTYPE$ 186    65.74       5.417    
+  1  GENOTYPE$ 187    61.98       5.417    
+  1  GENOTYPE$ 188    65.04       5.417    
+  1  GENOTYPE$ 189    71.32       5.417    
+  1  GENOTYPE$ 190    71.05       5.417    
+  1  GENOTYPE$ 191    69.87       5.417    
+  1  GENOTYPE$ 192    79.40       5.417    
+  1  GENOTYPE$ 193    71.71       5.419    
+  1  GENOTYPE$ 194    69.44       5.419    
+  1  GENOTYPE$ 195    61.87       5.419    
+  1  GENOTYPE$ 196    72.75       5.419    
+  1  GENOTYPE$ 197    53.15       5.419    
+  1  GENOTYPE$ 198    73.39       5.419    
+  1  GENOTYPE$ 199    66.41       5.418    
+  1  GENOTYPE$ 200    61.11       5.418    
+  1  GENOTYPE$ 201    76.75       5.419    
+  1  GENOTYPE$ 202    65.72       5.419    
+  1  GENOTYPE$ 203    62.68       5.419    
+  1  GENOTYPE$ 204    75.29       5.419    
+  1  GENOTYPE$ 205    68.74       5.419    
+  1  GENOTYPE$ 206    66.13       5.419    
+  1  GENOTYPE$ 207    65.32       5.418    
+  1  GENOTYPE$ 208    73.89       5.418    
+  1  GENOTYPE$ 209    77.61       5.419    
+  1  GENOTYPE$ 210    67.13       5.419    
+  1  GENOTYPE$ 211    65.61       5.419    
+  1  GENOTYPE$ 212    64.09       5.419    
+  1  GENOTYPE$ 213    56.99       5.419    
+  1  GENOTYPE$ 214    71.21       5.419    
+  1  GENOTYPE$ 215    61.05       5.418    
+  1  GENOTYPE$ 216    70.00       5.418    
+  1  GENOTYPE$ 217    67.59       5.419    
+  1  GENOTYPE$ 218    67.82       5.419    
+  1  GENOTYPE$ 219    67.67       5.419    
+  1  GENOTYPE$ 220    70.64       5.419    
+  1  GENOTYPE$ 221    55.41       5.419    
+  1  GENOTYPE$ 222    78.62       5.419    
+  1  GENOTYPE$ 223    81.09       5.418    
+  1  GENOTYPE$ 224    72.86       5.418    
+  1  GENOTYPE$ 225    70.82       5.418    
+  1  GENOTYPE$ 226    64.14       5.418    
+  1  GENOTYPE$ 227    75.90       5.418    
+  1  GENOTYPE$ 228    67.27       5.418    
+  1  GENOTYPE$ 229    83.69       5.418    
+  1  GENOTYPE$ 230    78.22       5.418    
+  1  GENOTYPE$ 231    73.60       5.418    
+  1  GENOTYPE$ 232    50.42       5.418    
+  1  GENOTYPE$ 233    59.20       5.418    
+  1  GENOTYPE$ 234    68.62       5.418    
+  1  GENOTYPE$ 235    69.63       5.418    
+  1  GENOTYPE$ 236    67.86       5.418    
+  1  GENOTYPE$ 237    67.30       5.418    
+  1  GENOTYPE$ 238    70.15       5.418    
+  1  GENOTYPE$ 239    63.97       5.418    
+  1  GENOTYPE$ 240    79.36       5.418    
+  1  GENOTYPE$ 241    85.07       5.418    
+  1  GENOTYPE$ 242    54.41       5.418    
+  1  GENOTYPE$ 243    51.37       5.418    
+  1  GENOTYPE$ 244    58.91       5.418    
+  1  GENOTYPE$ 245    64.81       5.418    
+  1  GENOTYPE$ 246    85.55       5.418    
+  1  GENOTYPE$ 247    71.90       5.418    
+  1  GENOTYPE$ 248    79.31       5.418    
+  1  GENOTYPE$ 249    77.25       5.418    
+  1  GENOTYPE$ 250    78.32       5.418    
+  1  GENOTYPE$ 251    79.53       5.418    
+  1  GENOTYPE$ 252    65.28       5.418    
+
+ Standard Errors of Differences
+  Minimum     Mean      Maximum
+   7.545       7.659       7.683    
+IRREML(V1.0) - REML ANALYSIS  FILE PHENO252   21/ 2/11 14:31
+ ------------------------------------------------------------------ :PAGE   2
+ THE IRREML PROGRAM WAS WRITTEN BY DOUGLAS CLARKSON OF SCIENCEOPS FOR IRRI
+ 
+ Command File: C:\DOCUMENTS AND SETTINGS\GMALLIKARJUN.ICRISAT\DESKTOP\DESKTOP IT
+ EMS\IMAS DATASETS\DATASETS\1\PHENO_1.gfc
+ 
+ Data File: PHENO252
+ 
+ Number of Records:  1024 Non missing observations:  1024
+ 
+ Number of Columns in the Fixed Effects Model:   128
+ 
+ Number of columns in the random effects model:   256
+ 
+ Variables in Data Set: REPL  BLOCK  GENOTYPE$  DHII  SHTII
+ 
+ Classification Variables: REPL  BLOCK  GENOTYPE$
+ 
+ Levels of the classification variables
+
+    4 CODES:(Number  Label) for Variable: REPL        
+(  1            1)(  2            2)(  3            3)(  4            4)(
+
+   32 CODES:(Number  Label) for Variable: BLOCK       
+(  1            1)(  2            2)(  3            3)(  4            4)(  5            5)
+(  6            6)(  7            7)(  8            8)(  9            9)( 10           10)
+( 11           11)( 12           12)( 13           13)( 14           14)( 15           15)
+( 16           16)( 17           17)( 18           18)( 19           19)( 20           20)
+( 21           21)( 22           22)( 23           23)( 24           24)( 25           25)
+( 26           26)( 27           27)( 28           28)( 29           29)( 30           30)
+( 31           31)( 32           32)(
+
+  256 CODES:(Number  Label) for Variable: GENOTYPE$   
+(  1 1           )(  2 2           )(  3 3           )(  4 4           )(  5 5           )
+(  6 6           )(  7 7           )(  8 8           )(  9 9           )( 10 10          )
+( 11 11          )( 12 12          )( 13 13          )( 14 14          )( 15 15          )
+( 16 16          )( 17 17          )( 18 18          )( 19 19          )( 20 20          )
+( 21 21          )( 22 22          )( 23 23          )( 24 24          )( 25 25          )
+( 26 26          )( 27 27          )( 28 28          )( 29 29          )( 30 30          )
+( 31 31          )( 32 32          )( 33 33          )( 34 34          )( 35 35          )
+( 36 36          )( 37 37          )( 38 38          )( 39 39          )( 40 40          )
+( 41 41          )( 42 42          )( 43 43          )( 44 44          )( 45 45          )
+( 46 46          )( 47 47          )( 48 48          )( 49 49          )( 50 50          )
+( 51 51          )( 52 52          )( 53 53          )( 54 54          )( 55 55          )
+( 56 56          )( 57 57          )( 58 58          )( 59 59          )( 60 60          )
+( 61 61          )( 62 62          )( 63 63          )( 64 64          )( 65 65          )
+( 66 66          )( 67 67          )( 68 68          )( 69 69          )( 70 70          )
+( 71 71          )( 72 72          )( 73 73          )( 74 74          )( 75 75          )
+( 76 76          )( 77 77          )( 78 78          )( 79 79          )( 80 80          )
+( 81 81          )( 82 82          )( 83 83          )( 84 84          )( 85 85          )
+( 86 86          )( 87 87          )( 88 88          )( 89 89          )( 90 90          )
+( 91 91          )( 92 92          )( 93 93          )( 94 94          )( 95 95          )
+( 96 96          )( 97 97          )( 98 98          )( 99 99          )(100 C1          )
+(101 C2          )(102 P1          )(103 P2          )(104 100         )(105 101         )
+(106 102         )(107 103         )(108 104         )(109 105         )(110 106         )
+(111 107         )(112 108         )(113 109         )(114 110         )(115 111         )
+(116 112         )(117 113         )(118 114         )(119 115         )(120 116         )
+(121 117         )(122 118         )(123 119         )(124 120         )(125 121         )
+(126 122         )(127 123         )(128 124         )(129 125         )(130 126         )
+(131 127         )(132 128         )(133 129         )(134 130         )(135 131         )
+(136 132         )(137 133         )(138 134         )(139 135         )(140 136         )
+(141 137         )(142 138         )(143 139         )(144 140         )(145 141         )
+(146 142         )(147 143         )(148 144         )(149 145         )(150 146         )
+(151 147         )(152 148         )(153 149         )(154 150         )(155 151         )
+(156 152         )(157 153         )(158 154         )(159 155         )(160 156         )
+(161 157         )(162 158         )(163 159         )(164 160         )(165 161         )
+(166 162         )(167 163         )(168 164         )(169 165         )(170 166         )
+(171 167         )(172 168         )(173 169         )(174 170         )(175 171         )
+(176 172         )(177 173         )(178 174         )(179 175         )(180 176         )
+(181 177         )(182 178         )(183 179         )(184 180         )(185 181         )
+(186 182         )(187 183         )(188 184         )(189 185         )(190 186         )
+(191 187         )(192 188         )(193 189         )(194 190         )(195 191         )
+(196 192         )(197 193         )(198 194         )(199 195         )(200 196         )
+(201 197         )(202 198         )(203 199         )(204 200         )(205 201         )
+(206 202         )(207 203         )(208 204         )(209 205         )(210 206         )
+(211 207         )(212 208         )(213 209         )(214 210         )(215 211         )
+(216 212         )(217 213         )(218 214         )(219 215         )(220 216         )
+(221 217         )(222 218         )(223 219         )(224 220         )(225 221         )
+(226 222         )(227 223         )(228 224         )(229 225         )(230 226         )
+(231 227         )(232 228         )(233 229         )(234 230         )(235 231         )
+(236 232         )(237 233         )(238 234         )(239 235         )(240 236         )
+(241 237         )(242 238         )(243 239         )(244 240         )(245 241         )
+(246 242         )(247 243         )(248 244         )(249 245         )(250 246         )
+(251 247         )(252 248         )(253 249         )(254 250         )(255 251         )
+(256 252         )(
+ 
+ Model Specification
+ 
+ Intercept in model: Yes
+ 
+ The Fixed Effects Model
+     SHTII = Intercept + REPL + BLOCK(REPL)
+ 
+ The Random Effects Terms
+     GENOTYPE$
+ 
+
+ RANDOM EFFECT COVARIANCE MODEL.  1 SPECIFIED STRUCTURES
+ TERM              PARAMETER INDICES  STRUCTURE
+ ----------------------------------------------------------
+ GENOTYPE$                     1- 1  diagonal
+
+ RESIDUAL EFFECT COVARIANCE MODEL.  0 SPECIFIED STRUCTURES
+ TERM              PARAMETER INDICES  STRUCTURE
+ ----------------------------------------------------------
+ RESIDUAL                            sigmasq(1)xI
+ Message: Relative function convergence
+ 
+ Final REML criterion:    -2177.093036351694536
+ 
+ Variance/Covariance component parameters
+ Dep Name             Coef    Std. Error      Z       Pr > |Z|   Component
+  1 GENOTYPE$(1) ..  0.1656      0.4700E-01   3.524      0.4258E-03   5.126    
+ 
+ The scale parameters
+ Dep.  Sigma_Squared Std. Error      Z         Pr > |Z|
+Dep(1) .......     30.96       1.724       17.96      0.4182E-71
+ 
+ Asymptotic Covariance Matrix of the Variance/Covariance Components
+                               1           2
+     1   1 GENOTYPE$(1)..   0.221E-02  -0.429E-01
+     2 Dep(1)............  -0.429E-01    2.97
+ 
+        Fixed Effect ANOVA Table - Partial Wald Tests
+        Denominator Degrees of Freedom: Residual DF
+ Dep Effect     DFNum   DFDen   F - Statistic   P > |F|
+  1        REPL      3 896.00        2.804       0.3883E-01
+  1 BLOCK(REPL)    124 896.00        1.695       0.1385E-04
+ 
+        ANOVA Table for Sequentially Deleted Fixed Effects
+        Denominator Degrees of Freedom: Residual DF
+ Dep Effect     DFNum   DFDen   F - Statistic   P > |F|
+  1 BLOCK(REPL)    124 896.00        1.696       0.1368E-04
+  1        REPL      3 896.00        32.79       0.4097E-19
+
+ Plot of residuals against predicted values
+           ..............................................................
+           :                                             *              :
+           :                                  *                         :
+           :                            * * *2      **                  :
+           :                           *  * 2    **  *   *              :
+      10. -:              *         **2**32****2**    **     *          :
+           :                  2 *    * *23232*23*22**** *               :
+           :           *   *3 *4*27437575344433* *2*     **             :
+           :             * 5 44**259788694543967*324**                  :
+           :        **  ** 3**33652999579745825373222*4**               :
+       0. -:            2  24574898798989688476742**3*3* 2*             :
+           :     * *   2*32 247478949997995596753   4 *                 :
+           :    ***    *  2* 4*566569388698434422242   *                :
+           :            2*2* 2 * 263764644*52222 * *                    :
+           :              2*2  * 33 3422**5*3*3*  3  **                 :
+     -10. -:        *     * **    * *2*22* *2 *   **  *                 :
+           :                     *   2  **** *                          :
+           :                  *  *      2    *  *                       :
+           :                           *                                :
+           :                                                            :
+     -20. -:                                                            :
+           :............................................................:
+            :         :         :         :         :         :
+           30.       35.       40.       45.       50.       55.
+ 
+               Balanced Least Squares Means Random
+ Dep Level           LSMean   Std. Error
+  1  GENOTYPE$ 1      44.79       1.809    
+  1  GENOTYPE$ 2      43.28       1.809    
+  1  GENOTYPE$ 3      45.39       1.809    
+  1  GENOTYPE$ 4      41.83       1.809    
+  1  GENOTYPE$ 5      41.77       1.809    
+  1  GENOTYPE$ 6      41.71       1.809    
+  1  GENOTYPE$ 7      43.12       1.809    
+  1  GENOTYPE$ 8      42.98       1.809    
+  1  GENOTYPE$ 9      45.66       1.809    
+  1  GENOTYPE$ 10     43.20       1.809    
+  1  GENOTYPE$ 11     43.84       1.809    
+  1  GENOTYPE$ 12     43.22       1.809    
+  1  GENOTYPE$ 13     42.72       1.809    
+  1  GENOTYPE$ 14     43.47       1.809    
+  1  GENOTYPE$ 15     44.19       1.809    
+  1  GENOTYPE$ 16     43.90       1.809    
+  1  GENOTYPE$ 17     43.25       1.809    
+  1  GENOTYPE$ 18     42.82       1.809    
+  1  GENOTYPE$ 19     45.35       1.809    
+  1  GENOTYPE$ 20     42.40       1.809    
+  1  GENOTYPE$ 21     44.77       1.809    
+  1  GENOTYPE$ 22     43.95       1.809    
+  1  GENOTYPE$ 23     42.82       1.809    
+  1  GENOTYPE$ 24     43.98       1.809    
+  1  GENOTYPE$ 25     45.49       1.809    
+  1  GENOTYPE$ 26     45.68       1.809    
+  1  GENOTYPE$ 27     41.83       1.809    
+  1  GENOTYPE$ 28     43.48       1.809    
+  1  GENOTYPE$ 29     43.97       1.809    
+  1  GENOTYPE$ 30     42.22       1.809    
+  1  GENOTYPE$ 31     42.05       1.809    
+  1  GENOTYPE$ 32     43.71       1.809    
+  1  GENOTYPE$ 33     43.14       1.809    
+  1  GENOTYPE$ 34     43.28       1.809    
+  1  GENOTYPE$ 35     41.84       1.809    
+  1  GENOTYPE$ 36     43.64       1.809    
+  1  GENOTYPE$ 37     45.07       1.809    
+  1  GENOTYPE$ 38     43.61       1.809    
+  1  GENOTYPE$ 39     43.25       1.809    
+  1  GENOTYPE$ 40     42.49       1.809    
+  1  GENOTYPE$ 41     44.55       1.809    
+  1  GENOTYPE$ 42     45.31       1.809    
+  1  GENOTYPE$ 43     42.14       1.809    
+  1  GENOTYPE$ 44     44.75       1.809    
+  1  GENOTYPE$ 45     43.86       1.809    
+  1  GENOTYPE$ 46     45.84       1.809    
+  1  GENOTYPE$ 47     42.71       1.809    
+  1  GENOTYPE$ 48     41.42       1.809    
+  1  GENOTYPE$ 49     41.40       1.809    
+  1  GENOTYPE$ 50     46.68       1.809    
+  1  GENOTYPE$ 51     43.36       1.809    
+  1  GENOTYPE$ 52     44.63       1.809    
+  1  GENOTYPE$ 53     42.77       1.809    
+  1  GENOTYPE$ 54     41.64       1.809    
+  1  GENOTYPE$ 55     42.83       1.809    
+  1  GENOTYPE$ 56     44.38       1.809    
+  1  GENOTYPE$ 57     45.04       1.809    
+  1  GENOTYPE$ 58     42.83       1.809    
+  1  GENOTYPE$ 59     44.73       1.809    
+  1  GENOTYPE$ 60     42.72       1.809    
+  1  GENOTYPE$ 61     42.28       1.809    
+  1  GENOTYPE$ 62     43.03       1.809    
+  1  GENOTYPE$ 63     42.50       1.809    
+  1  GENOTYPE$ 64     43.76       1.809    
+  1  GENOTYPE$ 65     42.51       1.809    
+  1  GENOTYPE$ 66     42.53       1.809    
+  1  GENOTYPE$ 67     43.97       1.809    
+  1  GENOTYPE$ 68     43.80       1.809    
+  1  GENOTYPE$ 69     43.49       1.809    
+  1  GENOTYPE$ 70     44.63       1.809    
+  1  GENOTYPE$ 71     40.32       1.809    
+  1  GENOTYPE$ 72     45.65       1.809    
+  1  GENOTYPE$ 73     41.78       1.809    
+  1  GENOTYPE$ 74     43.77       1.809    
+  1  GENOTYPE$ 75     42.13       1.809    
+  1  GENOTYPE$ 76     42.70       1.809    
+  1  GENOTYPE$ 77     43.81       1.809    
+  1  GENOTYPE$ 78     42.86       1.809    
+  1  GENOTYPE$ 79     42.73       1.809    
+  1  GENOTYPE$ 80     44.19       1.809    
+  1  GENOTYPE$ 81     43.63       1.809    
+  1  GENOTYPE$ 82     42.56       1.809    
+  1  GENOTYPE$ 83     42.57       1.809    
+  1  GENOTYPE$ 84     44.11       1.809    
+  1  GENOTYPE$ 85     42.99       1.809    
+  1  GENOTYPE$ 86     44.38       1.809    
+  1  GENOTYPE$ 87     43.88       1.809    
+  1  GENOTYPE$ 88     43.86       1.809    
+  1  GENOTYPE$ 89     47.19       1.809    
+  1  GENOTYPE$ 90     44.88       1.809    
+  1  GENOTYPE$ 91     42.94       1.809    
+  1  GENOTYPE$ 92     45.54       1.809    
+  1  GENOTYPE$ 93     40.08       1.809    
+  1  GENOTYPE$ 94     42.75       1.809    
+  1  GENOTYPE$ 95     43.83       1.809    
+  1  GENOTYPE$ 96     42.99       1.809    
+  1  GENOTYPE$ 97     45.03       1.809    
+  1  GENOTYPE$ 98     43.68       1.809    
+  1  GENOTYPE$ 99     41.43       1.809    
+  1  GENOTYPE$ C1     44.28       1.809    
+  1  GENOTYPE$ C2     40.03       1.809    
+  1  GENOTYPE$ P1     43.21       1.809    
+  1  GENOTYPE$ P2     46.46       1.809    
+  1  GENOTYPE$ 100    41.09       1.809    
+  1  GENOTYPE$ 101    41.97       1.809    
+  1  GENOTYPE$ 102    43.43       1.809    
+  1  GENOTYPE$ 103    42.51       1.809    
+  1  GENOTYPE$ 104    43.31       1.809    
+  1  GENOTYPE$ 105    41.61       1.809    
+  1  GENOTYPE$ 106    41.80       1.809    
+  1  GENOTYPE$ 107    42.98       1.809    
+  1  GENOTYPE$ 108    43.47       1.809    
+  1  GENOTYPE$ 109    42.45       1.809    
+  1  GENOTYPE$ 110    43.24       1.809    
+  1  GENOTYPE$ 111    44.08       1.809    
+  1  GENOTYPE$ 112    44.04       1.809    
+  1  GENOTYPE$ 113    43.40       1.809    
+  1  GENOTYPE$ 114    44.86       1.809    
+  1  GENOTYPE$ 115    43.09       1.809    
+  1  GENOTYPE$ 116    43.54       1.809    
+  1  GENOTYPE$ 117    40.75       1.809    
+  1  GENOTYPE$ 118    42.94       1.809    
+  1  GENOTYPE$ 119    44.54       1.809    
+  1  GENOTYPE$ 120    43.86       1.809    
+  1  GENOTYPE$ 121    45.20       1.809    
+  1  GENOTYPE$ 122    42.76       1.809    
+  1  GENOTYPE$ 123    41.91       1.809    
+  1  GENOTYPE$ 124    43.62       1.809    
+  1  GENOTYPE$ 125    43.44       1.809    
+  1  GENOTYPE$ 126    46.97       1.809    
+  1  GENOTYPE$ 127    42.78       1.809    
+  1  GENOTYPE$ 128    44.79       1.809    
+  1  GENOTYPE$ 129    43.61       1.809    
+  1  GENOTYPE$ 130    42.03       1.809    
+  1  GENOTYPE$ 131    43.22       1.809    
+  1  GENOTYPE$ 132    43.53       1.809    
+  1  GENOTYPE$ 133    42.34       1.809    
+  1  GENOTYPE$ 134    42.68       1.809    
+  1  GENOTYPE$ 135    45.02       1.809    
+  1  GENOTYPE$ 136    43.59       1.809    
+  1  GENOTYPE$ 137    40.51       1.809    
+  1  GENOTYPE$ 138    43.44       1.809    
+  1  GENOTYPE$ 139    44.85       1.809    
+  1  GENOTYPE$ 140    45.35       1.809    
+  1  GENOTYPE$ 141    45.24       1.809    
+  1  GENOTYPE$ 142    42.48       1.809    
+  1  GENOTYPE$ 143    42.61       1.809    
+  1  GENOTYPE$ 144    43.67       1.809    
+  1  GENOTYPE$ 145    45.40       1.809    
+  1  GENOTYPE$ 146    41.69       1.809    
+  1  GENOTYPE$ 147    43.48       1.809    
+  1  GENOTYPE$ 148    43.22       1.809    
+  1  GENOTYPE$ 149    42.71       1.809    
+  1  GENOTYPE$ 150    44.65       1.809    
+  1  GENOTYPE$ 151    46.59       1.809    
+  1  GENOTYPE$ 152    42.44       1.809    
+  1  GENOTYPE$ 153    41.63       1.809    
+  1  GENOTYPE$ 154    44.37       1.809    
+  1  GENOTYPE$ 155    42.99       1.809    
+  1  GENOTYPE$ 156    43.38       1.809    
+  1  GENOTYPE$ 157    42.74       1.809    
+  1  GENOTYPE$ 158    44.94       1.809    
+  1  GENOTYPE$ 159    41.28       1.809    
+  1  GENOTYPE$ 160    45.36       1.809    
+  1  GENOTYPE$ 161    44.56       1.809    
+  1  GENOTYPE$ 162    40.32       1.809    
+  1  GENOTYPE$ 163    45.61       1.809    
+  1  GENOTYPE$ 164    44.40       1.809    
+  1  GENOTYPE$ 165    44.82       1.809    
+  1  GENOTYPE$ 166    46.51       1.809    
+  1  GENOTYPE$ 167    42.68       1.809    
+  1  GENOTYPE$ 168    45.89       1.809    
+  1  GENOTYPE$ 169    43.13       1.809    
+  1  GENOTYPE$ 170    44.70       1.809    
+  1  GENOTYPE$ 171    43.45       1.809    
+  1  GENOTYPE$ 172    42.72       1.809    
+  1  GENOTYPE$ 173    45.53       1.809    
+  1  GENOTYPE$ 174    44.36       1.809    
+  1  GENOTYPE$ 175    44.02       1.809    
+  1  GENOTYPE$ 176    42.79       1.809    
+  1  GENOTYPE$ 177    45.11       1.809    
+  1  GENOTYPE$ 178    43.13       1.809    
+  1  GENOTYPE$ 179    44.04       1.809    
+  1  GENOTYPE$ 180    44.88       1.809    
+  1  GENOTYPE$ 181    43.63       1.809    
+  1  GENOTYPE$ 182    44.11       1.809    
+  1  GENOTYPE$ 183    45.56       1.809    
+  1  GENOTYPE$ 184    45.28       1.809    
+  1  GENOTYPE$ 185    42.53       1.809    
+  1  GENOTYPE$ 186    43.58       1.809    
+  1  GENOTYPE$ 187    44.90       1.809    
+  1  GENOTYPE$ 188    45.65       1.809    
+  1  GENOTYPE$ 189    41.61       1.809    
+  1  GENOTYPE$ 190    42.81       1.809    
+  1  GENOTYPE$ 191    44.23       1.809    
+  1  GENOTYPE$ 192    45.74       1.809    
+  1  GENOTYPE$ 193    43.61       1.809    
+  1  GENOTYPE$ 194    43.66       1.809    
+  1  GENOTYPE$ 195    45.87       1.809    
+  1  GENOTYPE$ 196    43.39       1.809    
+  1  GENOTYPE$ 197    43.35       1.809    
+  1  GENOTYPE$ 198    43.93       1.809    
+  1  GENOTYPE$ 199    43.86       1.809    
+  1  GENOTYPE$ 200    44.85       1.809    
+  1  GENOTYPE$ 201    43.50       1.809    
+  1  GENOTYPE$ 202    46.46       1.809    
+  1  GENOTYPE$ 203    43.09       1.809    
+  1  GENOTYPE$ 204    42.78       1.809    
+  1  GENOTYPE$ 205    45.50       1.809    
+  1  GENOTYPE$ 206    45.04       1.809    
+  1  GENOTYPE$ 207    44.05       1.809    
+  1  GENOTYPE$ 208    41.23       1.809    
+  1  GENOTYPE$ 209    45.89       1.809    
+  1  GENOTYPE$ 210    43.02       1.809    
+  1  GENOTYPE$ 211    43.67       1.809    
+  1  GENOTYPE$ 212    44.96       1.809    
+  1  GENOTYPE$ 213    43.28       1.809    
+  1  GENOTYPE$ 214    44.26       1.809    
+  1  GENOTYPE$ 215    43.91       1.809    
+  1  GENOTYPE$ 216    42.33       1.809    
+  1  GENOTYPE$ 217    41.06       1.809    
+  1  GENOTYPE$ 218    43.62       1.809    
+  1  GENOTYPE$ 219    44.12       1.809    
+  1  GENOTYPE$ 220    41.59       1.809    
+  1  GENOTYPE$ 221    42.50       1.809    
+  1  GENOTYPE$ 222    44.73       1.809    
+  1  GENOTYPE$ 223    43.29       1.809    
+  1  GENOTYPE$ 224    42.90       1.809    
+  1  GENOTYPE$ 225    43.76       1.809    
+  1  GENOTYPE$ 226    43.95       1.809    
+  1  GENOTYPE$ 227    41.87       1.809    
+  1  GENOTYPE$ 228    47.79       1.809    
+  1  GENOTYPE$ 229    41.48       1.809    
+  1  GENOTYPE$ 230    41.38       1.809    
+  1  GENOTYPE$ 231    42.49       1.809    
+  1  GENOTYPE$ 232    43.89       1.809    
+  1  GENOTYPE$ 233    44.07       1.809    
+  1  GENOTYPE$ 234    42.66       1.809    
+  1  GENOTYPE$ 235    44.53       1.809    
+  1  GENOTYPE$ 236    42.74       1.809    
+  1  GENOTYPE$ 237    43.79       1.809    
+  1  GENOTYPE$ 238    45.60       1.809    
+  1  GENOTYPE$ 239    42.27       1.809    
+  1  GENOTYPE$ 240    44.57       1.809    
+  1  GENOTYPE$ 241    44.61       1.809    
+  1  GENOTYPE$ 242    43.27       1.809    
+  1  GENOTYPE$ 243    43.11       1.809    
+  1  GENOTYPE$ 244    43.25       1.809    
+  1  GENOTYPE$ 245    42.33       1.809    
+  1  GENOTYPE$ 246    42.77       1.809    
+  1  GENOTYPE$ 247    42.28       1.809    
+  1  GENOTYPE$ 248    42.22       1.809    
+  1  GENOTYPE$ 249    45.59       1.809    
+  1  GENOTYPE$ 250    43.79       1.809    
+  1  GENOTYPE$ 251    44.29       1.809    
+  1  GENOTYPE$ 252    45.75       1.809    
+
+ Standard Errors of Differences
+  Minimum     Mean      Maximum
+   2.535       2.552       2.554    

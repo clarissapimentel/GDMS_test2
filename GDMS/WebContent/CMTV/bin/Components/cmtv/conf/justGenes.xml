@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_01" class="java.beans.XMLDecoder"> 
+ <object class="org.ncgr.cmtv.style.MapDisplayConfiguration"> 
+  <void property="horizontal"> 
+    <boolean>false</boolean>
+  </void>
+  <void property="mappedObjectContainerConfigurations"> 
+   <void method="add"> 
+    <object class="org.ncgr.cmtv.style.MappedObjectContainerDisplayConfiguration"> 
+     <void property="globalDataTransformRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>All objects with Type = Gene</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="linearMapWidgetFactoryRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Colored Bars</string> 
+       </void> 
+       <void method="add"> 
+        <string>Labels</string> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="org.ncgr.cmtv.style.MappedObjectContainerDisplayConfiguration"> 
+     <void property="globalDataTransformRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Trait LOD Maps</string> 
+       </void> 
+      </object> 
+     </void> 
+     <void property="linearMapWidgetFactoryRegistryIds"> 
+      <object class="java.util.ArrayList"> 
+       <void method="add"> 
+        <string>Labels</string> 
+       </void> 
+       <void method="add"> 
+        <string>Heat maps</string> 
+       </void> 
+      </object> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+ </object> 
+</java> 

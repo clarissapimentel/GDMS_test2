@@ -1,0 +1,4 @@
+http://www.ensembl.org/Homo_sapiens/geneview?gene=%0	View gene %0 in Ensembl	org.ncgr.isys.objectmodel.EnsemblGeneId
+http://www.ensembl.org/Homo_sapiens/geneview?gene=%0	View gene %0 in Ensembl	org.ncgr.isys.objectmodel.EnsemblGeneId
+http://genome.ucsc.edu/cgi-bin/hgTracks?clade=vertebrate&org=Human&db=hg18&position=%0	View gene %0 in UCSC Genome Browser	org.ncgr.isys.objectmodel.EnsemblGeneId
+http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&db=gene&term=%0[sym]+AND+"Homo sapiens"[ORGN]	View %0 in Entrez Gene	org.ncgr.isys.objectmodel.GeneSymbol

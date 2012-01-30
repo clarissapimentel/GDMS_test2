@@ -1,0 +1,3 @@
+#!org.ncgr.cmtv.rendering.impl.FileBasedNumberToColorConverter
+#isysAttrClass=org.ncgr.isys.objectmodel.ExpressionValue
+0	12	green	red

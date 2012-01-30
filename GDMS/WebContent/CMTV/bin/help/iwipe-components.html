@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Web Integration</title>
+  </head>
+
+  <body>
+    <h1>Web Integration: Components</h1>
+    Currently, ISYS provides a few specially customized web components: 
+
+    <h2>GENSCAN (http://genes.mit.edu/GENSCAN.html)</h2>
+
+    <p>Provides a service for the identification of complete gene structures
+    in genomic DNA. You can use the GENSCAN web component by invoking the
+    GENSCAN entry point service in the main window. The GENSCAN web component
+    can also be dynamically discovered from sequence text (e.g., from the
+    Sequence Viewer component). When dynamically discovered, the query page
+    will be opened, with the sequence text area filled in. When the query is
+    executed, the result page will be displayed (assuming an email address for
+    results was not specified). Predicted nucleotide and peptide sequences
+    will be dynamically discoverable. Additionally, the predicted genes/exons
+    will be sent to any component that spawned the GENSCAN web component via
+    dynamic discovery (to see this in action, dynamically discover the GENSCAN
+    web component from Sequence Viewer and watch how predicted genes/exons are
+    displayed in the Sequence Viewer window).</p>
+
+<h2>Entrez (http://www.ncbi.nlm.nih.gov/entrez/query.fcgi)</h2>
+  Allows complex querying of NCBI databases (including nucleotide and protein
+  sequences, MEDLINE bibliographic information, and others) using the Entrez
+  search system. You can use the Entrez web component by invoking the Entrez 
+  entry point service in the main window. The Entrez web component can also be
+  dynamically discovered from IsysAttribute types that have been mapped to
+  Entrez search fields (currently, the only such mappings are for the GeneSymbol
+  and ECNumber attributes). In this case, it will seed the Entrez query form's term 
+  input with the values of the attributes, mapped to their appropriate fields.
+  It will also appear as a dynamically discovered service for any text 
+  selected in a web page, simply using this to seed the Entrez query form's
+  term input without mapping it to a specific field. Neither of these 
+  queries will be auto-submitted, allowing the user the opportunity to select
+  the appropriate target database, and to further customize the query, if
+  desired. 
+<p>  
+  When an Entrez query has been executed, the result page will be displayed,
+  and the following items will be made dynamically discoverable:
+<ul>  	
+		<li>hyperlinked NCBI sequence identifiers</li>
+		<li>"/gene" qualifiers in flatfile entries</li>
+		<li>"/EC_number" qualifiers in flatfile entries</li>
+</ul>
+<p>
+  In addition, the end of each flatfile entry will have a button that allows
+  all the objects that have been parsed from the entry to be used as the subject
+  of dynamic discovery.
+
+<h2>Google (http://www.google.com)</h2>
+  A general-purpose web search engine. The Google web component will appear as
+  a dynamically discoverable service for any text selected in a web page. When
+  the Google service is executed, a search will be performed on the selected
+  text and a browser window will be opened that displays the results of the
+  search.
+
+<h2>FlyBase (http://flybase.bio.indiana.edu)<br>
+MGI (http://www.informatics.jax.org)<br>
+SGD (http://genome-www.stanford.edu)</h2>
+
+Simple wrappers for the websites of various members of the GeneOntology
+consortium.  Currently, the only way to access these sites directly from
+another regular ISYS component (i.e. non-web components) is via the
+GeneOntology browser.  If a single gene is right-mouse-clicked in the Gene
+Products Results Frame, you will see the option to go to the web page of the
+source database for information on that gene. This will invoke a web browser
+and direct it to a page with detailed information on that gene. These pages
+have been wrapped so that information that maps to IsysAttributes
+(e.g. GeneSymbol, ORFName, various sequence Identifiers) will be put into a
+single IsysObject with a single dynamic discovery target on the page. In
+addition, these sites have search forms that allow you to look for sets of
+genes matching given criteria. The results pages for these searches are
+wrapped so that each row in the result set is treated as an individual object,
+and the entire collection of objects is made available as the dynamic service
+target, near the top of the results table.
+  </body>
+</html>

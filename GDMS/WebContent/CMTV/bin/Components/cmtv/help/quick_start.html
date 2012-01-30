@@ -1,0 +1,361 @@
+<html>
+<body>
+<h1>CMTV Quick Start Guide</h1>
+This document presents a brief overview and examples of several common uses
+of CMTV. Since the later tasks build conceptually upon the foundation 
+provided in earlier tasks, we recommend that you approach them in the 
+order presented here when initially learning how to use CMTV. 
+<p/>
+To follow along with the examples presented, use the steps given in <i>italicized sections</i>.
+<h2>Map comparison</h2>
+
+Aside from the basic visualization of map-based data, most of the core features
+of CMTV depend in some way on the construction of comparisons betwen maps;
+in particular, a map comparison establishes relationships between the coordinates 
+of different maps based on the identification of correspondences between shared
+elements. Here, we will discuss briefly the steps that
+underlie the process of constructing a map comparison through the use of the
+"Common Tasks" wizard.
+<p/>
+<i>
+If the wizard is not currently displayed, you can access it with
+the "Wizard" toolbar button.  Select the "Compare Maps" option on
+the initial page, and click "Next". 
+</i>
+<p/>
+You will first be prompted to choose the data source from which the maps to be compared will be loaded. Each option presented corresponds to a different type of 
+data source that CMTV can access. Note that although each service must be invoked
+separately, the options here are not mutually exclusive. You can load maps via
+one source, then use the wizard's
+"Prev" button to return to the data source selection page in order to add more data 
+to the set that will be used for comparison. For example, if you wanted to compare maps stored
+in files on your computer to maps from public databases, you 
+would need to use this feature to construct your input dataset. Note also that
+you can select a subset of maps for comparison from the table of maps that
+will be populated by these data sources, so you need not be concerned if a
+particular service returns more maps than you wish to use. We will now
+describe each of the options presented for data loading before continuing
+to the subsequent steps of map comparison.
+<p/>
+"Load data from file" refers to direct parsing of map data files from your
+computer. Note that CMTV uses a plugin mechanism that allows parsers for new 
+file types to be added to the system without any need for changes to CMTV code.
+A typical CMTV distribution will come with parsers for a number of well-known
+map data file formats, but it is straightforward to write new parsers for 
+new formats <!--(see the developer documentation for more details ***to be written***)-->.
+The set of file formats usable in your installation will be shown in the
+"Choose a format" drop-down menu in the "Load data from file" page. After
+selecting the appropriate type, you would use the "Choose file:" button to invoke a 
+file chooser or simply type in the full path to the file in the text area on 
+that page.
+<p/>
+"Load data from listing service" refers to a type of data access service that
+allows you to browse a list of all maps available, possibly allowing you to supply certain query restrictions to the list presented. After selecting this option
+and clicking "Next", you will be presented with a list of the services 
+available to your configuration of CMTV (as with the parsers, these represent
+pluggable units of functionality by which CMTV can be extended). When you 
+select one of these services and click "Next", the behavior of the interface
+will depend on the implementation of the specific service. For example, some
+services may simply return a list of maps directly from which you can select
+your choices. The services typically bundled in a CMTV distribution are all
+based on the "local data repository" component, which is basically an extension
+of the parsers described above that allows them to 
+treat sets of files as if they were a queryable database. In addition to the
+greater power the query mechanism provides for data selection, this mechanism
+allows the user to specify (via configuration of the services) additional 
+metadata about the maps by the use of file naming conventions. This is handy
+for including information that is important for interpretation of the results,
+but which are not supported directly in the given file format. For example,
+you could use this feature to encode information about the species and
+genetic backround represented by a specific mapping experiment. (For more
+information on this feature, please see that component's <a href= "../../localdatarepository/doc/LocalDataRepository.txt">documentation</a>.) 
+<p/>
+The localdatarepository-derived services all provide a simple query interface 
+that appears in a dialog when the "Next" button has been clicked. On the left
+side is presented a list labelled "Restriction type", which shows the
+kinds of data attributes associated with the maps in the collection. When 
+one of these is selected, the right-hand side labelled "Restriction values"
+will display the set of possible values to choose from. Complex queries can 
+be constructed by selecting multiple restriction types and/or multiple 
+restriction values (use Ctrl+Select to select multiple options from the 
+restriction values list). The interpretation of multiple selections is to
+filter the data set by maps that match all of the restriction types specified
+for any of the restriction values specified for that type. For example, you
+might choose LinkageGroupName=1 &lt;AND&gt; CrossName=1&lt;OR&gt;2 to compare maps on
+the same linkage group in different backgrounds.
+<p/>
+"Load data by identifier" refers to a type of data access service that requires
+you to enter a single identifier for the dataset you wish to retrieve. For
+example, if you were using CMTV to analyze sequence data and wanted to
+retrieve an annotated BAC clone or chromosome from NCBI by accession number,
+you could use the Entrez-based version of this service type.
+<p/>
+Finally, if you have already loaded data into the tool through some previous
+actions, you will see an option to "Use previously loaded data". This allows
+you to select a subset from among all the maps that you currently have
+loaded into the tool. 
+<p/>
+<i>For the purposes of this example, select the "Load data from listing service",
+then choose the "Linkage_Map" service; next, choose the "LinkageGroupName"
+restriction type and a restriction value of "Ch1" and click "OK".</i>
+<p/>
+After you have finished populating the table of maps in the "Choose maps" page
+with the data from these services, you will be required to specify which
+of the maps among this set you wish to include in the comparison. If all
+the maps are relevant, simply use Ctrl+a to "Select all" in the table (this
+assumes the table has input focus- you may need to click on the table to effect
+this); 
+alternatively, use Ctrl+select to add individual maps to the selection set.
+You may include any number of maps greater than 1 in a comparison- the
+contents of each map will be compared to every other map in the set.
+<p/>
+<i>Select both maps and click "Next".</i>
+<p/>
+After clicking the "Next" button, you will be prompted to choose a method
+for comparing the contents of the maps. As with the data loading services,
+the set of options given here will depend on the configuration of your
+installation. For most common usages, you will use the 
+"Basic string comparison" which groups the objects into 
+correspondence sets based on name-matching. You can also refine the matching
+slightly by selecting the "Choose aspects to be used for String comparison"
+checkbox. If selected, this will cause a Dialog to appear (after the "Finish"
+button is clicked) that allows some greater flexibility in how this matching
+is done. Here, you can select from a set of different types of information
+potentially associated with your data (e.g. gene symbols or database identifiers),
+and/or relax the requirements on exact matching in various ways (e.g. making
+the comparison case-insensitive).
+<p/>
+<i>Choose the "Basic string comparison" option and click "Finish".</i>
+<p/>
+After completing the wizard, the map comparison should be automatically 
+displayed in the viewer. Note that you can move the individual map graphics
+around in the viewer as if they were windows on your computer's
+desktop. If more than two maps were included in your
+comparison, you will likely see a somewhat tangled set of lines being drawn
+between each pair of items that corresponds. To simplify the view to
+displaying only the comparisons between adjacent maps, you must currently
+use a manual approach, first using the main menu's "Map comparison->Hide all map
+comparisons" to clear the display of the full comparison view, and then 
+selecting adjacent pairs of maps manually (by Ctrl+selecting on the title
+bar of the map graphic to change its selection state), then using the 
+"Map comparison->View all comparisons between selected maps" option to
+enable the display of the correspondence between that pair of maps.
+<p/>
+<img src="images/MapComparison.jpg"/>
+
+<h2>Consensus maps</h2>
+
+Consensus maps are used in CMTV to build a common framework with which to 
+integrate and interpret the information contained in independent mapping
+experiments performed against "the same genome". By this phrase, we intend
+simply to express that the construction of the consensus map and its use
+as a common interpretive framework are dependent on the assumption
+that there have been no large-scale rearrangements of the corresponding loci
+in the different genetic backgrounds from which the experiments have
+been derived. Thus, although you can construct a map comparison between
+chromosomes of different species or different chromosomes of the same
+species in order to explore questions of genome structure, it is unlikely
+that a consensus map derived from such a comparison would serve any useful 
+purpose.
+<p/>
+Building a consensus map builds upon the construction of a map comparison 
+described in the first section of this guide. If you choose the "Create 
+consensus map" option, you will be given the choice of using an existing map comparison (if you have already created one) or constructing a new comparison.
+In the latter case you will proceed through the same steps described 
+above, but before finishing the sequence there will be some additional 
+choices regarding the conversion of the map comparison information into a 
+consensus map. 
+<p/>
+<i>If you have not already constructed a map comparison, follow the steps
+given above in the section on map comparison until you reach the "Choose
+Anchor Markers" page. Otherwise, select the "Choose Map Comparison" option,
+then select the folder representing the map comparison and click "OK",
+to arrive at the "Choose Anchor Markers" page.
+</i>
+<p/>
+After the map comparison is generated, you will be presented with a page
+containing a table in which each column represents a map included in the
+comparison, and every row represents a set of markers that have been determined
+to correspond to one another. In order to complete the construction
+of the consensus map, you will need to select a set of these correspondences
+that represent "anchors" on the consensus map. These will have their locations
+determined on the consensus framework in the current implementation by 
+averaging their positions over all maps in the input set on which they have 
+been mapped. The other markers (those without correspondences, or which have
+been excluded from the anchor set for other reasons) will have their positions
+projected onto the consensus framework so as to preserve the ratio of their
+distances to the nearest flanking anchor markers. (For those markers lying
+outside the boundaries of the extreme markers, the distance to the anchor
+will use the projection ratio defined by the nearest neighboring anchor 
+interval.) 
+<p/>
+It is important to realize that the projections of the non-anchor markers are
+established by the use of a rule that determines a translation from each
+coordinate on the starting map to a coordinate on the consensus map, not
+only for those points at which there happens to be a marker. Thus, for 
+a continuously varying distribution such as the LOD profile of a QTL along a
+map, the translations defined with respect to the anchors also give us a means
+of projecting the entire distribution into the common framework.
+<p/>
+One helpful guide that may be used in the selection of anchors is presented
+under the "Consensus map tools->Auto-select anchor markers" menu option 
+above the table of correspondences. This will select the largest set of 
+rows from the table for which the corresponding markers appear on all the input
+maps and which are order-consistent among these maps. If the set of anchors
+selected using this option does not cover the maps evenly, or includes markers
+are lower quality, the selection set may be manually adjusted in the table
+before the "Finish" button is pressed. 
+<p/>
+<i>Use the "Auto-select anchor markers" option in the "Consensus mapping tools"
+menu to select the anchors, use Ctrl+Click to deselect one or two rows, then 
+"Finish" the task.
+</i>
+<p/>
+When finished, the Consensus map will be automatically displayed, with the
+anchor markers distinguished by labels of a larger font. In addition, 
+each input map is shown along with the correspondences between its markers and
+the markers that have resulted on the consensus from the projection. 
+<p/>
+If any correspoding markers existed that were not selected as anchors, these
+will appear initially as individual markers on the consensus, once for each
+instance on an input and in the position determined by the coordinate translation
+for that map position onto the consensus. The "Consensus map" menu on that
+map's window provide a few options for manually resolving the multiple instances
+of corresponding non-anchor markers into a single representation or simply removing
+them from the consensus altogether.  None of these operations will affect 
+the coordinate translations defined by the true anchors.
+<i>
+Try using one of these option to resolve the duplicate markers that arose from
+the rows deselected in the previous step.
+</i>
+<p/>
+<img src="images/ConsensusMap.jpg"/>
+<h2>Aggregate displays</h2>
+The consensus map created in the previous section combined all of the
+marker data from the various mapping experiments into a single synthetic 
+representation. Now, we would like to combine other data such as QTL or 
+gene expression onto the framework map. This will allow us to enhance the 
+value of the map for Marker-Assisted Selection (MAS) applications by
+showing the markers in relation to regions with phenotypic correlations.
+<p/>
+We will begin with the case of trait data; in particular, we will be using 
+the output of QTL analysis software that generates a log-odds value for
+each centimorgan along the linkage groups. As mentioned in the section on
+consensus maps, the coordinate translations developed for the projection of
+markers are also sufficient for determining the correspondence between any
+arbitrary coordinate on the input maps to a coordinate on the framework map. 
+If we try this with the consensus map, we will find that any trait that 
+belongs to one of the marker maps used for the construction of the consensus 
+map will be presented as an option for combination onto the consensus.
+<p/>
+<i>If you still have map graphics displayed from previous steps, clear them
+before beginning this task by choosing the main menu's "View->Clear Desktop" 
+option. Next, choose the "Construct aggregate view" option from the initial 
+wizard page, then "Use previously loaded data for target". Select the consensus
+map from the listing of maps, and click "Next". Choose "Load data from listing 
+service for combined", and then select the "Trait_LOD" service.
+<p/>
+Select some set of phenotypic traits to be loaded based on a restriction type of PhenotypicTraitName (e.g. values ASI through HKW), and
+after a few moments, the map listing will be populated.
+</i>
+<p/>
+On the "Choose maps to combine" page you will see the set of maps that not
+only matched your selection criteria but also had coordinate translations
+onto the target consensus map (e.g. those from the same linkage group and 
+crosses that served as the input maps for the consensus you selected).
+You may also restrict the data to be included into the aggregate view by
+a few other filters:
+<ul>
+<li>
+"Filter by distribution values" allows you to filter distributions (like Trait LOD maps) depending on whether they meet a certain threshold value in a specified range of the map (no range specification implies a threshold that may be satisfied anywhere over the entire range of the map).
+</li>
+<li>
+"Filter by map position" allows you to filter more generally any mapped objects whose positions do not overlap the specified range of the map.
+</li>
+</ul>
+<p/>
+<i>Specify a "Threshold value" restriction of 20 and click "Apply" below the "Filter by distribution values" panel. You should see the list of combinable maps altered to contain a subset of the original maps. Try to find a threshold value that gives 5-10 maps in the list, then select these maps and click "Next".
+</i>
+<p/>
+The final step for constructing an aggregate view is to specify the visual
+style that will be used for representing the combined data. The list you see
+is created from a set of pre-defined styles, but you can extend this to suit 
+your preferences by editing the <ISYS_HOME>/bin/Components/cmtv/conf/styleRegistry.txt
+file to include your styles of choice. The style specifications will be described
+in detail elsewhere<!--***link when written!-->, but you may wish to copy some of the included stylesheet files
+and try to modify them by hand to see how changes affect the representation
+that is created.
+<p/>
+<i>
+Choose the "Labelled Markers with Labelled Trait LOD Heat Maps" style, and
+click "Finish". You should see the Consensus map visualized with two
+"tracks", one for the "Genetic Markers" and one for the "Trait LOD Maps" (you
+may need to resize the map frame to see the latter- just drag a corner of the
+frame as you would a normal desktop window, or click the "Maximize" icon near
+the map frame's upper right-hand corner).
+</i>
+<p/>
+<img src="images/AggregateDisplay1.jpg"/>
+<p/>
+You've now seen one type of data aggregation using the consensus map. Now, let's
+use the data aggregation wizard again, this time to explore the "reference map"
+functionality of CMTV. Basically, a reference map is a map whose own data 
+remains fixed, while allowing other maps to be projected onto it by means of 
+their order-consistent common markers. This is quite similar to the way the
+consensus map was defined, except that this was an essential part of the construction process
+for the consensus map; for a reference map, the map may be given 
+independently of any other map data, and the coordinate translations will be
+inferred on the basis of a constructed map comparison. Typically, a reference
+map will be relatively dense with high-confidence marker data in order to
+facilitate comparisons to maps derived from a wide variety of marker sets.
+<p/>
+<i>
+Begin by clearing the desktop with the main menu's "View -> Clear desktop" option.
+Next, bring up the wizard with the "Wizard" button, choose the "Construct
+aggregate view" option, and click "Next". This time, choose to "Load data from listing
+service for target", and proceed to the listing service selection page. 
+Choose the "MaizeGDB" service and proceed to the query restriction dialog, where
+you should specify "LinkageGroupName" = 1. After clicking "OK", you should see
+a listing including two maps; click the checkbox in the "Reference map?" column
+for the row starting with "ibm" to use the IBM Neighbors map for Chromosome 1
+as your reference map, and click "Next".
+</i>
+<p/>
+By specifying that the given map is to be used as a reference, a number of special behaviors 
+are triggered. First and foremost, any map comparison that includes the reference map can be used 
+to define coordinate translations from the other maps in the comparison onto the reference 
+(provided certain basic requirements are met by the correspondences in the comparison from the source map to the reference map). This means that data from the comparable maps can be projected into the framework of the reference map. Second, CMTV can be configured such that particular map data loading services are accessed automatically and their contents compared to the newly specified reference map; this has the effect of
+enabling aggregation of their traits onto the reference map without any further action on the part of the user. Finally, reference maps will behave slightly differently than other maps when a visualization is constructed- they are assumed to be so dense with markers that the full map content is not displayed automatically. Instead, markers are shown when they have been used to support the coordinate translations used by some data aggregation or when specifically requested by the user (by selecting a region on the map, right-mouse clicking and choosing the "Show all objects in region" option).
+<p/>
+<i>
+You now need to choose the maps to be combined
+onto the selected reference. Choose the "Load data from listing service for 
+combined" option and click "Next", then specify the "Trait_LOD" service. Upon
+clicking "Next", you will be presented with the restriction dialog. This time,
+just click "OK" and no restriction will be imposed (other than that requiring
+the maps be translatable into the coordinates of the reference). As described
+above, the next
+page gives you the chance to further restrict the data included from 
+the given maps, either by filtering out "distributions" that do not meet
+a threshold in a given region, or simply by including map data within
+a specified interval on the map. Since the Trait_LOD maps are distributions,
+try specifying a Threshold value of 15 and clicking "Apply" directly below that
+filter. This will exclude all map data not meeting the criterion. Select all 
+the remaining maps from the table, and click "Next". Choose the "Labelled Markers
+with Unlabelled Trait LOD Heat Maps" style, and click "Finish".
+The map that is displayed shows only that subset of markers matched in
+the comparisons that established the coordinate translations for the
+aggregated data. Click-drag to select the region corresponding to a 
+well-conserved QTL, then right-click on the region and select the
+"Show objects in region" option. Finally, right-click and choose the
+"Zoom to: " option to focus on that area of the map in the region of the
+QTL.
+</i>
+<img src="images/AggregateDisplay2.jpg"/>
+<p>
+<b>
+Congratulations, you've finished the quick start guide. 
+</b>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+Labelled Markers with Labelled Trait LOD Heat Maps=Components/cmtv/conf/defaultMapDisplay.xml
+Labelled Markers with Unlabelled Trait LOD Heat Maps=Components/cmtv/conf/noTraitLabels.xml
+Annotated Sequences=Components/cmtv/conf/AnnotatedSequenceStyle.xml

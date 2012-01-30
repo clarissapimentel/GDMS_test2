@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.5.0_01" class="java.beans.XMLDecoder"> 
+ <string>Filter distributions to regions within  2 units of peaks</string> 
+ <class>org.ncgr.cmtv.services.ThresholdingStrategy</class> 
+ <object class="org.ncgr.cmtv.services.DropoffFromPeakThresholdingStrategy"> 
+  <void property="dropoffValue"> 
+   <int>2</int> 
+  </void> 
+ </object> 
+ <string>Filter by peak position in each region above threshold</string> 
+ <class>org.ncgr.cmtv.services.ThresholdingStrategy</class> 
+ <object class="org.ncgr.cmtv.services.PeakPositionsThresholdingStrategy"/> 
+ <string>Complement strand</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$ComplementStrand"/> 
+ <string>Genetic Markers</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$NoDistributions"/> 
+ <string>Sequence Features</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$NoDistributions"/> 
+ <string>Filter into all regions above threshold</string> 
+ <class>org.ncgr.cmtv.services.ThresholdingStrategy</class> 
+ <object class="org.ncgr.cmtv.services.RegionsAboveThresholdingStrategy"/> 
+ <string>Labels</string> 
+ <class>org.ncgr.cmtv.rendering.LinearMapWidgetFactory</class> 
+ <object class="org.ncgr.cmtv.rendering.impl.LabelWidgetFactory"/> 
+ <string>All objects</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$AllObjects"/> 
+ <string>Given strand</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$GivenStrand"/> 
+ <string>Trait LOD Maps</string> 
+ <class>org.ncgr.cmtv.services.MappedObjectInclusionRule</class> 
+ <object class="org.ncgr.cmtv.services.MappedObjectInclusionRules$DistributionsOnly"/> 
+ <string>Colored Bars</string> 
+ <class>org.ncgr.cmtv.rendering.LinearMapWidgetFactory</class> 
+ <object class="org.ncgr.cmtv.rendering.impl.BarWidgetFactory"/> 
+ <string>Histograms</string> 
+ <class>org.ncgr.cmtv.rendering.LinearMapWidgetFactory</class> 
+ <object class="org.ncgr.cmtv.rendering.impl.DistributionWidgetFactory"/> 
+ <string>Heat maps</string> 
+ <class>org.ncgr.cmtv.rendering.LinearMapWidgetFactory</class> 
+ <object class="org.ncgr.cmtv.rendering.impl.ColorDistributionWidgetFactory"/> 
+</java> 

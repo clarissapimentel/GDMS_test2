@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<config>
+    <repos name="Linkage_Map" path="../CMTVTutorialData/CGIAR-Linkage_Map" filetype='CGIAR-Linkage_Map' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="C([0-9]+).*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.CrossNameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Zea mays"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="Trait_LOD" path="../CMTVTutorialData/CGIAR-TRAIT_LOD" filetype='CGIAR-TRAIT_LOD' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="C([0-9]+)(F[0-9]+|RIL)(.+)-lr(.+)_(.+)\..*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.CrossNameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.ExperimentalFactorImpl">
+                <StringConst value="FieldName"/>
+                <GroupNumber value="3"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.PhenotypicTraitNameImpl">
+                <GroupNumber value="4"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.ExperimentalFactorImpl">
+                <StringConst value="StressLevel"/>
+                <GroupNumber value="5"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Zea mays"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TypeImpl">
+                <StringConst value="Trait"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="MaizeGDB" path="../CMTVTutorialData/webmaizegdb/" filetype='MaizeGDB Map XML' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="([A-Za-z]*)([0-9]*)">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.CrossNameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.LinkageGroupNameImpl">
+                <GroupNumber value="2"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="GenBank" path="../CMTVTutorialData/GenBank" filetype='GenBank' listservice='org.ncgr.isys.service.MapListing'/>
+    <repos name="Fasta" path="../CMTVTutorialData/Fasta" filetype='Fasta' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="([0-9]+)">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.NameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="Quality" path="../CMTVTutorialData/Quality" filetype='Fasta-like Quality Data' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="([0-9]+)">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.NameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="CMap" path="../CMTVTutorialData/webcmap" filetype='CMap Tabbed Output' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern="([A-Z][a-z]).*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <GroupNumber value="1"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="MapQTL" path="../CMTVTutorialData/mapqtl" filetype='MapQTL Results' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern=".*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Test species"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="QTLCartographer" path="../CMTVTutorialData/qtlcartographer" filetype='QTLCartographer ZmapQTL' listservice='org.ncgr.isys.service.MapListing'>
+        <RegexpMetadataExtractor pattern=".*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Triticum aestivum"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="Gene Expression" path="../CMTVTutorialData/geneexpression" filetype='Tab Gene Expression' listservice='org.ncgr.isys.service.DataListingForGivenDataService'>
+        <RegexpMetadataExtractor pattern=".*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Zea mays"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+    <repos name="Genotyping" path="../CMTVTutorialData/genotyping" filetype='Tab Gene Expression' listservice='org.ncgr.isys.service.DataListingForGivenDataService'>
+        <RegexpMetadataExtractor pattern=".*">
+            <MetadataInst className="org.ncgr.isys.objectmodel.impl.TaxonNameImpl">
+                <StringConst value="Zea mays"/>
+            </MetadataInst>
+        </RegexpMetadataExtractor>
+    </repos>
+</config>

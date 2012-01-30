@@ -1,0 +1,200 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="GENERATOR" content="Quadralay WebWorks Publisher Standard Edition 6.0.2">
+<meta name="TEMPLATEBASE" content="Portable HTML Standard Edition">
+<meta name="LASTUPDATED" content="Thu Jan 31 09:49:38 2002">
+<title>Selecting a Correspondence Algorithm for Your Comparisons</title>
+</head>
+
+<body link="#3366CC" vlink="#9999CC" text="#000000" alink="#0000CC" bgcolor="#FFFFFF"
+background="images/backgrnd.gif">
+
+
+
+<p></p>
+
+<table width="331" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="compmapTOC.html"><img src="images/navtoc.gif" width="84" height="23"
+    border="0" alt="TOC"> </a></td>
+    <td><a href="mapchpt6.html"><img src="images/navprev.gif" width="81" height="23"
+    border="0" alt="PREV"> </a></td>
+    <td><a href="mapchpt6a3.html"><img src="images/navnext.gif" width="81" height="23"
+    border="0" alt="NEXT"> </a></td>
+    <td><a href="compmapIX.html"><img src="images/navidx.gif" width="85" height="23"
+    border="0" alt="INDEX"> </a></td>
+  </tr>
+</table>
+<br>
+<br>
+<hr align="left">
+
+<blockquote>
+<h2>
+  <a name="461428"> </a><font color="#003366"  face="Verdana, Arial, Helvetica, sans-serif">Selecting a Correspondence Algorithm for Your Comparisons</font>
+</h2><hr>
+
+
+<p>
+  <a name="461451"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Comparisons in the Viewer are made based on an algorithm. You can select from five algorithms for comparison:</font>
+</p>
+
+<ul>
+  <li><a name="461485"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Compare objects based on IsysObject equivalency</font>
+
+<p>
+  <a name="461495"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">All objects in ISYS have a definition of what's equivalent to them (e.g., if the name is exactly the same, the objects are equivalent; if some other attribute is the same, the objects are equivalent). This definition comes from the data source and is the same criteria used for synchronization in ISYS. </font>
+</p>
+
+
+<p>
+  <a name="461496"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This is the only algorithm that doesn't ask you how to convert the data into strings for comparison.</font>
+</p>
+
+  <li><a name="461487"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Create sets based on common substrings</font>
+
+<p>
+  <a name="461501"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This algorithm creates sets of objects that have substrings in common.</font>
+</p>
+
+  <li><a name="461488"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Hash into equivalence sets</font>
+
+<p>
+  <a name="461503"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This algorithm creates sets of equivalent objects.</font>
+</p>
+
+  <li><a name="461489"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Pairwise string comparisons using Levenstein distance</font>
+
+<p>
+  <a name="461504"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This algorithm create pairs of objects containing matching strings. It determines equivalence based on a fuzzy model so it may result in false positives.</font>
+</p>
+
+  <li><a name="461490"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Pairwise substring match</font>
+
+<p>
+  <a name="461502"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This algorithm creates pairs of objects containing matching substrings.</font>
+</p>
+
+</ul>
+
+<p>
+  <a name="461481"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">You can also define your own comparison criteria. For more information about this, see <a href="mapchpt6a5.html#461137">Defining Your Own Comparison Service</a>.</font>
+</p>
+
+
+<p>
+  <a name="461452"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">To select a correspondence algorithm</font>
+</p>
+
+<ul>  <ul>
+    <li><a name="461455"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Map comparison</b></font> &gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Set correspondence algorithm</b></font></font>
+  </ul>
+</ul>
+<p>
+  <a name="461535"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">The Comparison Services window appears.</font>
+</p>
+
+
+<p>
+  <a name="461536"> </a><font  face="Verdana, Arial, Helvetica, sans-serif"><img src="images/mapchpt68.gif" height="226" width="365" align="center" border="0" hspace="0" vspace="0">
+</font>
+</p>
+
+
+<p>
+  <a name="461447"> </a><font  face="Verdana, Arial, Helvetica, sans-serif"><font  face="Verdana, Arial, Helvetica, sans-serif"><b>Hash into equivalence sets</b></font> is the default algorithm. </font>
+</p>
+
+<ul>  <ul>
+    <li><a name="461566"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Select the circle to the left of the algorithm you want</font>
+    <li><a name="461567"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>OK</b></font></font>
+  </ul>
+</ul>
+<p>
+  <a name="461609"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">If you selected to compare based on IsysObject equivalency, your selection is complete. Otherwise, the Choose String Aspects window appears.</font>
+</p>
+
+
+<p>
+  <a name="461613"> </a><font  face="Verdana, Arial, Helvetica, sans-serif"><img src="images/mapchpt63.gif" height="242" width="347" align="center" border="0" hspace="0" vspace="0">
+</font>
+</p>
+
+
+<p>
+  <a name="461614"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">This window has a list of object representations you can choose. Your choices here define the content of the strings that will be used for comparison. The top option, String representation, results in the entire record being compared. Other options let you select to compare only particular objects. Two checkbox options near the bottom of the window let you choose to ignore case and/or non-alphanumeric characters in the comparison. </font>
+</p>
+
+<ul>  <ul>
+    <li><a name="461615"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Select one or more object representations in the list</font>
+
+<p>
+  <a name="461619"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <caption><b><i><font face="Verdana, Arial, Helvetica, sans-serif"></font></i></b></caption>
+  <tr>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif"><a name="461618"> </a><font  face="Verdana, Arial, Helvetica, sans-serif"><font  face="Verdana, Arial, Helvetica, sans-serif"><i><b>Note:</b></i></font> To select more than one object representation, press and hold &lt;Control&gt; while you select the object representations.</font></font></td>
+  </tr>
+</table>
+
+
+
+</font>
+</p>
+
+
+<p>
+  <a name="461620"> </a><font  face="Verdana, Arial, Helvetica, sans-serif"></font>
+</p>
+
+    <li><a name="461621"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">If you want the comparison to ignore case, ensure the box to the left of <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Make case insensitive </b></font>is checked</font>
+  </ul>
+</ul>
+<p>
+  <a name="461654"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">The checkboxes are either checked (on) or unchecked (off). Simply select the box to check or uncheck it.</font>
+</p>
+
+<ul>  <ul>
+    <li><a name="461622"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">If you want the comparison to ignore non-alphanumeric characters, ensure the box to the left of <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Ignore non-alphanumeric</b></font> is checked</font>
+    <li><a name="461623"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>OK</b></font></font>
+  </ul>
+</ul>
+<p>
+  <a name="461568"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">The algorithm and string aspects you selected will be used for all comparisons in this session until you change your selection.</font>
+</p>
+</blockquote>
+
+<hr>
+<p><font size = "1">Copyright 2002 by the National Center for Genome Resources. All rights reserved.
+
+
+<table align="right" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="right"><font size="1">
+   <br>
+    National Center for Genome Resources<br>
+    <br>
+    </font></td>
+  </tr>
+</table>
+
+<table width="331" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="compmapTOC.html"><img src="images/navtoc.gif" width="84" height="23" border="0"
+    alt="TOC"> </a></td>
+    <td><a href="mapchpt6.html"><img src="images/navprev.gif" width="81" height="23" border="0"
+    alt="PREV"> </a></td>
+    <td><a href="mapchpt6a3.html"><img src="images/navnext.gif" width="81" height="23" border="0"
+    alt="NEXT"> </a></td>
+    <td><a href="compmapIX.html"><img src="images/navidx.gif" width="85" height="23" border="0"
+    alt="INDEX"> </a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

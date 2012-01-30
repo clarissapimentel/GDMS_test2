@@ -1,0 +1,12 @@
+#Assign colors based on PhenotypicTraitName attribute
+org.ncgr.isys.objectmodel.PhenotypicTraitName=color
+MFLW=green
+FFLW=red
+ASI=blue
+ENO=magenta
+GY=orange
+ENO=darkGray
+EPO=pink
+PHT=lightGray
+EHT=black
+HKW=yellow

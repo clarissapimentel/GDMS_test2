@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="StrutsProcess">
+ <PROCESS-ITEM ID="GDMSStyleSheet" NAME="forward0"
+  PATH="/jsp/common/GDMSStyleSheet.css" SHAPE="32,17,0,0" TARGET="page0"
+  TITLE="GDMSStyleSheet" TYPE="forward" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM ID="#dataset" NAME="action0" PATH="/dataset"
+  SHAPE="304,145,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="retMarkers" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping3.jsp?first"
+   TARGET="page1" TITLE="retMarkers" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#genotypingpage" NAME="action1"
+  PATH="/genotypingpage" SHAPE="32,241,0,0" TITLE="dataretrieve"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="gdir" NAME="forward0"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?gupl"
+   TARGET="page2" TITLE="gdir" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="directing" NAME="forward1"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?first"
+   TARGET="page2" TITLE="directing" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="genoOut" NAME="forward2"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?files"
+   TARGET="page2" TITLE="genoOut" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="mdir" NAME="forward3"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?mupl"
+   TARGET="page2" TITLE="mdir" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retDataset" NAME="forward4"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?dset"
+   TARGET="page2" TITLE="retDataset" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retLines" NAME="forward5"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?lines"
+   TARGET="page2" TITLE="retLines" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retSpecies" NAME="forward6"
+   PATH="/jsp/dataretrieve/DataRetrieve1.jsp?str=second" TARGET="page3"
+   TITLE="retSpecies" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="ErrMsg" NAME="forward7"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?ErrMsg"
+   TARGET="page2" TITLE="ErrMsg" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#login" NAME="action2" PATH="/login"
+  SHAPE="464,833,0,0" TITLE="LoginForm" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="correct" NAME="forward0"
+   PATH="/jsp/common/GDMSLayout.jsp?str=login" TARGET="page4"
+   TITLE="correct" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="incorrect" NAME="forward1"
+   PATH="/jsp/common/Home.jsp" TARGET="page5" TITLE="incorrect"
+   TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#mapping" NAME="action3" PATH="/mapping"
+  SHAPE="32,833,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="ret" NAME="forward0"
+   PATH="/jsp/common/Login.jsp" TARGET="page6" TITLE="ret"
+   TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#RetrieveGenotypes" NAME="action4"
+  PATH="/RetrieveGenotypes" SHAPE="32,1089,0,0" TITLE="dataretrieve"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="retGenos" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveMarker3.jsp" TARGET="page7"
+   TITLE="retGenos" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#export" NAME="action5" PATH="/export"
+  SHAPE="784,145,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="exp" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping3.jsp?second"
+   TARGET="page1" TITLE="exp" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#dataupload" NAME="action6" PATH="/dataupload"
+  SHAPE="32,1201,0,0" TITLE="dataupload" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="ReqFields" NAME="forward0"
+   PATH="/jsp/dataupload/DataUpload1.jsp?ReqFields" TARGET="page8"
+   TITLE="ReqFields" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="inserted" NAME="forward1"
+   PATH="/jsp/dataupload/DataUpload1.jsp?inserted" TARGET="page8"
+   TITLE="inserted" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="SheetNameNotFound" NAME="forward2"
+   PATH="/jsp/dataupload/DataUpload1.jsp?SheetNameNotFound"
+   TARGET="page8" TITLE="SheetNameNotFound" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="DelEmptyColumns" NAME="forward3"
+   PATH="/jsp/dataupload/DataUpload1.jsp?DelEmptyColumns" TARGET="page8"
+   TITLE="DelEmptyColumns" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="ErrMsg" NAME="forward4"
+   PATH="/jsp/dataupload/DataUpload1.jsp?ErrMsg" TARGET="page8"
+   TITLE="ErrMsg" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="infoRequired" NAME="forward5"
+   PATH="/jsp/dataupload/DataUpload1.jsp?infoRequired" TARGET="page8"
+   TITLE="infoRequired" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="ColumnNameNotFound" NAME="forward6"
+   PATH="/jsp/dataupload/DataUpload1.jsp?ColumnNameNotFound"
+   TARGET="page8" TITLE="ColumnNameNotFound" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#dataretrieval" NAME="action7" PATH="/dataretrieval"
+  SHAPE="304,257,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="retQTL" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping4.jsp" TARGET="page9"
+   TITLE="retQTL" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retGermplasms" NAME="forward2"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping3.jsp?first"
+   TARGET="page1" TITLE="retGermplasms" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retTrait" NAME="forward3"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping4.jsp" TARGET="page9"
+   TITLE="retTrait" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retMarkers" NAME="forward4"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping3.jsp?first"
+   TARGET="page1" TITLE="retMarkers" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="ErrMsg" NAME="forward5"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?QTL"
+   TARGET="page2" TITLE="ErrMsg" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="qtlPage" NAME="forward6"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp?QTL"
+   TARGET="page2" TITLE="qtlPage" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="retData" NAME="forward7"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotypingDataset.jsp?"
+   TARGET="page10" TITLE="retData" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="poly" NAME="forward8"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping2.jsp" TARGET="page11"
+   TITLE="poly" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="map" NAME="forward9"
+   PATH="/jsp/dataretrieve/DataRetrieveGenotyping5.jsp" TARGET="page17"
+   TITLE="map" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#retrieveQTLs" NAME="action8" PATH="/retrieveQTLs"
+  SHAPE="784,625,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="det" NAME="forward0"
+   PATH="/jsp/dataretrieve/ReportQTLMarkers.jsp" TARGET="page12"
+   TITLE="det" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#markerpage" NAME="action9" PATH="/markerpage"
+  SHAPE="32,1505,0,0" SUBTYPE="forward" TITLE="dataretrieve"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="action9"
+   PATH="/jsp/dataretrieve/DataRetrieveMarker1.jsp" TARGET="page13"
+   TITLE="forward" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#retrieveInfo" NAME="action10" PATH="/retrieveInfo"
+  SHAPE="480,1505,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="ret" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveMarker2.jsp" TARGET="page14"
+   TITLE="ret" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#retrieveData" NAME="action11" PATH="/retrieveData"
+  SHAPE="32,1617,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="return" NAME="forward0"
+   PATH="/jsp/dataretrieve/DataRetrieveMarker1.jsp" TARGET="page13"
+   TITLE="return" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page0" PATH="/jsp/common/GDMSStyleSheet.css"
+  SHAPE="240,34,0,0" SUBTYPE="other" TITLE="GDMSStyleSheet.css"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page1"
+  PATH="/jsp/dataretrieve/DataRetrieveGenotyping3.jsp"
+  SHAPE="576,130,0,0" SUBTYPE="jsp" TITLE="DataRetrieveGenotyping3.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/export.do"
+   SUBTYPE="confirmed" TARGET="action5" TITLE="/export.do" TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page2"
+  PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp"
+  SHAPE="576,242,0,0" SUBTYPE="jsp" TITLE="GenotypingDataRetrieval1.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/dataretrieval.do"
+   SUBTYPE="confirmed" TARGET="action7" TITLE="/dataretrieval.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page3" PATH="/jsp/dataretrieve/DataRetrieve1.jsp"
+  SHAPE="304,626,0,0" SUBTYPE="jsp" TITLE="DataRetrieve1.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/genotypingpage.do"
+   SUBTYPE="confirmed" TARGET="action1" TITLE="/genotypingpage.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page4" PATH="/jsp/common/GDMSLayout.jsp"
+  SHAPE="688,850,0,0" SUBTYPE="jsp" TITLE="GDMSLayout.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page5" PATH="/jsp/common/Home.jsp"
+  SHAPE="688,994,0,0" SUBTYPE="jsp" TITLE="Home.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/login.do" SUBTYPE="confirmed"
+   TARGET="action2" TITLE="/login.do" TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page6" PATH="/jsp/common/Login.jsp"
+  SHAPE="240,850,0,0" SUBTYPE="jsp" TITLE="Login.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/login.do" SUBTYPE="confirmed"
+   TARGET="action2" TITLE="/login.do" TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page7"
+  PATH="/jsp/dataretrieve/DataRetrieveMarker3.jsp" SHAPE="240,1106,0,0"
+  SUBTYPE="jsp" TITLE="DataRetrieveMarker3.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page8" PATH="/jsp/dataupload/DataUpload1.jsp"
+  SHAPE="304,1218,0,0" SUBTYPE="jsp" TITLE="DataUpload1.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/dataupload.do"
+   SUBTYPE="confirmed" TARGET="action6" TITLE="/dataupload.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page9"
+  PATH="/jsp/dataretrieve/DataRetrieveGenotyping4.jsp"
+  SHAPE="576,610,0,0" SUBTYPE="jsp" TITLE="DataRetrieveGenotyping4.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/retrieveQTLs.do"
+   SUBTYPE="confirmed" TARGET="action8" TITLE="/retrieveQTLs.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page10"
+  PATH="/jsp/dataretrieve/DataRetrieveGenotypingDataset.jsp"
+  SHAPE="576,722,0,0" SUBTYPE="jsp"
+  TITLE="DataRetrieveGenotypingDataset.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/dataset.do"
+   SUBTYPE="confirmed" TARGET="action0" TITLE="/dataset.do" TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page11"
+  PATH="/jsp/dataretrieve/DataRetrieveGenotyping2.jsp"
+  SHAPE="32,610,0,0" SUBTYPE="jsp" TITLE="DataRetrieveGenotyping2.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/dataretrieval.do"
+   SUBTYPE="confirmed" TARGET="action7" TITLE="/dataretrieval.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page12"
+  PATH="/jsp/dataretrieve/ReportQTLMarkers.jsp" SHAPE="992,610,0,0"
+  SUBTYPE="jsp" TITLE="ReportQTLMarkers.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page13"
+  PATH="/jsp/dataretrieve/DataRetrieveMarker1.jsp" SHAPE="256,1522,0,0"
+  SUBTYPE="jsp" TITLE="DataRetrieveMarker1.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/retrieveInfo.do"
+   SUBTYPE="confirmed" TARGET="action10" TITLE="/retrieveInfo.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page14"
+  PATH="/jsp/dataretrieve/DataRetrieveMarker2.jsp" SHAPE="688,1522,0,0"
+  SUBTYPE="jsp" TITLE="DataRetrieveMarker2.jsp" TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/retrieveInfo.do"
+   SUBTYPE="confirmed" TARGET="action10" TITLE="/retrieveInfo.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#confirmdeletion" NAME="action12"
+  PATH="/confirmdeletion" SHAPE="32,2209,0,0" TITLE="datadeletion"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="delete" NAME="forward0"
+   PATH="/jsp/datadeletion/DataDeletion2.jsp" TARGET="page16"
+   TITLE="delete" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page15" PATH="/jsp/datadeletion/DataDeletion1.jsp"
+  SHAPE="240,2226,0,0" SUBTYPE="jsp" TITLE="DataDeletion1.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/confirmdeletion.do"
+   SUBTYPE="confirmed" TARGET="action12" TITLE="/confirmdeletion.do"
+   TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#deletedataretrieval" NAME="action13"
+  PATH="/deletedataretrieval" SHAPE="32,2769,0,0" TITLE="datadeletion"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="det" NAME="forward0"
+   PATH="/jsp/datadeletion/DataDeletion1.jsp?sec" TARGET="page15"
+   TITLE="det" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page16" PATH="/jsp/datadeletion/DataDeletion2.jsp"
+  SHAPE="240,2321,0,0" SUBTYPE="jsp" TITLE="DataDeletion2.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM ID="#delete" NAME="action14" PATH="/delete"
+  SHAPE="448,2321,0,0" TITLE="datadeletion" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="det" NAME="forward0"
+   PATH="/jsp/datadeletion/DataDeletion1.jsp" TARGET="page15"
+   TITLE="det" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page17"
+  PATH="/jsp/dataretrieve/DataRetrieveGenotyping5.jsp"
+  SHAPE="512,369,0,0" SUBTYPE="jsp" TITLE="DataRetrieveGenotyping5.jsp"
+  TYPE="page" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="link0" PATH="/export.do"
+   SUBTYPE="confirmed" TARGET="action5" TITLE="/export.do" TYPE="link" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#exportCheck" NAME="action15" PATH="/exportCheck"
+  SHAPE="32,1841,0,0" TITLE="dataretrieve" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="ret" NAME="forward0"
+   PATH="/jsp/dataretrieve/GenotypingDataRetrieval1.jsp" TARGET="page2"
+   TITLE="ret" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#exportStatus" NAME="action16" PATH="/exportStatus"
+  SHAPE="32,3297,0,0" SUBTYPE="forward" TITLE="dataretrieve"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT NAME="action16"
+   PATH="/jsp/dataretrieve/Progress.jsp" TARGET="page18" TITLE="forward"
+   TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page18" PATH="/jsp/dataretrieve/Progress.jsp"
+  SHAPE="240,3314,0,0" SUBTYPE="jsp" TITLE="Progress.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+</PROCESS>

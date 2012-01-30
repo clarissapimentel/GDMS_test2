@@ -1,0 +1,3 @@
+#properties for ICE (ISYS Client Environment)
+#Tue Mar 18 10:32:39 GMT+05:30 2008
+ice.disableAsynchronousNotification=true

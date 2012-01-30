@@ -1,0 +1,462 @@
+GMendel: set  rmax 0.25 GMendel:  
+set  minlod 3
+GMendel: compute  group
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 01
+GMendel: print order 01
+
+Map of group 1				R	Dist
+----------------------------------------------------------
+        M1	--          M2   	0.034	0.036
+        M2	--          M3   	0.129	0.149
+        M3	--          M4   	0.056	0.060
+        M4	--          M5   	0.004	0.004
+        M5	--         M13   	0.250	0.347
+       M13	--          M9   	0.019	0.020
+        M9	--         M11   	0.007	0.007
+       M11	--         M12   	0.002	0.002
+       M12	--         M10   	0.004	0.004
+       M10	--          M8   	0.006	0.006
+        M8	--          M7   	0.063	0.067
+        M7	--          M6   	0.045	0.047
+        M6	--         M14   	0.166	0.201
+       M14	--         M15   	0.032	0.033
+       M15	--         M16   	0.135	0.158
+       M16	--         M19   	0.186	0.233
+       M19	--         M18   	0.017	0.017
+       M18	--         M17   	0.034	0.035
+----------------------------------------------------------
+Sum of r values = 1.191
+Sum of map distances = 1.427
+Number of evaluations: 14926
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 02
+GMendel: print order 02
+
+Map of group 2				R	Dist
+----------------------------------------------------------
+       M21	--         M90   	0.031	0.031
+       M90	--         M20   	0.027	0.028
+----------------------------------------------------------
+Sum of r values = 0.058
+Sum of map distances = 0.059
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 03
+GMendel: print order 03
+
+Map of group 3				R	Dist
+----------------------------------------------------------
+       M26	--         M22   	0.077	0.084
+       M22	--         M24   	0.113	0.128
+       M24	--         M23   	0.000	0.000
+       M23	--         M25   	0.141	0.165
+       M25	--         M27   	0.122	0.139
+       M27	--         M28   	0.179	0.222
+       M28	--         M29   	0.034	0.036
+       M29	--         M31   	0.159	0.192
+       M31	--         M32   	0.008	0.009
+       M32	--         M33   	0.094	0.104
+       M33	--         M34   	0.043	0.045
+       M34	--         M35   	0.018	0.019
+       M35	--         M36   	0.013	0.014
+----------------------------------------------------------
+Sum of r values = 1.001
+Sum of map distances = 1.154
+Number of evaluations: 15509
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 04
+GMendel: print order 04
+
+Map of group 4				R	Dist
+----------------------------------------------------------
+       M52	--         M50   	0.097	0.108
+       M50	--         M51   	0.009	0.009
+       M51	--         M49   	0.077	0.083
+       M49	--         M48   	0.071	0.076
+       M48	--         M47   	0.044	0.046
+       M47	--         M46   	0.014	0.014
+       M46	--         M45   	0.032	0.033
+       M45	--         M44   	0.167	0.203
+       M44	--         M43   	0.039	0.041
+       M43	--         M42   	0.090	0.099
+       M42	--         M41   	0.134	0.156
+       M41	--         M40   	0.057	0.061
+       M40	--         M39   	0.237	0.322
+       M39	--         M38   	0.196	0.248
+       M38	--         M37   	0.040	0.041
+----------------------------------------------------------
+Sum of r values = 1.303
+Sum of map distances = 1.540
+Number of evaluations: 14560
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 05
+GMendel: print order 05
+
+Map of group 5				R	Dist
+----------------------------------------------------------
+       M55	--         M54   	0.019	0.019
+       M54	--         M53   	0.004	0.004
+----------------------------------------------------------
+Sum of r values = 0.023
+Sum of map distances = 0.024
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 06
+GMendel: print order 06
+
+Map of group 6				R	Dist
+----------------------------------------------------------
+       M57	--         M56   	0.035	0.036
+----------------------------------------------------------
+Sum of r values = 0.035
+Sum of map distances = 0.036
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 07
+GMendel: print order 07
+
+Map of group 7				R	Dist
+----------------------------------------------------------
+       M59	--         M58   	0.027	0.028
+----------------------------------------------------------
+Sum of r values = 0.027
+Sum of map distances = 0.028
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 08
+GMendel: print order 08
+
+Map of group 8				R	Dist
+----------------------------------------------------------
+       M82	--         M61   	0.136	0.159
+       M61	--         M60   	0.028	0.029
+----------------------------------------------------------
+Sum of r values = 0.164
+Sum of map distances = 0.187
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 09
+GMendel: print order 09
+
+Map of group 9				R	Dist
+----------------------------------------------------------
+       M63	--         M62   	0.062	0.066
+----------------------------------------------------------
+Sum of r values = 0.062
+Sum of map distances = 0.066
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 10
+GMendel: print order 10
+
+Map of group 10				R	Dist
+----------------------------------------------------------
+       M66	--         M65   	0.062	0.066
+----------------------------------------------------------
+Sum of r values = 0.062
+Sum of map distances = 0.066
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 11
+GMendel: print order 11
+
+Map of group 11				R	Dist
+----------------------------------------------------------
+       M69	--         M70   	0.077	0.084
+       M70	--         M71   	0.024	0.025
+       M71	--         M72   	0.112	0.126
+       M72	--         M73   	0.123	0.141
+----------------------------------------------------------
+Sum of r values = 0.336
+Sum of map distances = 0.377
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 12
+GMendel: print order 12
+
+Map of group 12				R	Dist
+----------------------------------------------------------
+       M75	--         M76   	0.011	0.011
+       M76	--         M77   	0.026	0.026
+       M77	--         M78   	0.061	0.065
+       M78	--         M79   	0.141	0.165
+       M79	--         M80   	0.247	0.340
+       M80	--         M81   	0.238	0.322
+----------------------------------------------------------
+Sum of r values = 0.723
+Sum of map distances = 0.931
+Number of evaluations: 13860
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 13
+GMendel: print order 13
+
+Map of group 13				R	Dist
+----------------------------------------------------------
+       M83	--         M84   	0.141	0.165
+       M84	--         M85   	0.062	0.066
+       M85	--         M86   	0.049	0.051
+       M86	--         M87   	0.056	0.060
+       M87	--         M88   	0.048	0.051
+----------------------------------------------------------
+Sum of r values = 0.356
+Sum of map distances = 0.393
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 14
+GMendel: print order 14
+
+Map of group 14				R	Dist
+----------------------------------------------------------
+      M108	--         M92   	0.270	0.388
+       M92	--         M93   	0.002	0.002
+       M93	--         M94   	0.004	0.004
+       M94	--         M95   	0.057	0.061
+       M95	--         M96   	0.044	0.046
+       M96	--         M97   	0.144	0.170
+       M97	--         M98   	0.112	0.127
+----------------------------------------------------------
+Sum of r values = 0.634
+Sum of map distances = 0.798
+Number of evaluations: 14399
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 15
+GMendel: print order 15
+
+Map of group 15				R	Dist
+----------------------------------------------------------
+      M100	--         M99   	0.097	0.108
+       M99	--        M101   	0.038	0.039
+----------------------------------------------------------
+Sum of r values = 0.135
+Sum of map distances = 0.147
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 16
+GMendel: print order 16
+
+Map of group 16				R	Dist
+----------------------------------------------------------
+      M103	--        M102   	0.018	0.018
+      M102	--        M104   	0.029	0.030
+      M104	--        M105   	0.023	0.024
+----------------------------------------------------------
+Sum of r values = 0.069
+Sum of map distances = 0.071
+Number of evaluations: 0
+
+GMendel: set  kmap 1
+GMendel: set  function ksar
+GMendel: set  optimize hybrid
+GMendel: set  cutoff 6
+GMendel: set  sainitial 5
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: set  sadecrease 0.925
+GMendel: set  saproportion 0.25
+GMendel: set  sainnerchange 100
+GMendel: set  saouterchange 50
+Warning: reset temperature decrease factor using the 'reset temp' command.
+GMendel: reset temp
+GMendel: compute  order 17
+GMendel: print order 17
+
+Map of group 17				R	Dist
+----------------------------------------------------------
+      M107	--        M106   	0.069	0.074
+----------------------------------------------------------
+Sum of r values = 0.069
+Sum of map distances = 0.074
+Number of evaluations: 0
+
+GMendel: quit

@@ -1,0 +1,16 @@
+# This component's ServiceProvider class
+entrez.spclass=org.ncgr.isys.ncgr.entrez.EntrezServiceProvider
+
+# If a sequence description contains any of the following regular
+# expressions, warn the user before trying to load the sequence text
+# (delimit expressions with tabs)
+entrez.warningpatterns=[Cc]omplete.*[Cc]hromosome	[Cc]hromosome.*[Cc]omplete	[Cc]omplete [Ss]equence
+
+# sets the default number of entries returned for an individual query to Entrez
+# based on non-identifier IsysAttributes (e.g. retrieving sequence descriptions
+# for GeneSymbols); note that a single invocation of the retrieval service may
+# result in multiple calls to Entrez's cgi system, hence you may get a result
+# set back whose size exceeds this number, if the results of the individual
+# queries were somewhat disjoint; also note that this limit does not apply
+# to identifier-based retrieval calls
+entrez.dispmax=20

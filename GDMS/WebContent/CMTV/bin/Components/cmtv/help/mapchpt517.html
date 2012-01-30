@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="TEMPLATEBASE" content="Portable HTML Standard Edition">
+<meta name="LASTUPDATED" content="Thu Apr 22 2004">
+<title>Visualization of "raw" QTL Data</title>
+</head>
+
+<body link="#3366CC" vlink="#9999CC" text="#000000" alink="#0000CC" bgcolor="#FFFFFF"
+background="images/backgrnd.gif">
+
+
+
+<p></p>
+
+<table width="331" border="0" align="left" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="compmapTOC.html"><img src="images/navtoc.gif" width="84" height="23"
+    border="0" alt="TOC"> </a></td>
+    <td><a href="mapchpt514.html"><img src="images/navprev.gif" width="81" height="23"
+    border="0" alt="PREV"> </a></td>
+    <td><a href="mapchpt515.html"><img src="images/navnext.gif" width="81" height="23"
+    border="0" alt="NEXT"> </a></td>
+    <td><a href="compmapIX.html"><img src="images/navidx.gif" width="85" height="23"
+    border="0" alt="INDEX"> </a></td>
+  </tr>
+</table>
+<br>
+<br>
+<hr align="left">
+
+<blockquote>
+<h2>
+  <a name="460300"> </a><font color="#003366"  face="Verdana, Arial, Helvetica, sans-serif">Visualization of "raw" QTL Data</font>
+</h2><hr>
+
+
+<p>
+  <a name="460807"> </a><font  face="Verdana, Arial, Helvetica, sans-serif">Many data providers present QTL data as regions on maps whose
+likelihood ratios or LOD scores are above some threshold value.  The tool can display this type of data similarly to the display of other interval-based map displays.  Additionally, there is value to be gained by presenting the complete distribution of scores for a QTL across the entire
+map; sometimes, regions that do not meet a strictly defined threshold can
+still lend weight to the assessment of a region's significance for a certain
+trait. With this perspective in mind, and mindful of the importance of other
+sorts of numerical distributions such as average GC content in sequence data,
+we extended the tool to be able to visualize and manipulate data of a more continuous nature.
+</p>
+By default, traits are displayed using a graphical
+representation that maps numerical values to colors. The layout is specified by
+the value <b>compmapviewer.continuous_distribution_color_map</b>, and declared in the configuration file, <b>compmapviewer.prop</b>.
+<p>
+This file simply specifies ranges of numerical values and the color ranges
+to which they should be mapped (colors may be specified either using the set of "named values" defined in java.awt.Color as static instances, or as RGB value triples as in the file <b>qtl_color_map2</b>). This file can be edited to represent a new mapping, if desired. After the file has been edited, the mapping can be reloaded dynamically. From the main menu:
+<ul><ul><li><font face="Verdana, Arial, Helvetica, sans-serif">Select </font><font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>View</b></font> &gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Reload color map</b></font>&gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>For continuous distributions</b></font></font>.</li>
+</ul></ul>
+<p>
+Another visualization that is useful for this data is a standard histogram
+display. This can be enabled by bringing up the Layout Dialog 
+from the main menu:
+<ul><ul><li>Select  <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>View</b></font>&gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Customize layout</b></font></li></ul></ul>
+In the tab labeled <b>Panel 3</b> ("Continuous distributions"):
+<ul><ul>
+<li>Select 
+<font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Create graph renderings of distributions</b></font></li></ul></ul>
+See <a href="mapchpt5a10.html#460569">Customize Layout</a> for details on using the Layout Dialog.
+<p>
+The same two visualizations can also be used to display aggregate
+representations of sets of trait data. In a map frame's View menu, you will
+see two checkbox items: <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Show aggregate graph distribution</b></font> and <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Show aggregate color distribution</b></font>. When these are checked and trait data has been
+loaded into the tool, the last graphic displayed in the frame (furthest from the ruler
+that represents the coordinates of the map) represents dynamically computed averages
+of the set of traits that are present in the visualization at any given time.
+<p>
+Graphical attributes displayed on the maps can be modified 
+based on the attributes of the underlying data 
+(see <a href="mapchpt5a9.html#460298">Defining the Graphical Properties of
+Your Maps</a> In the same manner, traits have some graphical
+properties that can be modified in this way. As an example, you can map
+the phenotypic trait name to a "scaling factor", which modifies the intensity
+of the trait display in the singular trait representations, and weights the
+contribution of the trait to the average value in the aggregate
+distributions. To see this, load some traits onto one of the marker maps (as
+described in <a href="mapchpt7a1.html#460371">Combinable maps</a>). From the
+main menu:
+<ul><ul><li>Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>View</b></font> &gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Load IsysAttribute-based property assignments from file</b></font></li>
+<li>Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>trait_scaling_factors</b></font></li>
+<li>Go back to <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>View</b></font></li>
+<li>Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>From file trait_scaling_factors...</b></font></li></ul></ul>
+ You should see some of the
+traits pale, corresponding to the scaling factor corresponding to the trait in 
+the file. In addition, the contribution of each trait to the aggregate
+distribution should have changed in accordance with these values.
+<p>
+In order to help visualize large sets of traits, it is also possible to adjust
+the width of the graphical representations. From the main menu:
+<ul><ul><li>Select <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>View</b></font> &gt;&gt; <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Set widget width</b></font></li></ul></ul>
+
+and follow the instructions for <a href="mapchpt511.html#460817">Set Color/Font for Selected</a>; to apply the change
+to all traits, see <a href="mapchpt512.html#460570">Set Color/Font for User-Defined Rule</a> and choose <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Continuous Distributions</b></font>.
+<p>
+Some other features that are useful for manipulating these QTL distributions
+are:
+
+<h4>
+  <a name="464115"> </a><font color="#003366"  face="Verdana, Arial, Helvetica, sans-serif">Sorting by value</font>
+</h4>
+
+<ul>  <ul>
+    <li><font  face="Verdana, Arial, Helvetica, sans-serif">Right-click on any of the traits, and you
+        should see a menu option to sort the traits by the value of the
+        distribution at that position (note that although you will see the 
+        same option when right-clicking on the aggregate, at this time the
+        sorting will not be applied to the simple traits in this case).</font>
+  </ul>
+</ul>
+<h4>
+  <a name="464117"> </a><font color="#003366"  face="Verdana, Arial, Helvetica, sans-serif">Selecting by threshold</font>
+</h4>
+
+<ul>  <ul>
+    <li><font  face="Verdana, Arial, Helvetica, sans-serif">Right-click in a frame that contains trait data, and you should see
+        an option to select traits by threshold. Choosing this menu item
+        will bring up the threshold filter dialog described elsewhere, and
+        the traits meeting the criteria specified will be selected.</font>
+  </ul>
+</ul>
+
+<h4>
+  <a name="464120"> </a><font color="#003366"  face="Verdana, Arial, Helvetica, sans-serif">Removing from view</font>
+</h4>
+
+<ul>  <ul>
+    <li><font  face="Verdana, Arial, Helvetica, sans-serif">Traits that have been added to a view (see <font  face="Verdana, Arial, Helvetica, sans-serif"><a href="mapchpt7a1.html#460371">Combinable Maps</a></font>)
+        can be removed by selecting
+        them using the filter threshold and choosing
+        <font  color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Edit</b></font> &gt;&gt; <font color="#8c0538" face="Verdana, Arial, Helvetica, sans-serif"><b>Remove selected mapped objects</b></font>. You can also do this to
+        data that has been originally loaded as part of the map.</font>
+  </ul>
+</ul>
+<p>
+</blockquote>
+
+<hr>
+<p><font size = "1">Copyright 2002 by the National Center for Genome Resources. All rights reserved.
+
+
+<table align="right" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="right"><font size="1">
+   <br>
+    National Center for Genome Resources<br>
+    <br>
+    </font></td>
+  </tr>
+</table>
+
+<table width="331" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><a href="compmapTOC.html"><img src="images/navtoc.gif" width="84" height="23" border="0"
+    alt="TOC"> </a></td>
+    <td><a href="mapchpt514.html"><img src="images/navprev.gif" width="81" height="23" border="0"
+    alt="PREV"> </a></td>
+    <td><a href="mapchpt515.html"><img src="images/navnext.gif" width="81" height="23" border="0"
+    alt="NEXT"> </a></td>
+    <td><a href="compmapIX.html"><img src="images/navidx.gif" width="85" height="23" border="0"
+    alt="INDEX"> </a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

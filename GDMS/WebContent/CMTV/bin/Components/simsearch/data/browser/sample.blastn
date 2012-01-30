@@ -1,0 +1,2921 @@
+BLASTN 2.1.2 [Nov-13-2000]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+RID: 977868257-12369-8514
+Query= Y10267 M. truncatula mRNA for glutamine synthetase.
+         (1425 letters)
+
+Database: preblast_est
+           6,840,729 sequences; 2,878,608,736 total letters
+
+
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                        (bits)  Value
+
+gb|AW560030.1|AW560030 EST315078 DSIR Medicago truncatula cDNA c...  1439  0.0
+gb|AW574257.1|AW574257 EST316848 GVN Medicago truncatula cDNA cl...  1394  0.0
+gb|AW774122.1|AW774122 EST333040 KV3 Medicago truncatula cDNA cl...  1376  0.0
+gb|AW560268.1|AW560268 EST315316 DSIR Medicago truncatula cDNA c...  1302  0.0
+gb|AW687255.1|AW687255 NF007F07RT1F1062 Developing root Medicago...  1287  0.0
+gb|AW685505.1|AW685505 NF030H05NR1F1000 Nodulated root Medicago ...  1285  0.0
+gb|AW560029.1|AW560029 EST315077 DSIR Medicago truncatula cDNA c...  1285  0.0
+gb|AW693836.1|AW693836 NF069E08ST1F1066 Developing stem Medicago...  1249  0.0
+gb|BE997954.1|BE997954 EST429677 GVSN Medicago truncatula cDNA c...  1241  0.0
+gb|AW980961.1|AW980961 EST392122 GVN Medicago truncatula cDNA cl...  1209  0.0
+gb|BE998327.1|BE998327 EST430050 GVSN Medicago truncatula cDNA c...  1207  0.0
+gb|AW696167.1|AW696167 NF102G07ST1F1055 Developing stem Medicago...  1205  0.0
+gb|BE998705.1|BE998705 EST430428 GVSN Medicago truncatula cDNA c...  1191  0.0
+gb|AW684453.1|AW684453 NF017B04NR1F1000 Nodulated root Medicago ...  1189  0.0
+gb|AW573713.1|AW573713 EST316304 GVN Medicago truncatula cDNA cl...  1176  0.0
+gb|AW686255.1|AW686255 NF039G07NR1F1000 Nodulated root Medicago ...  1162  0.0
+gb|AW573802.1|AW573802 EST316393 GVN Medicago truncatula cDNA cl...  1148  0.0
+gb|AW697148.2|AW697148 NF115F11ST1F1094 Developing stem Medicago...  1146  0.0
+gb|BE998788.1|BE998788 EST430455 GVSN Medicago truncatula cDNA c...  1132  0.0
+gb|AW686434.2|AW686434 NF041D10NR1F1000 Nodulated root Medicago ...  1112  0.0
+gb|AW586182.1|AW586182 EST317805 MHAM Medicago truncatula/Glomus...  1100  0.0
+gb|BF650100.1|BF650100 NF088C02EC1F1008 Elicited cell culture Me...  1090  0.0
+gb|AW689892.1|AW689892 NF025H11ST1F1000 Developing stem Medicago...  1082  0.0
+gb|AW684332.1|AW684332 NF015F07NR1F1000 Nodulated root Medicago ...  1037  0.0
+gb|AW329754.2|AW329754 N201023e rootphos(-) Medicago truncatula ...  1033  0.0
+gb|AW773750.1|AW773750 EST332736 KV3 Medicago truncatula cDNA cl...  1007  0.0
+emb|AL368505.1|AL368505 MtBA24H09R1 MtBA Medicago truncatula cDN...   983  0.0
+emb|AL368504.1|AL368504 MtBA24H09F1 MtBA Medicago truncatula cDN...   967  0.0
+gb|BE323166.2|BE323166 NF001D10PL1F1078 Phosphate starved leaf M...   908  0.0
+emb|AL382615.1|AL382615 MtBC08H10F1 MtBC Medicago truncatula cDN...   882  0.0
+gb|BF646906.1|BF646906 NF073A02EC1F1008 Elicited cell culture Me...   866  0.0
+gb|BE997551.1|BE997551 EST429274 GVSN Medicago truncatula cDNA c...   839  0.0
+gb|BE999422.1|BE999422 EST431145 GVSN Medicago truncatula cDNA c...   811  0.0
+gb|AW127171.2|AW127171 M110107 GVN Medicago truncatula cDNA clon...   793  0.0
+gb|AW689566.1|AW689566 NF021D04ST1F1000 Developing stem Medicago...   791  0.0
+gb|AW686707.2|AW686707 NF041D02NR1F1000 Nodulated root Medicago ...   779  0.0
+gb|AW127167.2|AW127167 M110103 GVN Medicago truncatula cDNA clon...   767  0.0
+gb|AW127129.2|AW127129 M110062e GVN Medicago truncatula cDNA clo...   767  0.0
+gb|BE997549.1|BE997549 EST429272 GVSN Medicago truncatula cDNA c...   751  0.0
+emb|AL379635.1|AL379635 MtBB46E04F1 MtBB Medicago truncatula cDN...   747  0.0
+gb|AW774859.1|AW774859 EST334010 KV3 Medicago truncatula cDNA cl...   747  0.0
+gb|BE319646.2|BE319646 NF017B03RT1F1025 Developing root Medicago...   737  0.0
+gb|AW694696.2|AW694696 NF079B02ST1F1015 Developing stem Medicago...   718  0.0
+gb|BE999241.1|BE999241 EST430964 GVSN Medicago truncatula cDNA c...   714  0.0
+gb|AW694572.2|AW694572 NF077F09ST1F1078 Developing stem Medicago...   660  0.0
+gb|BE942150.1|BE942150 EST421729 MGHG Medicago truncatula cDNA c...   620  e-175
+gb|BE124836.1|BE124836 EST393871 GVN Medicago truncatula cDNA cl...   589  e-165
+gb|AW831634.1|AW831634 sm05a12.y1 Gm-c1027 Glycine max cDNA clon...   585  e-164
+gb|AW202046.1|AW202046 sf10d09.y1 Gm-c1027 Glycine max cDNA clon...   571  e-160
+gb|AW201679.1|AW201679 sf06a05.y1 Gm-c1027 Glycine max cDNA clon...   511  e-142
+gb|AW759778.1|AW759778 sl47h01.y1 Gm-c1027 Glycine max cDNA clon...   482  e-133
+gb|BF424549.1|BF424549 su36d09.y1 Gm-c1068 Glycine max cDNA clon...   478  e-132
+gb|BF324922.1|BF324922 su29a03.y1 Gm-c1068 Glycine max cDNA clon...   464  e-128
+gb|AW761454.1|AW761454 sl67g05.y1 Gm-c1027 Glycine max cDNA clon...   448  e-123
+emb|AL366969.1|AL366969 MtBA11D01F1 MtBA Medicago truncatula cDN...   442  e-121
+gb|AW980526.1|AW980526 EST391679 GVN Medicago truncatula cDNA cl...   420  e-115
+gb|BF003408.1|BF003408 EST431906 KV1 Medicago truncatula cDNA cl...   418  e-114
+gb|AW685010.1|AW685010 NF024C01NR1F1000 Nodulated root Medicago ...   393  e-106
+gb|BF068878.1|BF068878 st04a11.y1 Gm-c1065 Glycine max cDNA clon...   363  2e-97
+gb|AW685006.1|AW685006 NF024B05NR1F1000 Nodulated root Medicago ...   359  3e-96
+gb|AW279556.1|AW279556 sf95c01.y1 Gm-c1019 Glycine max cDNA clon...   355  4e-95
+gb|AW666688.1|AW666688 GA__Ea0005K13 Gossypium arboreum 7-10 dpa...   347  1e-92
+gb|AW561050.1|AW561050 EST316098 DSIR Medicago truncatula cDNA c...   343  2e-91
+gb|AI490202.1|AI490202 EST248864 tomato resistant, Cornell Lycop...   343  2e-91
+gb|AW720591.1|AW720591 LjNEST16b7rc Lotus japonicus nodule libra...   325  4e-86
+gb|AW647679.1|AW647679 EST307157 tomato germinating seedlings, T...   317  9e-84
+gb|BF003555.1|BF003555 EST432053 KV1 Medicago truncatula cDNA cl...   313  1e-82
+gb|BE033884.1|BE033884 MG01E12 MG Mesembryanthemum crystallinum ...   311  6e-82
+gb|AI899912.1|AI899912 sb96a11.y1 Gm-c1012 Glycine max cDNA clon...   311  6e-82
+gb|AW761229.1|AW761229 sl64h06.y1 Gm-c1027 Glycine max cDNA clon...   309  2e-81
+gb|AW568303.1|AW568303 si58a08.y1 Gm-r1030 Glycine max cDNA clon...   309  2e-81
+gb|AI779292.1|AI779292 EST260171 tomato susceptible, Cornell Lyc...   309  2e-81
+gb|AI938747.1|AI938747 sb58d09.y1 Gm-c1018 Glycine max cDNA clon...   305  3e-80
+dbj|AV410627.1|AV410627 AV410627 Lotus japonicus young plants (t...   299  2e-78
+gb|BE330570.1|BE330570 so80b11.y1 Gm-c1040 Glycine max cDNA clon...   295  3e-77
+emb|AL387609.1|AL387609 MtBC43F08F1 MtBC Medicago truncatula cDN...   291  5e-76
+gb|AW774239.1|AW774239 EST333390 KV3 Medicago truncatula cDNA cl...   291  5e-76
+gb|AW329430.2|AW329430 N200665e rootphos(-) Medicago truncatula ...   289  2e-75
+gb|AI165720.1|AI165720 A089p51u Hybrid aspen plasmid library Pop...   289  2e-75
+gb|AW626325.1|AW626325 EST320232 tomato radicle, 5 d post-imbibi...   285  3e-74
+gb|AI437552.1|AI437552 sa36e04.y1 Gm-c1004 Glycine max cDNA clon...   285  3e-74
+gb|AW560433.1|AW560433 EST315481 DSIR Medicago truncatula cDNA c...   283  1e-73
+gb|AW203641.1|AW203641 sf36e08.y1 Gm-c1028 Glycine max cDNA clon...   283  1e-73
+gb|BE941025.1|BE941025 EST420604 MGHG Medicago truncatula cDNA c...   278  8e-72
+gb|BE190772.1|BE190772 so23c12.y1 Gm-c1037 Glycine max cDNA clon...   278  8e-72
+gb|AW733639.1|AW733639 sk83b07.y1 Gm-c1016 Glycine max cDNA clon...   278  8e-72
+emb|AL366970.1|AL366970 MtBA11D01R1 MtBA Medicago truncatula cDN...   276  3e-71
+gb|BE450846.1|BE450846 EST401733 tomato root, plants pre-anthesi...   274  1e-70
+gb|BE341820.1|BE341820 EST394654 potato stolon, Cornell Universi...   264  1e-67
+gb|AW831364.1|AW831364 sm24c05.y1 Gm-c1028 Glycine max cDNA clon...   264  1e-67
+gb|AW255227.1|AW255227 ML224 peppermint glandular trichome Menth...   262  5e-67
+gb|AW585477.1|AW585477 EST317100 MHAM Medicago truncatula/Glomus...   258  7e-66
+gb|AI778001.1|AI778001 EST258880 tomato susceptible, Cornell Lyc...   258  7e-66
+gb|BE203887.1|BE203887 EST396563 KV0 Medicago truncatula cDNA cl...   256  3e-65
+gb|AW719616.1|AW719616 LjNEST6h7r Lotus japonicus nodule library...   248  7e-63
+gb|BF280321.1|BF280321 GA__Eb0039N21 Gossypium arboreum 7-10 dpa...   242  4e-61
+gb|AW693174.1|AW693174 NF061A10ST1F1000 Developing stem Medicago...   242  4e-61
+gb|BF425534.1|BF425534 su56h03.y1 Gm-c1069 Glycine max cDNA clon...   232  4e-58
+gb|AI779293.1|AI779293 EST260172 tomato susceptible, Cornell Lyc...   220  2e-54
+gb|AW929955.1|AW929955 EST354225 tomato flower buds 8 mm to pre-...   218  6e-54
+
+ALIGNMENTS
+>gb|AW560030.1|AW560030 EST315078 DSIR Medicago truncatula cDNA clone pDSIR-26E15.
+          Length = 727
+
+ Score = 1439 bits (726), Expect = 0.0
+ Identities = 726/726 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 2   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 61
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 62  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 121
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 122 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 181
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 182 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 241
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 242 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 301
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 302 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 361
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 362 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 421
+
+                                                                       
+Query: 421 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 480
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 422 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 481
+
+                                                                       
+Query: 481 aaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccca 540
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 482 aaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccca 541
+
+                                                                       
+Query: 541 tattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattac 600
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 542 tattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattac 601
+
+                                                                       
+Query: 601 aaagcttgtctttatgctggcattaacattagtggcatcaatggagaggttatgcctggt 660
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 602 aaagcttgtctttatgctggcattaacattagtggcatcaatggagaggttatgcctggt 661
+
+                                                                       
+Query: 661 cagtgggagttccaagttggcccttctgttggtatttctgctggagatgagatatgggct 720
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 662 cagtgggagttccaagttggcccttctgttggtatttctgctggagatgagatatgggct 721
+
+                 
+Query: 721 gctcgt 726
+           ||||||
+Sbjct: 722 gctcgt 727
+
+
+>gb|AW574257.1|AW574257 EST316848 GVN Medicago truncatula cDNA clone pGVN-52J8.
+          Length = 718
+
+ Score = 1394 bits (703), Expect = 0.0
+ Identities = 712/715 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 5   tatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactat 64
+           |||||| ||||| ||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct: 4   tatagccatttgcctattacttgcttttcacacactgtgttcttcttctttcttcactat 63
+
+                                                                       
+Query: 65  tcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaa 124
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 64  tcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaa 123
+
+                                                                       
+Query: 125 agattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagcca 184
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 124 agattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagcca 183
+
+                                                                       
+Query: 185 ggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggat 244
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 184 ggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggat 243
+
+                                                                       
+Query: 245 caagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattt 304
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 244 caagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattt 303
+
+                                                                       
+Query: 305 tcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccag 364
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 304 tcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccag 363
+
+                                                                       
+Query: 365 ctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctg 424
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 364 ctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctg 423
+
+                                                                       
+Query: 425 atgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaag 484
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 424 atgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaag 483
+
+                                                                       
+Query: 485 atactaattggccactaggatggcctattggtggctatccaggaccacaaggcccatatt 544
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 484 atactaattggccactaggatggcctattggtggctatccaggaccacaaggcccatatt 543
+
+                                                                       
+Query: 545 attgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattacaaag 604
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 544 attgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattacaaag 603
+
+                                                                       
+Query: 605 cttgtctttatgctggcattaacattagtggcatcaatggagaggttatgcctggtcagt 664
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 604 cttgtctttatgctggcattaacattagtggcatcaatggagaggttatgcctggtcagt 663
+
+                                                                  
+Query: 665 gggagttccaagttggcccttctgttggtatttctgctggagatgagatatgggc 719
+           |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 664 gggagttccaagttggcccttctgttggtatttctgctggagatgagatatgggc 718
+
+
+>gb|AW774122.1|AW774122 EST333040 KV3 Medicago truncatula cDNA clone pKV3-16P6.
+          Length = 694
+
+ Score = 1376 bits (694), Expect = 0.0
+ Identities = 694/694 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 39  ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 98
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 60
+
+                                                                       
+Query: 99  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 158
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 120
+
+                                                                       
+Query: 159 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 218
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 180
+
+                                                                       
+Query: 219 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 278
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 240
+
+                                                                       
+Query: 279 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 338
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 300
+
+                                                                       
+Query: 339 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 398
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 360
+
+                                                                       
+Query: 399 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 458
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 420
+
+                                                                       
+Query: 459 gcaagaatatacattattgcagaaagatactaattggccactaggatggcctattggtgg 518
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 gcaagaatatacattattgcagaaagatactaattggccactaggatggcctattggtgg 480
+
+                                                                       
+Query: 519 ctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcg 578
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 ctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcg 540
+
+                                                                       
+Query: 579 tgacattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcat 638
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 tgacattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcat 600
+
+                                                                       
+Query: 639 caatggagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttc 698
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 601 caatggagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttc 660
+
+                                             
+Query: 699 tgctggagatgagatatgggctgctcgttacatt 732
+           ||||||||||||||||||||||||||||||||||
+Sbjct: 661 tgctggagatgagatatgggctgctcgttacatt 694
+
+
+>gb|AW560268.1|AW560268 EST315316 DSIR Medicago truncatula cDNA clone pDSIR-26J11.
+          Length = 665
+
+ Score = 1302 bits (657), Expect = 0.0
+ Identities = 663/665 (99%)
+ Strand = Plus / Minus
+
+                                                                        
+Query: 691  ggtatttctgctggagatgagatatgggctgctcgttacattctagagaggatcacagag 750
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 665  ggtatttctgctggagatgagatatgggctgctcgttacattctagagaggatcacagag 606
+
+                                                                        
+Query: 751  atagctggagtggttgtttcatttgaccctaagccaattccgggtgattggaatggagct 810
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 605  atagctggagtggttgtttcatttgaccctaagccaattccgggtgattggaatggagct 546
+
+                                                                        
+Query: 811  ggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatc 870
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 545  ggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatc 486
+
+                                                                        
+Query: 871  aagaaggccattgaaaagcttggattgaggcataaggaacacattgctgcctatggagaa 930
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 485  aagaaggccattgaaaagcttggattgaggcataaggaacacattgctgcctatggagaa 426
+
+                                                                        
+Query: 931  ggaaatgagagacgtctcactggaaaacatgaaacagcagacatcaacaccttttcttgg 990
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 425  ggaaatgagagacgtctcactggaaaacatgaaacagcagacatcaacaccttttcttgg 366
+
+                                                                        
+Query: 991  ggtgtggcaaaccgtggtgcatctgttagggttggaagagacacagaaaaagatggcaaa 1050
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 365  ggtgtggcaaaccgtggtgcatctgttagggttggaagagacacagaaaaagatggcaaa 306
+
+                                                                        
+Query: 1051 ggttactttgaggatagaaggccttcttctaatatggatccctatgtggttacttccatg 1110
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 305  ggttactttgaggatagaaggccttcttctaatatggatccctatgtggttacttccatg 246
+
+                                                                        
+Query: 1111 attgctgaaactacccttctatggaaaccatgaagtcacaaccacttgtctttggatttg 1170
+            ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 245  attgctgaaactacctttctatggaaaccatgaagtcacaaccacttgtctttggatttg 186
+
+                                                                        
+Query: 1171 gaccacatcacattatgtgttcaataaatagactagtttatatctattatcattatcatt 1230
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 185  gaccacatcacattatgtgttcaataaatagactagtttatatctattatcattatcatt 126
+
+                                                                        
+Query: 1231 atgcaaagtgttgcttcattagtagtaattgtccaagtggtctttaagcacaaagcattt 1290
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 125  atgcaaagtgttgcttcattagtagtaattgtccaagtggtctttaagcacaaagcattt 66
+
+                                                                        
+Query: 1291 agtccatgtatttggatgaaaataattttatcattaataacatggttgcttcttgatttt 1350
+            ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 65   agtccatgtatttggataaaaataattttatcattaataacatggttgcttcttgatttt 6
+
+                 
+Query: 1351 actct 1355
+            |||||
+Sbjct: 5    actct 1
+
+
+>gb|AW687255.1|AW687255 NF007F07RT1F1062 Developing root Medicago truncatula cDNA clone
+           NF007F07RT 5'.
+          Length = 649
+
+ Score = 1287 bits (649), Expect = 0.0
+ Identities = 649/649 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 77  ctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctg 136
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctg 60
+
+                                                                       
+Query: 137 aatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctg 196
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  aatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctg 120
+
+                                                                       
+Query: 197 gtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatc 256
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 gtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatc 180
+
+                                                                       
+Query: 257 aagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccat 316
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 aagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccat 240
+
+                                                                       
+Query: 317 ttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccac 376
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccac 300
+
+                                                                       
+Query: 377 tcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctg 436
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 tcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctg 360
+
+                                                                       
+Query: 437 aggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggc 496
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 aggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggc 420
+
+                                                                       
+Query: 497 cactaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattg 556
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 cactaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattg 480
+
+                                                                       
+Query: 557 gtgctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatg 616
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 gtgctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatg 540
+
+                                                                       
+Query: 617 ctggcattaacattagtggcatcaatggagaggttatgcctggtcagtgggagttccaag 676
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 ctggcattaacattagtggcatcaatggagaggttatgcctggtcagtgggagttccaag 600
+
+                                                            
+Query: 677 ttggcccttctgttggtatttctgctggagatgagatatgggctgctcg 725
+           |||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 601 ttggcccttctgttggtatttctgctggagatgagatatgggctgctcg 649
+
+
+>gb|AW685505.1|AW685505 NF030H05NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF030H05NR 5'.
+          Length = 648
+
+ Score = 1285 bits (648), Expect = 0.0
+ Identities = 648/648 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 43  gttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaacctc 102
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   gttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaacctc 60
+
+                                                                       
+Query: 103 aatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatctggt 162
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  aatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatctggt 120
+
+                                                                       
+Query: 163 atggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaaactt 222
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 atggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaaactt 180
+
+                                                                       
+Query: 223 cctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtgaagtt 282
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 cctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtgaagtt 240
+
+                                                                       
+Query: 283 atcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattcttgtg 342
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 atcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattcttgtg 300
+
+                                                                       
+Query: 343 atttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaatgct 402
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 atttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaatgct 360
+
+                                                                       
+Query: 403 gccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattgagcaa 462
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 gccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattgagcaa 420
+
+                                                                       
+Query: 463 gaatatacattattgcagaaagatactaattggccactaggatggcctattggtggctat 522
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 gaatatacattattgcagaaagatactaattggccactaggatggcctattggtggctat 480
+
+                                                                       
+Query: 523 ccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcgtgac 582
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 ccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcgtgac 540
+
+                                                                       
+Query: 583 attgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaat 642
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 attgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaat 600
+
+                                                           
+Query: 643 ggagaggttatgcctggtcagtgggagttccaagttggcccttctgtt 690
+           ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 601 ggagaggttatgcctggtcagtgggagttccaagttggcccttctgtt 648
+
+
+>gb|AW560029.1|AW560029 EST315077 DSIR Medicago truncatula cDNA clone pDSIR-26E15.
+          Length = 652
+
+ Score = 1285 bits (648), Expect = 0.0
+ Identities = 651/652 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 25  ttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtctttgctt 84
+           |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct: 1   ttgcttttcacacactgtgttcttcttcttccttcactattcattatcatgtctttgctt 60
+
+                                                                       
+Query: 85  tcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatacata 144
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  tcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatacata 120
+
+                                                                       
+Query: 145 tgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtg 204
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtg 180
+
+                                                                       
+Query: 205 agtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctcca 264
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 agtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctcca 240
+
+                                                                       
+Query: 265 ggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaa 324
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaa 300
+
+                                                                       
+Query: 325 ggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaaca 384
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 ggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaaca 360
+
+                                                                       
+Query: 385 aacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtacca 444
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 aacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtacca 420
+
+                                                                       
+Query: 445 tggtatggaattgagcaagaatatacattattgcagaaagatactaattggccactagga 504
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 tggtatggaattgagcaagaatatacattattgcagaaagatactaattggccactagga 480
+
+                                                                       
+Query: 505 tggcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgat 564
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 tggcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgat 540
+
+                                                                       
+Query: 565 aaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcatt 624
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 aaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcatt 600
+
+                                                               
+Query: 625 aacattagtggcatcaatggagaggttatgcctggtcagtgggagttccaag 676
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 601 aacattagtggcatcaatggagaggttatgcctggtcagtgggagttccaag 652
+
+
+>gb|AW693836.1|AW693836 NF069E08ST1F1066 Developing stem Medicago truncatula cDNA clone
+           NF069E08ST 5'.
+          Length = 650
+
+ Score = 1249 bits (630), Expect = 0.0
+ Identities = 644/646 (99%), Gaps = 2/646 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacaca-ctgtgttcttcttcttccttc 59
+           |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct: 5   cctctatagctatttgtctattacttgcttttcacacatctgtgttcttcttcttccttc 64
+
+                                                                       
+Query: 60  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 119
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 65  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 124
+
+                                                                       
+Query: 120 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 179
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 125 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 184
+
+                                                                       
+Query: 180 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 239
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 185 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 244
+
+                                                                       
+Query: 240 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 299
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 245 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 304
+
+                                                                       
+Query: 300 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 359
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 305 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 364
+
+                                                                       
+Query: 360 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 419
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 365 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 424
+
+                                                                       
+Query: 420 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 479
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 425 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 484
+
+                                                                       
+Query: 480 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 539
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 485 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 544
+
+                                                                       
+Query: 540 atattattgtgggattggtg-ctgataaagcctatggtcgtgacattgttgatgcacatt 598
+           |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct: 545 atattattgtgggattggtgcctgataaagcctatggtcgtgacattgttgatgcacatt 604
+
+                                                         
+Query: 599 acaaagcttgtctttatgctggcattaacattagtggcatcaatgg 644
+           ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 605 acaaagcttgtctttatgctggcattaacattagtggcatcaatgg 650
+
+
+>gb|BE997954.1|BE997954 EST429677 GVSN Medicago truncatula cDNA clone pGVSN-8B5.
+          Length = 626
+
+ Score = 1241 bits (626), Expect = 0.0
+ Identities = 626/626 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 39  ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 98
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 60
+
+                                                                       
+Query: 99  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 158
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 120
+
+                                                                       
+Query: 159 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 218
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 180
+
+                                                                       
+Query: 219 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 278
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 240
+
+                                                                       
+Query: 279 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 338
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 300
+
+                                                                       
+Query: 339 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 398
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 360
+
+                                                                       
+Query: 399 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 458
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 420
+
+                                                                       
+Query: 459 gcaagaatatacattattgcagaaagatactaattggccactaggatggcctattggtgg 518
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 gcaagaatatacattattgcagaaagatactaattggccactaggatggcctattggtgg 480
+
+                                                                       
+Query: 519 ctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcg 578
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 ctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcg 540
+
+                                                                       
+Query: 579 tgacattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcat 638
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 tgacattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcat 600
+
+                                     
+Query: 639 caatggagaggttatgcctggtcagt 664
+           ||||||||||||||||||||||||||
+Sbjct: 601 caatggagaggttatgcctggtcagt 626
+
+
+>gb|AW980961.1|AW980961 EST392122 GVN Medicago truncatula cDNA clone pGVN-60A16.
+          Length = 629
+
+ Score = 1209 bits (610), Expect = 0.0
+ Identities = 626/630 (99%), Gaps = 1/630 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 15  tgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcat 74
+           |||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||
+Sbjct: 1   tgtctattacttgctttt-acacactgtgtgcttcttcttccttcactattcatcatcat 59
+
+                                                                       
+Query: 75  gtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgc 134
+           ||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||
+Sbjct: 60  gtctttgctttcagatctcatcaaggtcaatctctcagaatcctctgaaaagattattgc 119
+
+                                                                       
+Query: 135 tgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacc 194
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 120 tgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacc 179
+
+                                                                       
+Query: 195 tggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaa 254
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 180 tggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaa 239
+
+                                                                       
+Query: 255 tcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatcc 314
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 240 tcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatcc 299
+
+                                                                       
+Query: 315 atttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagcc 374
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 300 atttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagcc 359
+
+                                                                       
+Query: 375 actcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgc 434
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 360 actcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgc 419
+
+                                                                       
+Query: 435 tgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattg 494
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 420 tgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattg 479
+
+                                                                       
+Query: 495 gccactaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggat 554
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 480 gccactaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggat 539
+
+                                                                       
+Query: 555 tggtgctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtcttta 614
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 540 tggtgctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtcttta 599
+
+                                         
+Query: 615 tgctggcattaacattagtggcatcaatgg 644
+           ||||||||||||||||||||||||||||||
+Sbjct: 600 tgctggcattaacattagtggcatcaatgg 629
+
+
+>gb|BE998327.1|BE998327 EST430050 GVSN Medicago truncatula cDNA clone pGVSN-9H11.
+          Length = 624
+
+ Score = 1207 bits (609), Expect = 0.0
+ Identities = 618/621 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 4   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 63
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 64  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 123
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 124 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 183
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 184 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 243
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 244 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 303
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 304 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 363
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 364 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 423
+
+                                                                       
+Query: 421 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 480
+           ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 424 cctgatgttgctgctgacgtaccatggtatggaattgagcaagaatatacattattgcag 483
+
+                                                                       
+Query: 481 aaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccca 540
+           ||||||||||||||||||||| |||||||||||||||||||| |||||||||||||||||
+Sbjct: 484 aaagatactaattggccactaagatggcctattggtggctatgcaggaccacaaggccca 543
+
+                                                                       
+Query: 541 tattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattac 600
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 544 tattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattac 603
+
+                                
+Query: 601 aaagcttgtctttatgctggc 621
+           |||||||||||||||||||||
+Sbjct: 604 aaagcttgtctttatgctggc 624
+
+
+>gb|AW696167.1|AW696167 NF102G07ST1F1055 Developing stem Medicago truncatula cDNA clone
+           NF102G07ST 5'.
+          Length = 663
+
+ Score = 1205 bits (608), Expect = 0.0
+ Identities = 646/652 (99%), Gaps = 5/652 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacac-tgtgttcttcttcttccttc 59
+           ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct: 12  cctctatagctatttgtctattacttgcttttcacacacgtgtgttcttcttcttccttc 71
+
+                                                                       
+Query: 60  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 119
+           |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct: 72  actattcatcatcatgtctttgctttcagatctcatcaaccttaatctctcagaatcctc 131
+
+                                                                       
+Query: 120 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 179
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 132 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 191
+
+                                                                       
+Query: 180 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 239
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 192 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 251
+
+                                                                       
+Query: 240 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 299
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 252 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 311
+
+                                                                       
+Query: 300 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 359
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 312 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 371
+
+                                                                       
+Query: 360 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 419
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 372 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 431
+
+                                                                       
+Query: 420 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 479
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 432 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 491
+
+                                                                       
+Query: 480 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 539
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 492 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 551
+
+                                                                       
+Query: 540 atattattgtgggattggtgctgataaag-cctatggtcg-tgacattg-ttgatgcaca 596
+           ||||||||||||||||||||||||||||| |||||||||| |||||||| ||||||||||
+Sbjct: 552 atattattgtgggattggtgctgataaagccctatggtcgttgacattgtttgatgcaca 611
+
+                                                               
+Query: 597 ttacaaagcttgtctttatgct-ggcattaacattagtggcatcaatggaga 647
+           |||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct: 612 ttacaaagcttgtctttatgctgggcattaacattagtggcatcaatggaga 663
+
+
+>gb|BE998705.1|BE998705 EST430428 GVSN Medicago truncatula cDNA clone pGVSN-12H24.
+          Length = 613
+
+ Score = 1191 bits (601), Expect = 0.0
+ Identities = 610/613 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 19  tattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtct 78
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   tattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtct 60
+
+                                                                       
+Query: 79  ttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaa 138
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  ttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaa 120
+
+                                                                       
+Query: 139 tacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggt 198
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggt 180
+
+                                                                       
+Query: 199 ccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaa 258
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 ccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaa 240
+
+                                                                       
+Query: 259 gctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccattt 318
+           ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct: 241 gctccaggacaagatagtgaagttatcttatatccacaagctattctcaaggatccattt 300
+
+                                                                       
+Query: 319 agacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactc 378
+           | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 acacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactc 360
+
+                                                                       
+Query: 379 ccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgag 438
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 ccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgag 420
+
+                                                                       
+Query: 439 gtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggcca 498
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 gtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggcca 480
+
+                                                                       
+Query: 499 ctaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattggt 558
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 ctaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattggt 540
+
+                                                                       
+Query: 559 gctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgct 618
+           ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 541 gctgataaagcctatggacgtgacattgttgatgcacattacaaagcttgtctttatgct 600
+
+                        
+Query: 619 ggcattaacatta 631
+           |||||||||||||
+Sbjct: 601 ggcattaacatta 613
+
+
+>gb|AW684453.1|AW684453 NF017B04NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF017B04NR 5'.
+          Length = 640
+
+ Score = 1189 bits (600), Expect = 0.0
+ Identities = 625/632 (98%), Gaps = 2/632 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 10  cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 69
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 70  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 129
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 130 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 189
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct: 190 gccaggactctacctggtccagtgagtgacccttcaaaactttctaaatggaactatgat 249
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 250 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 309
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 310 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 369
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 370 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 429
+
+                                                                       
+Query: 421 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatataca-ttattgca 479
+           ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct: 430 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacatttattgca 489
+
+                                                                       
+Query: 480 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 539
+            ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct: 490 naaagatactaattggccactangatggcctattggtggctatccaggaccacaaggccc 549
+
+                                                                       
+Query: 540 atattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacatta 599
+           |||||||||||||||||| |||||||||||||||||||||||||||| ||||||||||||
+Sbjct: 550 atattattgtgggattgg-gctgataaagcctatggtcgtgacattgntgatgcacatta 608
+
+                                           
+Query: 600 caaagcttgtctttatgctggcattaacatta 631
+           |||||||||||||||||||||| |||||||||
+Sbjct: 609 caaagcttgtctttatgctggcnttaacatta 640
+
+
+>gb|AW573713.1|AW573713 EST316304 GVN Medicago truncatula cDNA clone pGVN-48C23.
+          Length = 604
+
+ Score = 1176 bits (593), Expect = 0.0
+ Identities = 599/601 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 5   tatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactat 64
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 2   tatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactat 61
+
+                                                                       
+Query: 65  tcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaa 124
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 62  tcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaa 121
+
+                                                                       
+Query: 125 agattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagcca 184
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 122 agattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagcca 181
+
+                                                                       
+Query: 185 ggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggat 244
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 182 ggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggat 241
+
+                                                                       
+Query: 245 caagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattt 304
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 242 caagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattt 301
+
+                                                                       
+Query: 305 tcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccag 364
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 302 tcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccag 361
+
+                                                                       
+Query: 365 ctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctg 424
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 362 ctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctg 421
+
+                                                                       
+Query: 425 atgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaag 484
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 422 atgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaag 481
+
+                                                                       
+Query: 485 atactaattggccactaggatggcctattggtggctatccaggaccacaaggcccatatt 544
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 482 atactaattggccactaggatggcctattggtggctatccaggaccacaaggcccatatt 541
+
+                                                                       
+Query: 545 attgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattacaaag 604
+           |||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||
+Sbjct: 542 attgtgggattggtgctgataaagcctatggtcgtgacatttgtgatgcacattacaaag 601
+
+            
+Query: 605 c 605
+           |
+Sbjct: 602 c 602
+
+
+>gb|AW686255.1|AW686255 NF039G07NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF039G07NR 5'.
+          Length = 662
+
+ Score = 1162 bits (586), Expect = 0.0
+ Identities = 608/613 (99%), Gaps = 3/613 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacact-gtgttcttcttcttccttc 59
+           |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||
+Sbjct: 41  cctctatagctatttgtctattacttgcttttcacacactagtgttcttcttcttccttc 100
+
+                                                                       
+Query: 60  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 119
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 101 actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 160
+
+                                                                       
+Query: 120 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 179
+           ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct: 161 tgaaaagattattgctgaatacatatgggttggtggatctggtatggacctaagaagcaa 220
+
+                                                                       
+Query: 180 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 239
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 221 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 280
+
+                                                                       
+Query: 240 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 299
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 281 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 340
+
+                                                                       
+Query: 300 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 359
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 341 tattttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacac 400
+
+                                                                       
+Query: 360 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 419
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 401 cccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagcca 460
+
+                                                                       
+Query: 420 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 479
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 461 ccctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgca 520
+
+                                                                       
+Query: 480 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 539
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 521 gaaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccc 580
+
+                                                                       
+Query: 540 atattattgtgggattggtgctgataaagcctatggtcgtgacat--tgttgatgcacat 597
+           |||||||||||||||||||||||||||||||||||||||||||||  ||| |||||||||
+Sbjct: 581 atattattgtgggattggtgctgataaagcctatggtcgtgacattgtgtggatgcacat 640
+
+                        
+Query: 598 tacaaagcttgtc 610
+           |||||||||||||
+Sbjct: 641 tacaaagcttgtc 653
+
+
+>gb|AW573802.1|AW573802 EST316393 GVN Medicago truncatula cDNA clone pGVN-48O12.
+          Length = 579
+
+ Score = 1148 bits (579), Expect = 0.0
+ Identities = 579/579 (100%)
+ Strand = Plus / Plus
+
+                                                                        
+Query: 582  cattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaa 641
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1    cattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaa 60
+
+                                                                        
+Query: 642  tggagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttctgc 701
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61   tggagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttctgc 120
+
+                                                                        
+Query: 702  tggagatgagatatgggctgctcgttacattctagagaggatcacagagatagctggagt 761
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121  tggagatgagatatgggctgctcgttacattctagagaggatcacagagatagctggagt 180
+
+                                                                        
+Query: 762  ggttgtttcatttgaccctaagccaattccgggtgattggaatggagctggtgctcacac 821
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181  ggttgtttcatttgaccctaagccaattccgggtgattggaatggagctggtgctcacac 240
+
+                                                                        
+Query: 822  aaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggccat 881
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241  aaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggccat 300
+
+                                                                        
+Query: 882  tgaaaagcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgagag 941
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301  tgaaaagcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgagag 360
+
+                                                                        
+Query: 942  acgtctcactggaaaacatgaaacagcagacatcaacaccttttcttggggtgtggcaaa 1001
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361  acgtctcactggaaaacatgaaacagcagacatcaacaccttttcttggggtgtggcaaa 420
+
+                                                                        
+Query: 1002 ccgtggtgcatctgttagggttggaagagacacagaaaaagatggcaaaggttactttga 1061
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421  ccgtggtgcatctgttagggttggaagagacacagaaaaagatggcaaaggttactttga 480
+
+                                                                        
+Query: 1062 ggatagaaggccttcttctaatatggatccctatgtggttacttccatgattgctgaaac 1121
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481  ggatagaaggccttcttctaatatggatccctatgtggttacttccatgattgctgaaac 540
+
+                                                   
+Query: 1122 tacccttctatggaaaccatgaagtcacaaccacttgtc 1160
+            |||||||||||||||||||||||||||||||||||||||
+Sbjct: 541  tacccttctatggaaaccatgaagtcacaaccacttgtc 579
+
+
+>gb|AW697148.2|AW697148 NF115F11ST1F1094 Developing stem Medicago truncatula cDNA clone
+           NF115F11ST 5'.
+          Length = 604
+
+ Score = 1146 bits (578), Expect = 0.0
+ Identities = 598/602 (99%), Gaps = 2/602 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 25  ttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtctttgctt 84
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtctttgctt 60
+
+                                                                       
+Query: 85  tcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatacata 144
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  tcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatacata 120
+
+                                                                       
+Query: 145 tgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtg 204
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtg 180
+
+                                                                       
+Query: 205 agtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctcca 264
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 agtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctcca 240
+
+                                                                       
+Query: 265 ggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaa 324
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaa 300
+
+                                                                       
+Query: 325 ggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaaca 384
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 ggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaaca 360
+
+                                                                       
+Query: 385 aacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtacca 444
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 aacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtacca 420
+
+                                                                       
+Query: 445 tggtatggaattgagcaagaatatacattattgcagaaagatactaattggccactagga 504
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 tggtatggaattgagcaagaatatacattattgcagaaagatactaattggccactagga 480
+
+                                                                       
+Query: 505 tggcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgat 564
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 tggcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgat 540
+
+                                                                       
+Query: 565 aaagcctatggtcgtgacattg-ttgatgcacattacaaagcttgt-ctttatgctggca 622
+           ||||||||||||||||||||||  ||||||||||||||||||| || |||||||||||||
+Sbjct: 541 aaagcctatggtcgtgacattgagtgatgcacattacaaagctggtgctttatgctggca 600
+
+             
+Query: 623 tt 624
+           ||
+Sbjct: 601 tt 602
+
+
+>gb|BE998788.1|BE998788 EST430455 GVSN Medicago truncatula cDNA clone pGVSN-12N12.
+          Length = 586
+
+ Score = 1132 bits (571), Expect = 0.0
+ Identities = 582/586 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 14  ttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatca 73
+           |||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ttgtctattactcgcttttcacacactgtgttcttcttcttccttcactattcatcatca 60
+
+                                                                       
+Query: 74  tgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattg 133
+           |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct: 61  tgtctttgctttcagatctcatcaacctcagtctctcagaatcctctgaaaagattattg 120
+
+                                                                       
+Query: 134 ctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctac 193
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 ctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctac 180
+
+                                                                       
+Query: 194 ctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaa 253
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 ctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaa 240
+
+                                                                       
+Query: 254 atcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatc 313
+           |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct: 241 atcaagctccaggacaagatagcgaagttatcttatatccacaagctattttcaaggatc 300
+
+                                                                       
+Query: 314 catttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagc 373
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 catttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagc 360
+
+                                                                       
+Query: 374 cactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctg 433
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 cactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctg 420
+
+                                                                       
+Query: 434 ctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaatt 493
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 ctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaatt 480
+
+                                                                       
+Query: 494 ggccactaggatggcctattggtggctatccaggaccacaaggcccatattattgtggga 553
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 481 ggccactaggatggcctattggtggctatccaggaccacaaggcccatattattgtggga 540
+
+                                                         
+Query: 554 ttggtgctgataaagcctatggtcgtgacattgttgatgcacatta 599
+           ||||||||||||||||||||||||||||||||| ||||||||||||
+Sbjct: 541 ttggtgctgataaagcctatggtcgtgacattgntgatgcacatta 586
+
+
+>gb|AW686434.2|AW686434 NF041D10NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF041D10NR 5'.
+          Length = 583
+
+ Score = 1112 bits (561), Expect = 0.0
+ Identities = 571/573 (99%), Gaps = 1/573 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 11  cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 70
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 71  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 130
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 131 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 190
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 191 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 250
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 251 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 310
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 311 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 370
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 371 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 430
+
+                                                                       
+Query: 421 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 480
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 431 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 490
+
+                                                                       
+Query: 481 aaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccca 540
+           ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||
+Sbjct: 491 aaagatactaattggccactaagatggcctattggtggctatccaggaccacaaggccca 550
+
+                                            
+Query: 541 tatta-ttgtgggattggtgctgataaagccta 572
+           ||||| |||||||||||||||||||||||||||
+Sbjct: 551 tattatttgtgggattggtgctgataaagccta 583
+
+
+>gb|AW586182.1|AW586182 EST317805 MHAM Medicago truncatula/Glomus versiforme mixed EST
+           library cDNA clone pMHAM-52I24.
+          Length = 613
+
+ Score = 1100 bits (555), Expect = 0.0
+ Identities = 597/611 (97%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 19  tattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtct 78
+           ||||||||||||| ||||||||| | |||||||||||||||||| || ||||||||||||
+Sbjct: 3   tattacttgctttgcacacactgagatcttcttcttccttcactctttatcatcatgtct 62
+
+                                                                       
+Query: 79  ttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaa 138
+           ||||| ||||||||||||||||||||||||||| |||||| |||||||||||||||||||
+Sbjct: 63  ttgctgtcagatctcatcaacctcaatctctcataatcctgtgaaaagattattgctgaa 122
+
+                                                                       
+Query: 139 tacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggt 198
+           |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct: 123 tacatatgggttggtggatctggtatggaccttacaagcaaagccaggactctacctggt 182
+
+                                                                       
+Query: 199 ccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaa 258
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 183 ccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaa 242
+
+                                                                       
+Query: 259 gctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccattt 318
+           |||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+Sbjct: 243 gctccaggacaagatagtgaagttatcttatatccacatgctattttcaaggatccattt 302
+
+                                                                       
+Query: 319 agacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactc 378
+           | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 303 atacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactc 362
+
+                                                                       
+Query: 379 ccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgag 438
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct: 363 ccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgac 422
+
+                                                                       
+Query: 439 gtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggcca 498
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 423 gtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggcca 482
+
+                                                                       
+Query: 499 ctaggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattggt 558
+           ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 483 ctacgatggcctattggtggctatccaggaccacaaggcccatattattgtgggattggt 542
+
+                                                                       
+Query: 559 gctgataaagcctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgct 618
+           |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||
+Sbjct: 543 gctgataaagcctatggtcgtgacattgatgatgcacattacaaagcttgtctttatgct 602
+
+                      
+Query: 619 ggcattaacat 629
+           |||||||||||
+Sbjct: 603 ggcattaacat 613
+
+
+>gb|BF650100.1|BF650100 NF088C02EC1F1008 Elicited cell culture Medicago truncatula cDNA
+           clone NF088C02EC 5'.
+          Length = 568
+
+ Score = 1090 bits (550), Expect = 0.0
+ Identities = 564/568 (99%), Gaps = 1/568 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 152 gtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacc 211
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   gtggatctggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacc 60
+
+                                                                       
+Query: 212 cttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaag 271
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  cttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaag 120
+
+                                                                       
+Query: 272 atagtgaagttatcttatatccacaagctattttcaaggatccatttagacaaggcaaca 331
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 atagtgaagttatcttatatccacaagctattttcaaggatccatttagacaaggcaaca 180
+
+                                                                       
+Query: 332 atattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaaga 391
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 atattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaaga 240
+
+                                                                       
+Query: 392 ggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatg 451
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatg 300
+
+                                                                       
+Query: 452 gaattgagcaagaatatacattattgcagaaagatactaattggccactaggatggccta 511
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 gaattgagcaagaatatacattattgcagaaagatactaattggccactaggatggccta 360
+
+                                                                       
+Query: 512 ttggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcct 571
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 ttggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataaagcct 420
+
+                                                                       
+Query: 572 atggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcattaacatta 631
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 atggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcattaacatta 480
+
+                                                                       
+Query: 632 gtggcatcaat-ggagaggttatgcctggtcagtgggagttccaagttggcccttctgtt 690
+           ||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||
+Sbjct: 481 gtggcatcaatgggagaggttatgcctggtcagtgggagttncaagttggcccttctgtt 540
+
+                                       
+Query: 691 ggtatttctgctggagatgagatatggg 718
+           ||||||||||||||| |||| |||||||
+Sbjct: 541 ggtatttctgctgganatgaaatatggg 568
+
+
+>gb|AW689892.1|AW689892 NF025H11ST1F1000 Developing stem Medicago truncatula cDNA clone
+           NF025H11ST 5'.
+          Length = 568
+
+ Score = 1082 bits (546), Expect = 0.0
+ Identities = 564/568 (99%), Gaps = 2/568 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 22  tacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtctttg 81
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   tacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcatgtctttg 60
+
+                                                                       
+Query: 82  ctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatac 141
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  ctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgctgaatac 120
+
+                                                                       
+Query: 142 atatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtcca 201
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 atatgggttggtggatctggtatggaccttagaagcaaagccaggactctacctggtcca 180
+
+                                                                       
+Query: 202 gtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagct 261
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 gtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagct 240
+
+                                                                       
+Query: 262 ccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttaga 321
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatccatttaga 300
+
+                                                                       
+Query: 322 caaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactccca 381
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 caaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactccca 360
+
+                                                                       
+Query: 382 acaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggta 441
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 acaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggta 420
+
+                                                                       
+Query: 442 ccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggccacta 501
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 ccatggtatggaattgagcaagaatatacattattgcagaaagatactaattggccacta 480
+
+                                                                       
+Query: 502 ggatggcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgct 561
+           |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct: 481 ggatggcctattggtggctatccangaccacaaggcccatattattgtgggattggtgct 540
+
+                                       
+Query: 562 gat-aaagcctat-ggtcgtgacattgt 587
+           ||| ||||||||| |||| |||||||||
+Sbjct: 541 gataaaagcctatgggtcntgacattgt 568
+
+
+>gb|AW684332.1|AW684332 NF015F07NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF015F07NR 5'.
+          Length = 562
+
+ Score = 1037 bits (523), Expect = 0.0
+ Identities = 554/563 (98%), Gaps = 2/563 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 12  atttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcat 71
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   atttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcat 60
+
+                                                                       
+Query: 72  catgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattat 131
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  catgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattat 120
+
+                                                                       
+Query: 132 tgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactct 191
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactct 180
+
+                                                                       
+Query: 192 acctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcac 251
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 acctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcac 240
+
+                                                                       
+Query: 252 aaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaagga 311
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 aaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaagga 300
+
+                                                                       
+Query: 312 tccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtga 371
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 tccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtga 360
+
+                                                                       
+Query: 372 gccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgc 431
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 gccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgc 420
+
+                                                                       
+Query: 432 tgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaa 491
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 tgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaa 480
+
+                                                                       
+Query: 492 ttggccactaggatggcctattggtggctatccaggaccacaaggcccatattattgtgg 551
+           |||||||||| |||||||| |||| |||||||||||||||||| |||||| |  | ||||
+Sbjct: 481 ttggccactangatggcct-ttggnggctatccaggaccacaangcccatttattngtgg 539
+
+                                  
+Query: 552 gatt-ggtgctgataaagcctat 573
+           |||| ||||||||||||||||||
+Sbjct: 540 gattgggtgctgataaagcctat 562
+
+
+>gb|AW329754.2|AW329754 N201023e rootphos(-) Medicago truncatula cDNA clone MHRP-23G4.
+          Length = 528
+
+ Score = 1033 bits (521), Expect = 0.0
+ Identities = 521/521 (100%)
+ Strand = Plus / Plus
+
+                                                                        
+Query: 740  ggatcacagagatagctggagtggttgtttcatttgaccctaagccaattccgggtgatt 799
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 8    ggatcacagagatagctggagtggttgtttcatttgaccctaagccaattccgggtgatt 67
+
+                                                                        
+Query: 800  ggaatggagctggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggct 859
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 68   ggaatggagctggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggct 127
+
+                                                                        
+Query: 860  atgaaatcatcaagaaggccattgaaaagcttggattgaggcataaggaacacattgctg 919
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 128  atgaaatcatcaagaaggccattgaaaagcttggattgaggcataaggaacacattgctg 187
+
+                                                                        
+Query: 920  cctatggagaaggaaatgagagacgtctcactggaaaacatgaaacagcagacatcaaca 979
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 188  cctatggagaaggaaatgagagacgtctcactggaaaacatgaaacagcagacatcaaca 247
+
+                                                                        
+Query: 980  ccttttcttggggtgtggcaaaccgtggtgcatctgttagggttggaagagacacagaaa 1039
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 248  ccttttcttggggtgtggcaaaccgtggtgcatctgttagggttggaagagacacagaaa 307
+
+                                                                        
+Query: 1040 aagatggcaaaggttactttgaggatagaaggccttcttctaatatggatccctatgtgg 1099
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 308  aagatggcaaaggttactttgaggatagaaggccttcttctaatatggatccctatgtgg 367
+
+                                                                        
+Query: 1100 ttacttccatgattgctgaaactacccttctatggaaaccatgaagtcacaaccacttgt 1159
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 368  ttacttccatgattgctgaaactacccttctatggaaaccatgaagtcacaaccacttgt 427
+
+                                                                        
+Query: 1160 ctttggatttggaccacatcacattatgtgttcaataaatagactagtttatatctatta 1219
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 428  ctttggatttggaccacatcacattatgtgttcaataaatagactagtttatatctatta 487
+
+                                                     
+Query: 1220 tcattatcattatgcaaagtgttgcttcattagtagtaatt 1260
+            |||||||||||||||||||||||||||||||||||||||||
+Sbjct: 488  tcattatcattatgcaaagtgttgcttcattagtagtaatt 528
+
+
+>gb|AW773750.1|AW773750 EST332736 KV3 Medicago truncatula cDNA clone pKV3-15D4.
+          Length = 562
+
+ Score = 1007 bits (508), Expect = 0.0
+ Identities = 548/560 (97%), Gaps = 1/560 (0%)
+ Strand = Plus / Minus
+
+                                                                        
+Query: 729  cattctagagaggatcacagagatagctggagtggttgtttcatttgaccctaagccaat 788
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 562  cattctagagaggatcacagagatagctggagtggttgtttcatttgaccctaagccaat 503
+
+                                                                        
+Query: 789  tccgggtgattggaatggagctggtgctcacacaaactatagcaccaagtcaatgagaga 848
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 502  tccgggtgattggaatggagctggtgctcacacaaactatagcaccaagtcaatgagaga 443
+
+                                                                        
+Query: 849  gaatggaggctatgaaatcatcaagaaggccattgaaaagcttggattgaggcataagga 908
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 442  gaatggaggctatgaaatcatcaagaaggccattgaaaagcttggattgaggcataagga 383
+
+                                                                        
+Query: 909  acacattgctgcctatggagaaggaaatgagagacgtctcactggaaaacatgaaacagc 968
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 382  acacattgctgcctatggagaaggaaatgagagacgtctcactggaaaacatgaaacagc 323
+
+                                                                        
+Query: 969  agacatcaacaccttttcttggggtgtggcaaaccgtggtgcatctgttagggttggaag 1028
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 322  agacatcaacaccttttcttggggtgtggcaaaccgtggtgcatctgttagggttggaag 263
+
+                                                                        
+Query: 1029 agacacagaaaaagatggcaaaggttactttgaggatagaaggccttcttctaatatgga 1088
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct: 262  agacacagaaaaagatggcaaaggttactttgaggatagaaggctttcttctaatatgga 203
+
+                                                                        
+Query: 1089 tccctatgtggttacttccatgattgctgaaactacccttctatggaaaccatgaagtca 1148
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 202  tccctatgtggttacttccatgattgctgaaactacccttctatggaaaccatgaagtca 143
+
+                                                                        
+Query: 1149 caaccacttgtctttggatttggaccacatcacattatgtgttcaataaatagactagtt 1208
+            |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct: 142  caaccacttgtctttggatttggaccacatcacattatgtgttcgataaatagactagtt 83
+
+                                                                        
+Query: 1209 tatatctattatca-ttatcattatgcaaagtgttgcttcattagtagtaattgtccaag 1267
+            |||||||||   || ||||||||   |||||||||||||||  |||||||||||| ||||
+Sbjct: 82   tatatctatctccacttatcattccccaaagtgttgcttcaaaagtagtaattgtacaag 23
+
+                                
+Query: 1268 tggtctttaagcacaaagca 1287
+            ||||||||||||||||||||
+Sbjct: 22   tggtctttaagcacaaagca 3
+
+
+>emb|AL368505.1|AL368505 MtBA24H09R1 MtBA Medicago truncatula cDNA clone MtBA24H09 T7.
+          Length = 550
+
+ Score =  983 bits (496), Expect = 0.0
+ Identities = 502/504 (99%)
+ Strand = Plus / Plus
+
+                                                                        
+Query: 828  tagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggccattgaaaa 887
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1    tagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggccattgaaaa 60
+
+                                                                        
+Query: 888  gcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgagagacgtct 947
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61   gcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgagagacgtct 120
+
+                                                                        
+Query: 948  cactggaaaacatgaaacagcagacatcaacaccttttcttggggtgtggcaaaccgtgg 1007
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121  cactggaaaacatgaaacagcagacatcaacaccttttcttggggtgtggcaaaccgtgg 180
+
+                                                                        
+Query: 1008 tgcatctgttagggttggaagagacacagaaaaagatggcaaaggttactttgaggatag 1067
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181  tgcatctgttagggttggaagagacacagaaaaagatggcaaaggttactttgaggatag 240
+
+                                                                        
+Query: 1068 aaggccttcttctaatatggatccctatgtggttacttccatgattgctgaaactaccct 1127
+            ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241  aagcccttcttctaatatggatccctatgtggttacttccatgattgctgaaactaccct 300
+
+                                                                        
+Query: 1128 tctatggaaaccatgaagtcacaaccacttgtctttggatttggaccacatcacattatg 1187
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301  tctatggaaaccatgaagtcacaaccacttgtctttggatttggaccacatcacattatg 360
+
+                                                                        
+Query: 1188 tgttcaataaatagactagtttatatctattatcattatcattatgcaaagtgttgcttc 1247
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361  tgttcaataaatagactagtttatatctattatcattatcattatgcaaagtgttgcttc 420
+
+                                                                        
+Query: 1248 attagtagtaattgtccaagtggtctttaagcacaaagcatttagtccatgtatttggat 1307
+            |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||
+Sbjct: 421  attagtagtaattgtccaagtggtctttaagcactaagcatttagtccatgtatttggat 480
+
+                                    
+Query: 1308 gaaaataattttatcattaataac 1331
+            ||||||||||||||||||||||||
+Sbjct: 481  gaaaataattttatcattaataac 504
+
+
+>emb|AL368504.1|AL368504 MtBA24H09F1 MtBA Medicago truncatula cDNA clone MtBA24H09 T3.
+          Length = 492
+
+ Score =  967 bits (488), Expect = 0.0
+ Identities = 491/492 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 9   gctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcat 68
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   gctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcat 60
+
+                                                                       
+Query: 69  catcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagat 128
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  catcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagat 120
+
+                                                                       
+Query: 129 tattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggac 188
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggac 180
+
+                                                                       
+Query: 189 tctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaag 248
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 tctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaag 240
+
+                                                                       
+Query: 249 cacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaa 308
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 cacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaa 300
+
+                                                                       
+Query: 309 ggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctgg 368
+           ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||
+Sbjct: 301 ggatccatttagacaaggcaacaatattcttgtgattcgtgatgtttacaccccagctgg 360
+
+                                                                       
+Query: 369 tgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgt 428
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 tgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgt 420
+
+                                                                       
+Query: 429 tgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatac 488
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 421 tgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatac 480
+
+                       
+Query: 489 taattggccact 500
+           ||||||||||||
+Sbjct: 481 taattggccact 492
+
+
+>gb|BE323166.2|BE323166 NF001D10PL1F1078 Phosphate starved leaf Medicago truncatula cDNA
+           clone NF001D10PL 5'.
+          Length = 473
+
+ Score =  908 bits (458), Expect = 0.0
+ Identities = 465/466 (99%), Gaps = 1/466 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 7   tagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattc 66
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 8   tagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcactattc 67
+
+                                                                       
+Query: 67  atcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaag 126
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 68  atcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaag 127
+
+                                                                       
+Query: 127 attattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccagg 186
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 128 attattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccagg 187
+
+                                                                       
+Query: 187 actctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatca 246
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 188 actctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatca 247
+
+                                                                       
+Query: 247 agcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttc 306
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 248 agcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttc 307
+
+                                                                       
+Query: 307 aaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagct 366
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 308 aaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagct 367
+
+                                                                       
+Query: 367 ggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgat 426
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 368 ggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgat 427
+
+                                                         
+Query: 427 gttgctgctgaggtaccatggtatggaa-ttgagcaagaatataca 471
+           |||||||||||||||||||||||||||| |||||||||||||||||
+Sbjct: 428 gttgctgctgaggtaccatggtatggaatttgagcaagaatataca 473
+
+
+>emb|AL382615.1|AL382615 MtBC08H10F1 MtBC Medicago truncatula cDNA clone MtBC08H10 T3.
+          Length = 445
+
+ Score =  882 bits (445), Expect = 0.0
+ Identities = 445/445 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 449 atggaattgagcaagaatatacattattgcagaaagatactaattggccactaggatggc 508
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   atggaattgagcaagaatatacattattgcagaaagatactaattggccactaggatggc 60
+
+                                                                       
+Query: 509 ctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataaag 568
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  ctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataaag 120
+
+                                                                       
+Query: 569 cctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcattaaca 628
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 cctatggtcgtgacattgttgatgcacattacaaagcttgtctttatgctggcattaaca 180
+
+                                                                       
+Query: 629 ttagtggcatcaatggagaggttatgcctggtcagtgggagttccaagttggcccttctg 688
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 ttagtggcatcaatggagaggttatgcctggtcagtgggagttccaagttggcccttctg 240
+
+                                                                       
+Query: 689 ttggtatttctgctggagatgagatatgggctgctcgttacattctagagaggatcacag 748
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 ttggtatttctgctggagatgagatatgggctgctcgttacattctagagaggatcacag 300
+
+                                                                       
+Query: 749 agatagctggagtggttgtttcatttgaccctaagccaattccgggtgattggaatggag 808
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 agatagctggagtggttgtttcatttgaccctaagccaattccgggtgattggaatggag 360
+
+                                                                       
+Query: 809 ctggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggctatgaaatca 868
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 ctggtgctcacacaaactatagcaccaagtcaatgagagagaatggaggctatgaaatca 420
+
+                                    
+Query: 869 tcaagaaggccattgaaaagcttgg 893
+           |||||||||||||||||||||||||
+Sbjct: 421 tcaagaaggccattgaaaagcttgg 445
+
+
+>gb|BF646906.1|BF646906 NF073A02EC1F1008 Elicited cell culture Medicago truncatula cDNA
+           clone NF073A02EC 5'.
+          Length = 446
+
+ Score =  866 bits (437), Expect = 0.0
+ Identities = 441/443 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 4   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 63
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 64  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 123
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct: 124 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttanaagcaaa 183
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 184 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 243
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 244 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 303
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 304 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 363
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct: 364 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccnaaattttcagccac 423
+
+                                  
+Query: 421 cctgatgttgctgctgaggtacc 443
+           |||||||||||||||||||||||
+Sbjct: 424 cctgatgttgctgctgaggtacc 446
+
+
+>gb|BE997551.1|BE997551 EST429274 GVSN Medicago truncatula cDNA clone pGVSN-1M24.
+          Length = 426
+
+ Score =  839 bits (423), Expect = 0.0
+ Identities = 423/423 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 4   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 63
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 64  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 123
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 124 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 183
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 184 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 243
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 244 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 303
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 304 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 363
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 364 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 423
+
+              
+Query: 421 cct 423
+           |||
+Sbjct: 424 cct 426
+
+
+>gb|BE999422.1|BE999422 EST431145 GVSN Medicago truncatula cDNA clone pGVSN-16K6.
+          Length = 421
+
+ Score =  811 bits (409), Expect = 0.0
+ Identities = 418/421 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 39  ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 98
+           ||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||
+Sbjct: 1   ctgtgttcttcttcttccttcactattcatcatcatgtctgggctttcagatctcatcaa 60
+
+                                                                       
+Query: 99  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 158
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  gctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 120
+
+                                                                       
+Query: 159 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 218
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 180
+
+                                                                       
+Query: 219 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 278
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 240
+
+                                                                       
+Query: 279 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 338
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 300
+
+                                                                       
+Query: 339 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 398
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 360
+
+                                                                       
+Query: 399 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 458
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 361 tgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattga 420
+
+            
+Query: 459 g 459
+           |
+Sbjct: 421 g 421
+
+
+>gb|AW127171.2|AW127171 M110107 GVN Medicago truncatula cDNA clone N30.
+          Length = 416
+
+ Score =  793 bits (400), Expect = 0.0
+ Identities = 400/400 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 17  cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 76
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 77  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 136
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 137 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 196
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 197 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 256
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 257 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 316
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 317 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 376
+
+                                                   
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatg 400
+           ||||||||||||||||||||||||||||||||||||||||
+Sbjct: 377 ccagctggtgagccactcccaacaaacaagaggtacaatg 416
+
+
+>gb|AW689566.1|AW689566 NF021D04ST1F1000 Developing stem Medicago truncatula cDNA clone
+           NF021D04ST 5'.
+          Length = 443
+
+ Score =  791 bits (399), Expect = 0.0
+ Identities = 399/399 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 3   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 62
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 63  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 122
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 123 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 182
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 183 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 242
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 243 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 302
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 303 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 362
+
+                                                  
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaat 399
+           |||||||||||||||||||||||||||||||||||||||
+Sbjct: 363 ccagctggtgagccactcccaacaaacaagaggtacaat 401
+
+
+>gb|AW686707.2|AW686707 NF041D02NR1F1000 Nodulated root Medicago truncatula cDNA clone
+           NF041D02NR 5'.
+          Length = 567
+
+ Score =  779 bits (393), Expect = 0.0
+ Identities = 400/401 (99%), Gaps = 1/401 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 167 cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 226
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 227 ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 286
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 287 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 346
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 347 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 406
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 407 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 466
+
+                                                                       
+Query: 301 attttcaaggatccattt-agacaaggcaacaatattcttgtgatttgtgatgtttacac 359
+           |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||
+Sbjct: 467 attttcaaggatccatttaagacaaggcaacaatattcttgtgatttgtgatgtttacac 526
+
+                                                    
+Query: 360 cccagctggtgagccactcccaacaaacaagaggtacaatg 400
+           |||||||||||||||||||||||||||||||||||||||||
+Sbjct: 527 cccagctggtgagccactcccaacaaacaagaggtacaatg 567
+
+
+>gb|AW127167.2|AW127167 M110103 GVN Medicago truncatula cDNA clone N26.
+          Length = 395
+
+ Score =  767 bits (387), Expect = 0.0
+ Identities = 387/387 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 2   ctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcac 61
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 9   ctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcac 68
+
+                                                                       
+Query: 62  tattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctg 121
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 69  tattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctg 128
+
+                                                                       
+Query: 122 aaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaag 181
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 129 aaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaag 188
+
+                                                                       
+Query: 182 ccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatg 241
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 189 ccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatg 248
+
+                                                                       
+Query: 242 gatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagcta 301
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 249 gatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagcta 308
+
+                                                                       
+Query: 302 ttttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccc 361
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 309 ttttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccc 368
+
+                                      
+Query: 362 cagctggtgagccactcccaacaaaca 388
+           |||||||||||||||||||||||||||
+Sbjct: 369 cagctggtgagccactcccaacaaaca 395
+
+
+>gb|AW127129.2|AW127129 M110062e GVN Medicago truncatula cDNA clone N108.
+          Length = 397
+
+ Score =  767 bits (387), Expect = 0.0
+ Identities = 387/387 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 60
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 11  cctctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttca 70
+
+                                                                       
+Query: 61  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 71  ctattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctct 130
+
+                                                                       
+Query: 121 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 131 gaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaa 190
+
+                                                                       
+Query: 181 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 191 gccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgat 250
+
+                                                                       
+Query: 241 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 300
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 251 ggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagct 310
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 311 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 370
+
+                                      
+Query: 361 ccagctggtgagccactcccaacaaac 387
+           |||||||||||||||||||||||||||
+Sbjct: 371 ccagctggtgagccactcccaacaaac 397
+
+
+>gb|BE997549.1|BE997549 EST429272 GVSN Medicago truncatula cDNA clone pGVSN-1M20.
+          Length = 395
+
+ Score =  751 bits (379), Expect = 0.0
+ Identities = 391/395 (98%)
+ Strand = Plus / Plus
+
+                                                                        
+Query: 776  accctaagccaattccgggtgattggaatggagctggtgctcacacaaactatagcacca 835
+            |||||||||||||| | |||||||||||||||||||||||| ||||||||||||||||||
+Sbjct: 1    accctaagccaatttctggtgattggaatggagctggtgctgacacaaactatagcacca 60
+
+                                                                        
+Query: 836  agtcaatgagagagaatggaggctatgaaatcatcaagaaggccattgaaaagcttggat 895
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61   agtcaatgagagagaatggaggctatgaaatcatcaagaaggccattgaaaagcttggat 120
+
+                                                                        
+Query: 896  tgaggcataaggaacacattgctgcctatggagaaggaaatgagagacgtctcactggaa 955
+            ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121  tgacgcataaggaacacattgctgcctatggagaaggaaatgagagacgtctcactggaa 180
+
+                                                                        
+Query: 956  aacatgaaacagcagacatcaacaccttttcttggggtgtggcaaaccgtggtgcatctg 1015
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181  aacatgaaacagcagacatcaacaccttttcttggggtgtggcaaaccgtggtgcatctg 240
+
+                                                                        
+Query: 1016 ttagggttggaagagacacagaaaaagatggcaaaggttactttgaggatagaaggcctt 1075
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241  ttagggttggaagagacacagaaaaagatggcaaaggttactttgaggatagaaggcctt 300
+
+                                                                        
+Query: 1076 cttctaatatggatccctatgtggttacttccatgattgctgaaactacccttctatgga 1135
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301  cttctaatatggatccctatgtggttacttccatgattgctgaaactacccttctatgga 360
+
+                                               
+Query: 1136 aaccatgaagtcacaaccacttgtctttggatttg 1170
+            |||||||||||||||||||||||||||||||||||
+Sbjct: 361  aaccatgaagtcacaaccacttgtctttggatttg 395
+
+
+>emb|AL379635.1|AL379635 MtBB46E04F1 MtBB Medicago truncatula cDNA clone MtBB46E04 T3.
+          Length = 377
+
+ Score =  747 bits (377), Expect = 0.0
+ Identities = 377/377 (100%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 404 ccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattgagcaag 463
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattgagcaag 60
+
+                                                                       
+Query: 464 aatatacattattgcagaaagatactaattggccactaggatggcctattggtggctatc 523
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  aatatacattattgcagaaagatactaattggccactaggatggcctattggtggctatc 120
+
+                                                                       
+Query: 524 caggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcgtgaca 583
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 caggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcgtgaca 180
+
+                                                                       
+Query: 584 ttgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaatg 643
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 ttgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatcaatg 240
+
+                                                                       
+Query: 644 gagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttctgctg 703
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 gagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttctgctg 300
+
+                                                                       
+Query: 704 gagatgagatatgggctgctcgttacattctagagaggatcacagagatagctggagtgg 763
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 gagatgagatatgggctgctcgttacattctagagaggatcacagagatagctggagtgg 360
+
+                            
+Query: 764 ttgtttcatttgaccct 780
+           |||||||||||||||||
+Sbjct: 361 ttgtttcatttgaccct 377
+
+
+>gb|AW774859.1|AW774859 EST334010 KV3 Medicago truncatula cDNA clone pKV3-24K23.
+          Length = 393
+
+ Score =  747 bits (377), Expect = 0.0
+ Identities = 389/393 (98%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 15  tgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcat 74
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   tgtctattacttgcttttcacacactgtgttcttcttcttccttcactattcatcatcat 60
+
+                                                                       
+Query: 75  gtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattattgc 134
+           ||||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||
+Sbjct: 61  gtctttgctttcagatctcatcaacctcaatctgtgagaatcctctgaaaagattattgc 120
+
+                                                                       
+Query: 135 tgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacc 194
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 tgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactctacc 180
+
+                                                                       
+Query: 195 tggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaa 254
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 tggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaa 240
+
+                                                                       
+Query: 255 tcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatcc 314
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 tcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggatcc 300
+
+                                                                       
+Query: 315 atttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgagcc 374
+           ||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||
+Sbjct: 301 atttaaacaaggcaacaatattcttgtgattcgtgatgtttacaccccagctggtgagcc 360
+
+                                            
+Query: 375 actcccaacaaacaagaggtacaatgctgccaa 407
+           |||||||||||||||||||||||||||||||||
+Sbjct: 361 actcccaacaaacaagaggtacaatgctgccaa 393
+
+
+>gb|BE319646.2|BE319646 NF017B03RT1F1025 Developing root Medicago truncatula cDNA clone
+           NF017B03RT 5'.
+          Length = 376
+
+ Score =  737 bits (372), Expect = 0.0
+ Identities = 375/376 (99%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 207 tgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctccagg 266
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   tgacccttcaaaacttcctaaatggaactatgatggatcaagcacaaatcaagctccagg 60
+
+                                                                       
+Query: 267 acaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaagg 326
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  acaagatagtgaagttatcttatatccacaagctattttcaaggatccatttagacaagg 120
+
+                                                                       
+Query: 327 caacaatattcttgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaa 386
+           ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 caacaatattcttgtgattagtgatgtttacaccccagctggtgagccactcccaacaaa 180
+
+                                                                       
+Query: 387 caagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatg 446
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 caagaggtacaatgctgccaaaattttcagccaccctgatgttgctgctgaggtaccatg 240
+
+                                                                       
+Query: 447 gtatggaattgagcaagaatatacattattgcagaaagatactaattggccactaggatg 506
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 gtatggaattgagcaagaatatacattattgcagaaagatactaattggccactaggatg 300
+
+                                                                       
+Query: 507 gcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataa 566
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 301 gcctattggtggctatccaggaccacaaggcccatattattgtgggattggtgctgataa 360
+
+                           
+Query: 567 agcctatggtcgtgac 582
+           ||||||||||||||||
+Sbjct: 361 agcctatggtcgtgac 376
+
+
+>gb|AW694696.2|AW694696 NF079B02ST1F1015 Developing stem Medicago truncatula cDNA clone
+           NF079B02ST 5'.
+          Length = 377
+
+ Score =  718 bits (362), Expect = 0.0
+ Identities = 376/378 (99%), Gaps = 2/378 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 10  ctatttgtctattacttgcttttcacacac-tgtgttcttcttcttccttcactattcat 68
+           |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct: 1   ctatttgtctattacttgcttttcacacacctgtgttcttcttcttccttcactattcat 60
+
+                                                                       
+Query: 69  catcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagat 128
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  catcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagat 120
+
+                                                                       
+Query: 129 tattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggac 188
+           |||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct: 121 tattgctgaatacatatgggttggtggatctggtatggacctta-aagcaaagccaggac 179
+
+                                                                       
+Query: 189 tctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaag 248
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 180 tctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaag 239
+
+                                                                       
+Query: 249 cacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaa 308
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 240 cacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaa 299
+
+                                                                       
+Query: 309 ggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctgg 368
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 300 ggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctgg 359
+
+                             
+Query: 369 tgagccactcccaacaaa 386
+           ||||||||||||||||||
+Sbjct: 360 tgagccactcccaacaaa 377
+
+
+>gb|BE999241.1|BE999241 EST430964 GVSN Medicago truncatula cDNA clone pGVSN-15L9.
+          Length = 396
+
+ Score =  714 bits (360), Expect = 0.0
+ Identities = 387/396 (97%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 39  ctgtgttcttcttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 98
+           ||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ctgtgttctacttcttccttcactattcatcatcatgtctttgctttcagatctcatcaa 60
+
+                                                                       
+Query: 99  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 158
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  cctcaatctctcagaatcctctgaaaagattattgctgaatacatatgggttggtggatc 120
+
+                                                                       
+Query: 159 tggtatggaccttagaagcaaagccaggactctacctggtccagtgagtgacccttcaaa 218
+           |||  |||||||||||||||||||| ||||||||||||||||| ||||||||||||||||
+Sbjct: 121 tggcttggaccttagaagcaaagccgggactctacctggtccactgagtgacccttcaaa 180
+
+                                                                       
+Query: 219 acttcctaaatggaactatgatggatcaagcacaaatcaagctccaggacaagatagtga 278
+           |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||
+Sbjct: 181 acttcctaaatggaactatgatggatcaagcacaaatcaagctccacgacaagatagtga 240
+
+                                                                       
+Query: 279 agttatcttatatccacaagctattttcaaggatccatttagacaaggcaacaatattct 338
+           |||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||
+Sbjct: 241 agttatctgatatccacaagctattttcaaggatccatttagacagggcaacaatattct 300
+
+                                                                       
+Query: 339 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacaa 398
+           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct: 301 tgtgatttgtgatgtttacaccccagctggtgagccactcccaacaaacaagaggtacga 360
+
+                                               
+Query: 399 tgctgccaaaattttcagccaccctgatgttgctgc 434
+           ||||||||||||||||||||||||||||||||||||
+Sbjct: 361 tgctgccaaaattttcagccaccctgatgttgctgc 396
+
+
+>gb|AW694572.2|AW694572 NF077F09ST1F1078 Developing stem Medicago truncatula cDNA clone
+           NF077F09ST 5'.
+          Length = 377
+
+ Score =  660 bits (333), Expect = 0.0
+ Identities = 343/345 (99%), Gaps = 1/345 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 1   cctctatagctatttgtctattacttgcttttcacacac-tgtgttcttcttcttccttc 59
+           ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||
+Sbjct: 33  cctctatagctatttgtctattacttgcttttcacacacgtgtgttcttcttcttccttc 92
+
+                                                                       
+Query: 60  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 119
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 93  actattcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctc 152
+
+                                                                       
+Query: 120 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 179
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 153 tgaaaagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaa 212
+
+                                                                       
+Query: 180 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 239
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 213 agccaggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatga 272
+
+                                                                       
+Query: 240 tggatcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagc 299
+           |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||
+Sbjct: 273 tggatcaagcacaaatcaagctccaggacaagatagggaagttatcttatatccacaagc 332
+
+                                                        
+Query: 300 tattttcaaggatccatttagacaaggcaacaatattcttgtgat 344
+           |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 333 tattttcaaggatccatttagacaaggcaacaatattcttgtgat 377
+
+
+>gb|BE942150.1|BE942150 EST421729 MGHG Medicago truncatula cDNA clone pMGHG-7N1.
+          Length = 313
+
+ Score =  620 bits (313), Expect = e-175
+ Identities = 313/313 (100%)
+ Strand = Plus / Plus
+
+                                                                        
+Query: 1046 gcaaaggttactttgaggatagaaggccttcttctaatatggatccctatgtggttactt 1105
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1    gcaaaggttactttgaggatagaaggccttcttctaatatggatccctatgtggttactt 60
+
+                                                                        
+Query: 1106 ccatgattgctgaaactacccttctatggaaaccatgaagtcacaaccacttgtctttgg 1165
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61   ccatgattgctgaaactacccttctatggaaaccatgaagtcacaaccacttgtctttgg 120
+
+                                                                        
+Query: 1166 atttggaccacatcacattatgtgttcaataaatagactagtttatatctattatcatta 1225
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121  atttggaccacatcacattatgtgttcaataaatagactagtttatatctattatcatta 180
+
+                                                                        
+Query: 1226 tcattatgcaaagtgttgcttcattagtagtaattgtccaagtggtctttaagcacaaag 1285
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181  tcattatgcaaagtgttgcttcattagtagtaattgtccaagtggtctttaagcacaaag 240
+
+                                                                        
+Query: 1286 catttagtccatgtatttggatgaaaataattttatcattaataacatggttgcttcttg 1345
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241  catttagtccatgtatttggatgaaaataattttatcattaataacatggttgcttcttg 300
+
+                         
+Query: 1346 attttactctaat 1358
+            |||||||||||||
+Sbjct: 301  attttactctaat 313
+
+
+>gb|BE124836.1|BE124836 EST393871 GVN Medicago truncatula cDNA clone pGVN-68G22.
+          Length = 496
+
+ Score =  589 bits (297), Expect = e-165
+ Identities = 321/329 (97%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 4   ctatagctatttgtctattacttgcttttcacacactgtgttcttcttcttccttcacta 63
+           ||||||||||| || ||||||||||||||||||||||| || ||||||||||||||||||
+Sbjct: 1   ctatagctattagtgtattacttgcttttcacacactgagtacttcttcttccttcacta 60
+
+                                                                       
+Query: 64  ttcatcatcatgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaa 123
+           ||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||
+Sbjct: 61  ttcatcatcatgtctttgctttcagatctgatcaacctcaatctctcagaatcctctgaa 120
+
+                                                                       
+Query: 124 aagattattgctgaatacatatgggttggtggatctggtatggaccttagaagcaaagcc 183
+           ||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||||||
+Sbjct: 121 aagattattgctgaatacatatgggttggcggatctggtatggaccttataagcaaagcc 180
+
+                                                                       
+Query: 184 aggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatgga 243
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 aggactctacctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatgga 240
+
+                                                                       
+Query: 244 tcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctatt 303
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 241 tcaagcacaaatcaagctccaggacaagatagtgaagttatcttatatccacaagctatt 300
+
+                                        
+Query: 304 ttcaaggatccatttagacaaggcaacaa 332
+           |||||||||||||||||||| ||||||||
+Sbjct: 301 ttcaaggatccatttagacacggcaacaa 329
+
+
+ Score =  323 bits (163), Expect = 1e-85
+ Identities = 169/171 (98%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 820 acaaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggcc 879
+           |||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||
+Sbjct: 326 acaaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagagagcc 385
+
+                                                                       
+Query: 880 attgaaaagcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgag 939
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 386 attgaaaagcttggattgaggcataaggaacacattgctgcctatggagaaggaaatgag 445
+
+                                                              
+Query: 940 agacgtctcactggaaaacatgaaacagcagacatcaacaccttttcttgg 990
+           |||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 446 agacgtctcactggaaaacatgaaacagcagacatcaacaccttttcttgg 496
+
+
+>gb|AW831634.1|AW831634 sm05a12.y1 Gm-c1027 Glycine max cDNA clone GENOME SYSTEMS CLONE ID:
+           Gm-c1027-7991 5' similar to SW:GLN2_PHAVU P04771
+           GLUTAMINE SYNTHETASE PR-2 ;.
+          Length = 594
+
+ Score =  585 bits (295), Expect = e-164
+ Identities = 521/594 (87%), Gaps = 2/594 (0%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 400 gctgccaaaattttcagccaccctgatgttgctgctgaggtaccatggtatggaattgag 459
+           ||||||||||||||||| |||||||||||||||||||||| |||||||||||| ||||||
+Sbjct: 1   gctgccaaaattttcagtcaccctgatgttgctgctgaggaaccatggtatggtattgag 60
+
+                                                                       
+Query: 460 caagaatatacattattgcagaaagatactaattggccactaggatggcctattggtggc 519
+           ||||| ||||| |||||||||||||||   ||||||||||| || |||||  ||||||| 
+Sbjct: 61  caagagtataccttattgcagaaagatgtaaattggccacttgggtggccccttggtggg 120
+
+                                                                       
+Query: 520 tatccaggaccacaaggcccatattattgtgggattggtgctgataaagcctatggtcgt 579
+           | ||| |||||||| |||||||| || ||||| ||||||||||||||||||||||| |||
+Sbjct: 121 tttcctggaccacagggcccatactactgtggaattggtgctgataaagcctatggccgt 180
+
+                                                                       
+Query: 580 gacattgttgatgcacattacaaagcttgtctttatgctggcattaacattagtggcatc 639
+           || ||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct: 181 gatattgtagatgcacattacaaagcttgtatttatgctggcattaacattagtggcatc 240
+
+                                                                       
+Query: 640 aatggagaggttatgcctggtcagtgggagttccaagttggcccttctgttggtatttct 699
+           |||||||||||||||||||| |||||||| || |||||||| |||||||||||||| |||
+Sbjct: 241 aatggagaggttatgcctggccagtgggaatttcaagttggtccttctgttggtatctct 300
+
+                                                                       
+Query: 700 gctggagatgagatatgggctgctcgttacattctagagaggatcacagagatagctgga 759
+           |||||||||||| | ||||||||||| |||||| | |||||||| |||||||||||||||
+Sbjct: 301 gctggagatgaggtgtgggctgctcgctacattttggagaggattacagagatagctgga 360
+
+                                                                       
+Query: 760 gtggttgtttcatttgaccctaagccaattccgggtgattggaatggagctggtgctcac 819
+           |   ||||||||||||| || ||||| |||||||| ||||||||||||||||| ||||||
+Sbjct: 361 gcaattgtttcatttgatcccaagcctattccgggagattggaatggagctggagctcac 420
+
+                                                                       
+Query: 820 acaaactatagcaccaagtcaatgagagagaatggaggctatgaaatcatcaagaaggcc 879
+            ||||||| ||||||||||| ||||||||  | || || |||||  | ||||||||||||
+Sbjct: 421 tcaaactacagcaccaagtccatgagagaagaaggtggttatgaggtgatcaagaaggcc 480
+
+                                                                       
+Query: 880 attgaaaagcttggattgaggcataaggaacacattgctgc-ctatggagaaggaaatga 938
+           |||| | | |||||||||||||| ||||| ||| | || ||  ||||||| |||  | ||
+Sbjct: 481 attgganaacttggattgaggcacaaggagcacctcgcagcattatggag-agggcacga 539
+
+                                                                 
+Query: 939 gagacgtctcactggaaaacatgaaacagcagacatcaacaccttttcttgggg 992
+           |||||||||||| |||| |||||||||   ||||||||||||||| ||||||||
+Sbjct: 540 gagacgtctcacgggaagacatgaaacttgagacatcaacaccttctcttgggg 593
+
+
+>gb|AW202046.1|AW202046 sf10d09.y1 Gm-c1027 Glycine max cDNA clone GENOME SYSTEMS CLONE ID:
+           Gm-c1027-1866 5' similar to SW:GLN2_PHAVU P04771
+           GLUTAMINE SYNTHETASE PR-2 ;.
+          Length = 662
+
+ Score =  571 bits (288), Expect = e-160
+ Identities = 572/659 (86%), Gaps = 7/659 (1%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 301 attttcaaggatccatttagacaaggcaacaatattcttgtgatttgtgatgtttacacc 360
+           ||||||||||| || |||||   |||||||||||||||||||||||||||||||||||||
+Sbjct: 6   attttcaaggacccctttaggagaggcaacaatattcttgtgatttgtgatgtttacacc 65
+
+                                                                       
+Query: 361 ccagctggtgagccactcccaacaaacaagaggtacaatgctgccaaaattttcagccac 420
+           || |||||||||||||| ||||| |||||||||||  |||||||||||||||||||||||
+Sbjct: 66  cccgctggtgagccacttccaaccaacaagaggtatgatgctgccaaaattttcagccac 125
+
+                                                                       
+Query: 421 cctgatgttgctgctgaggtaccatggtatggaattgagcaagaatatacattattgcag 480
+           ||||| ||||||||||||| |||||||||||| ||||||||||||||||| || ||||||
+Sbjct: 126 cctgacgttgctgctgaggaaccatggtatggtattgagcaagaatataccttgttgcag 185
+
+                                                                       
+Query: 481 aaagatactaattggccactaggatggcctattggtggctatccaggaccacaaggccca 540
+           ||||||   ||||||||||| || |||||  ||||||| | ||| |||||||| ||||||
+Sbjct: 186 aaagatgtaaattggccacttgggtggccacttggtgggtttcctggaccacagggccca 245
+
+                                                                       
+Query: 541 tattattgtgggattggtgctgataaagcctatggtcgtgacattgttgatgcacattac 600
+           || || ||||| | ||||||||||||||| ||||| ||||| ||||| ||||||||||||
+Sbjct: 246 tactactgtggaactggtgctgataaagcatatggccgtgatattgtagatgcacattac 305
+
+                                                                       
+Query: 601 aaagcttgtctttatgctggcattaacattagtggcatcaatggagaggttatgcctggt 660
+           ||||||||| ||||||||||||| || |||||||||||||||||||||||||||||||||
+Sbjct: 306 aaagcttgtatttatgctggcatcaatattagtggcatcaatggagaggttatgcctggt 365
+
+                                                                       
+Query: 661 cagtgggagttccaagttggcccttctgttggtatttctgctggagatgagatatgggct 720
+           ||||| || || |||  ||| |||||||||||||| ||||||||||||||| | ||||| 
+Sbjct: 366 cagtgngaatttcaangtggtccttctgttggtatatctgctggagatgaggtgtgggca 425
+
+                                                                       
+Query: 721 gctcgttacattctagagaggatcacagagatag-ctggagtggttgtttcatttgaccc 779
+           ||||| |||||| | |||||||| |||||||| | | |||||  ||||||||||||| ||
+Sbjct: 426 gctcggtacattntggagaggattacagagatggccgggagt-attgtttcatttgatcc 484
+
+                                                                       
+Query: 780 taagccaattccgggtgattggaatggagctggtgctcacacaaactatagcacc-aagt 838
+             |||| |||||||| ||||||||||||||||| |||||| ||||||| |||||| ||||
+Sbjct: 485 cnagcctattccgggagattggaatggagctggagctcactcaaactacagcaccaaagt 544
+
+                                                                       
+Query: 839 caatgagaga-gaatggaggctatgaaatcatcaag-aaggccattgaaaagcttggatt 896
+           | |||||||| ||  |  || |||||  | || ||| |||||||||||||||||||||||
+Sbjct: 545 ccatgagagatgagggtgggntatgaggtgattaagaaaggccattgaaaagcttggatt 604
+
+                                                                      
+Query: 897 gaggcataaggaacacattgctgcct-atggagaaggaaatgagagacgtctcactgga 954
+           || ||| ||||| |||||||| || | |||||| |||  | ||||||||||||||||||
+Sbjct: 605 gaagcacaaggagcacattgcagcataatggag-agggcacgagagacgtctcactgga 662
+
+
+>gb|AW201679.1|AW201679 sf06a05.y1 Gm-c1027 Glycine max cDNA clone GENOME SYSTEMS CLONE ID:
+           Gm-c1027-1449 5' similar to SW:GLN2_PHAVU P04771
+           GLUTAMINE SYNTHETASE PR-2 ;.
+          Length = 502
+
+ Score =  511 bits (258), Expect = e-142
+ Identities = 399/446 (89%)
+ Strand = Plus / Plus
+
+                                                                       
+Query: 73  atgtctttgctttcagatctcatcaacctcaatctctcagaatcctctgaaaagattatt 132
+           |||||||||||||| |||||||||||||||||||||||||||||| | ||||||||  ||
+Sbjct: 53  atgtctttgctttcggatctcatcaacctcaatctctcagaatccacagaaaagatcgtt 112
+
+                                                                       
+Query: 133 gctgaatacatatgggttggtggatctggtatggaccttagaagcaaagccaggactcta 192
+           ||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||| 
+Sbjct: 113 gctgagtacatatgggttggtggatctggtatggacctcagaagcaaagccaggactctt 172
+
+                                                                       
+Query: 193 cctggtccagtgagtgacccttcaaaacttcctaaatggaactatgatggatcaagcaca 252
+           ||||| ||||||||||||||| |||| ||||| || |||||||| ||||| || ||||||
+Sbjct: 173 cctgggccagtgagtgaccctgcaaagcttccaaagtggaactacgatggctctagcaca 232
+
+                                                                       
+Query: 253 aatcaagctccaggacaagatagtgaagttatcttatatccacaagctattttcaaggat 312
+            | |||||||||||  | || |||||||| ||| |||| |||||||||||||||||||| 
+Sbjct: 233 gaccaagctccaggggatgacagtgaagtcatcctatacccacaagctattttcaaggac 292
+
+                                                                       
+Query: 313 ccatttagacaaggcaacaatattcttgtgatttgtgatgtttacaccccagctggtgag 372
+           || |||||   ||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct: 293 ccctttaggagaggcaacaatattcttgtgatttgtgatgtttacacccccgctggtgag 352
+
+                                                                       
+Query: 373 ccactcccaacaaacaagaggtacaatgctgccaaaattttcagccaccctgatgttgct 432
+           ||||| ||||| |||||||||||  |||||||||||||||||||||||||||| ||||||
+Sbjct: 353 ccacttccaaccaacaagaggtatgatgctgccaaaattttcagccaccctgacgttgct 412
+
+                                                                       
+Query: 433 gctgaggtaccatggtatggaattgagcaagaatatacattattgcagaaagatactaat 492
+           ||||||| |||||||||||| ||||||||||||||||| || ||||||||||||   |||
+Sbjct: 413 gctgaggaaccatggtatggtattgagcaagaatataccttgttgcagaaagatgtaaat 472
+
+                                     
+Query: 493 tggccactaggatggcctattggtgg 518
+           |||||||| || |||||  |||||||
+Sbjct: 473 tggccacttgggtggccacttggtgg 498
+
+
+  Database: preblast_est
+    Posted date:  Dec 23, 2000  2:30 AM
+  Number of letters in database: -1,416,358,560
+  Number of sequences in database:  6,840,729
+  
+Lambda     K      H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda     K      H
+    1.37    0.711     1.31 
+
+
+Matrix: blastn matrix:1 -3
+Gap Penalties: Existence: 5, Extension: 2
+Number of Hits to DB: 2567083
+Number of Sequences: 6840729
+Number of extensions: 2567083
+Number of successful extensions: 727073
+Number of sequences better than 10.0: 714
+length of query: 1425
+length of database: 2,878,608,736
+effective HSP length: 21
+effective length of query: 1404
+effective length of database: 2,734,953,427
+effective search space: 3839874611508
+effective search space used: 3839874611508
+T: 0
+A: 0
+X1: 6 (11.9 bits)
+X2: 10 (19.8 bits)
+S1: 12 (24.3 bits)
+S2: 20 (40.1 bits)
+

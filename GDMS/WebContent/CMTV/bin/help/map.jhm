@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+	<mapID target="toplevelfolder" url="toplevel.gif" />
+	<mapID target="isys-overview" url="isys-overview.html" />
+	<mapID target="isys-ice-eps" url="isys-ice-eps.html" />
+	<mapID target="isys-dyndisc" url="isys-dyndisc.html" />
+	<mapID target="isys-sync" url="isys-sync.html" />
+	<mapID target="isys-ice-staticsvcs" url="isys-ice-staticsvcs.html" />
+	<mapID target="isys-ice-asyncsvcs" url="isys-ice-asyncsvcs.html" />
+	<mapID target="iwipe-overview" url="iwipe-overview.html" />
+	<mapID target="iwipe-usage" url="iwipe-usage.html" />
+	<mapID target="iwipe-components" url="iwipe-components.html" />
+	<mapID target="iwipe-config" url="iwipe-config.html" />
+	<mapID target="iwipe-limitations" url="iwipe-limitations.html" />
+</map>

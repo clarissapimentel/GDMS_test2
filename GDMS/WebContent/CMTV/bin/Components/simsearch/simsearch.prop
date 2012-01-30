@@ -1,0 +1,22 @@
+# This component's ServiceProvider classes
+simsearch.browser.spclass=org.ncgr.isys.ncgr.simsearch.SimSearchBrowserFactory
+simsearch.loader.spclass=org.ncgr.isys.ncgr.simsearch.SimSearchGuiFactory
+
+# Path to executable for blast ("blastall").  If property is not set, the
+# local BLAST service provider will be unavailable.  On Windows, directory
+# separators may either be forward slashes ("/") or double backslashes
+# ("\\"), and directory names must not include spaces (e.g., use "PROGRA~1"
+# rather than "Program Files").  Also on Windows, be sure to include the
+# ".exe" suffix in the name of the executable.
+#simsearch.blastall=/scratch/ncbi/blast-current/blastall
+
+# Path to BLAST libraries.  If property is not set, the local BLAST service
+# provider will be unavailable.  Format directory separators as described
+# above.
+#simsearch.blastlibs=/scratch/ncbi/blastdb
+
+# Path to BLAST scoring matrices (usually in the "data" subdirectory of a
+# BLAST installation).  If property is not set, the local BLAST service
+# provider will be unavailable.  Format directory separators as described
+# above.
+#simsearch.blastmatrices=/scratch/ncbi/blastdata

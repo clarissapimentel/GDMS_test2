@@ -1,0 +1,11 @@
+# This component's ServiceProvider
+maxdView.spclass=maxdViewISYSProvider
+
+# If the user is installing the maxd wrapper then the following
+# properties will be dynamically rewritten by the installation
+# program. 
+
+# maxd uses this property to locate its classes and other resources
+maxdView.location=Components/maxdView/lib
+# ISYS uses this property to load maxd as an ISYS component
+maxdView.classpath=Components/maxdView/lib

@@ -1,0 +1,71 @@
+The LocalDataRepository is an IsysComponent that can be used to make a set of
+files on the local machine behave somewhat like a database, allowing selection 
+of contents by metadata attributes and the extraction of subsets of the 
+information in the files. Its use depends on the inclusion in the system of 
+components that provide appropriate parsers for the filetypes the user wishes 
+to read through this mechanism.
+
+The set of repositories that will be initialized by the component is read
+at start-up time from the config.xml file in the Components/localdatarepository
+folder. The structure of the xml is a bit arcane, but reasonably flexible;
+the version of the file that is supplied gives a number of examples that ought
+to be fairly straightforward to adapt to one's own needs. What follows is
+an explicit discussion of the various elements of the config file.
+
+The <config> element is the root of the document, containing any number of
+<repos> element children, each of which will provide a set of data services
+to the system (listing and retrieval). 
+
+The <repos> element has the following required attributes:
+
+name specifies how the repository will be identified in service listings, and
+    should be unique in the file;
+
+path specifies the location on the file system at which the files representing 
+    the data for this repository reside;
+
+filetype provides an indication of what the format of the files is, and will
+    be used to find an appropriate parser (if one has been loaded into the
+    system);
+
+listservice is optional, and merely gives the services a bit of
+    type-safety, suggesting the sort of data that will be returned
+    by invocations; for example, the comparative map viewer asks for data
+    sources of map data, and hence limits the repositories it presents to
+    the user to those which claim to be "MapListing" services.
+
+
+Additionally, a <repos> may have any number of <RegexpMetadataExtractor>
+elements that allow components of the file names to be used as part of the
+metadata associated with the file contents; this allows one to use simple file
+naming conventions to augment the data that may be stored in a standard file
+format. For example, one could encode species/chromosome/gene data into the
+name of a fasta file representing the sequence for that gene. The
+<RegexpMetadataExtractor> element has a single required attribute:
+
+pattern specifies a java.util.regex style regular expression that will be matched
+    against the file name; if a match is made, then the groups of the regular
+    expression (those components enclosed by parentheses) will be made 
+    available to the <MetadataInst> children elements described next
+    
+
+The <MetadataInst> children specify how the data extracted from the pattern
+is to be mapped into semantically meaningful IsysAttributes. It has one
+required attribute:
+
+className specifies a class implementing some IsysAttribute type, which must
+    have a constructor that takes only String arguments, and which will
+    be invoked using the data specified by the children elements
+
+The children of <MetadataInst> will be used in the given order to supply the
+positional String arguments to the class constructor. The String that is
+used will be given by either:
+    a <GroupNumber> element whose value attribute specifies the index of the 
+        regular expression group to be used (starting at 1);
+
+    or a <StringConst> element whose value attribute specifies a String
+        literal value to be used
+
+Examples are given in the config.xml file that is supplied with the component,
+and will serve to make this discussion more concrete.
+

@@ -1,0 +1,22 @@
+#Assign colors based on Type attribute
+org.ncgr.isys.objectmodel.Type=color
+CDS=green
+STS=magenta
+TATA_signal=yellow
+exon=green
+gene=cyan
+mRNA=orange
+mat_peptide=green
+misc_difference=orange
+misc_feature=orange
+modified_base=orange
+polyA_signal=yellow
+polyA_site=yellow
+protein_bind=green
+rRNA=cyan
+repeat_region=pink
+repeat_unit=pink
+sig_peptide=green
+source=darkGray
+stem_loop=white
+tRNA=cyan

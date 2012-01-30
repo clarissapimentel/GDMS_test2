@@ -1,0 +1,3 @@
+# This component's ServiceProvider class
+tableviewer.spclass=org.ncgr.isys.ncgr.tableviewer.TableViewerGuiFactory
+

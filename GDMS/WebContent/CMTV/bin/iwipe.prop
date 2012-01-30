@@ -1,0 +1,29 @@
+#
+#Mon Oct 08 14:49:10 IST 2007
+chain.class=sunlabs.brazil.server.ChainHandler
+networkproxyport=
+mime.html=text/html
+handler=chain
+mime.css=text/x-css-stylesheet
+webevtch.class=org.ncgr.isys.system.web.httpproxy.WebEventChannelHandler
+networkproxyhost=
+mime.txt=text/plain
+mime.gif=image/gif
+mime.jpg=image/jpeg
+log=0
+browsercmd=C\:\\Program Files\\Internet Explorer\\iexplore.exe
+chain.handlers=webevtch proxy
+mime.class=application/octet-stream
+port=8081
+ddkeys=ctrl
+proxy.class=org.ncgr.isys.system.web.httpproxy.IsysHttpProxy
+host=localhost
+ddkey=ctrl
+iwipe.notification.disabled=true
+browserargs=$url
+serverClass=org.ncgr.isys.system.web.httpproxy.StoppableServer
+proxy.prefix=/
+mime.jar=application/octet-stream
+mime.jib=application/octet-stream
+ddcolorval=-2968436
+ddcolor=tan

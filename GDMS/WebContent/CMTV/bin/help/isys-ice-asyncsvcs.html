@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>ISYS: Asynchronous Services</title>
+  </head>
+
+  <body>
+    <h1>ISYS: Asynchronous Services</h1>
+
+    <p>Some ISYS components may provide services that can potentially take a
+    long time to execute. In order to allow the user to continue working while
+    the service executes, a component can opt to execute the service in the
+    background. Such a service is termed an asynchronous service (please
+    forgive our software-centric terminology here). When an asynchronous
+    service is executed, the user will be immediately returned to the
+    component from which she invoked the asynchronous service. When the
+    service has completed its execution, the result will either be displayed
+    in the invoking component's graphical user interface or a new window or
+    component will be opened (the specific behavior depends upon the nature of
+    the service, of course).</p>
+
+    <p>The user can track the progress of asynchronous services in ISYS's main
+    window. The bottom portion of the window lists all asynchronous services
+    that have been invoked, showing various statistics including the service's
+    name, its status (whether it is active or has completed, for instance),
+    the time at which it was invoked, the elapsed time, and the completion
+    time (if applicable). Via the provided buttons, the user may also cancel
+    active services (in case she is no longer interested in the result) and
+    clear all services that are no longer active.</p>
+  </body>
+</html>

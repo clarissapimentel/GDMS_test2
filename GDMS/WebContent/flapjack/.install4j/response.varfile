@@ -1,0 +1,9 @@
+#install4j response file for Flapjack 0.09.10.29
+#Wed Mar 10 11:33:11 GMT+05:30 2010
+executeLauncherAction$Boolean=true
+sys.programGroup.linkDir=/usr/local/bin
+sys.languageId=en
+sys.installationDir=C\:\\Program Files\\Flapjack
+sys.programGroup.enabled$Boolean=true
+sys.programGroup.allUsers$Boolean=true
+sys.programGroup.name=Flapjack

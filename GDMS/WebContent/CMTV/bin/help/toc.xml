@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<!--
+     Copyright: (c) 2001-2005 National Center for Genome Resources (NCGR)
+                All Rights Reserved.
+     Licensed under the Academic Free License version 2.1
+-->
+
+<toc version="1.0">
+  <tocitem text="ISYS" image="toplevelfolder" target="isys-overview">
+      <tocitem text="Opening Components" target="isys-ice-eps"/>
+      <tocitem text="Dynamic Discovery" target="isys-dyndisc"/>
+      <tocitem text="Synchronization" target="isys-sync"/>
+      <tocitem text="Static Services" target="isys-ice-staticsvcs"/>
+      <tocitem text="Asynchronous Services" target="isys-ice-asyncsvcs"/>
+      <tocitem text="Web Integration" target="iwipe-overview">
+        <tocitem text="Configuration" target="iwipe-config"/>
+        <tocitem text="Usage" target="iwipe-usage"/>
+        <tocitem text="Components" target="iwipe-components"/>
+        <tocitem text="Limitations" target="iwipe-limitations"/>
+      </tocitem>
+    </tocitem>
+</toc>
+
+
