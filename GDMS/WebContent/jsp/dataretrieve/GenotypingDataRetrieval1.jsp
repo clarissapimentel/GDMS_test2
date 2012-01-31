@@ -399,9 +399,16 @@ function selOpt1(opt){
 	document.forms[0].action="export.do";	
 }*/
 function subExport(){
+	//alert(document.forms[0].elements['dataset'].value);
+	if(document.forms[0].elements['dataset'].value==""){
+		alert("Please select the dataset");		
+		return false;
+		document.forms[0].elements['dataset'].focus();
+	}
 	var msg;
 	var size='<%=session.getAttribute("size")%>';
-	msg= "   Selected Dataset is of '"+size+"' size. \n       Downloading this would take time. \n          Do you want to continue? ";
+	//alert(size);
+	msg= "   Downloading through dataset would take time. \n          Do you want to continue? ";
 	var agree=confirm(msg);
 	//alert("");
 	if (agree){	

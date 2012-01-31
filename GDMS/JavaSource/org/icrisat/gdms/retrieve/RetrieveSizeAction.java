@@ -45,10 +45,10 @@ public class RetrieveSizeAction extends Action{
 			res.setHeader("Cache-Control", "no-cache");	
 			String size="";
 			if(datasetType.equalsIgnoreCase("SNP")){
-				System.out.println("SELECT COUNT(DISTINCT char_values.marker_id) AS marker_count, COUNT(DISTINCT char_values.gid) AS gid_count FROM char_values WHERE char_values.dataset_id="+datasetId+" GROUP BY UCASE(char_values.dataset_id)");
+				//System.out.println("SELECT COUNT(DISTINCT char_values.marker_id) AS marker_count, COUNT(DISTINCT char_values.gid) AS gid_count FROM char_values WHERE char_values.dataset_id="+datasetId+" GROUP BY UCASE(char_values.dataset_id)");
 				rs1=st.executeQuery("SELECT COUNT(DISTINCT char_values.marker_id) AS marker_count, COUNT(DISTINCT char_values.gid) AS gid_count FROM char_values WHERE char_values.dataset_id="+datasetId+" GROUP BY UCASE(char_values.dataset_id)");
 			}else{
-				System.out.println("SELECT COUNT(DISTINCT allele_values.marker_id) AS marker_count, COUNT(DISTINCT allele_values.gid) AS gid_count FROM allele_values WHERE allele_values.dataset_id="+datasetId+" GROUP BY UCASE(allele_values.dataset_id)");
+				//System.out.println("SELECT COUNT(DISTINCT allele_values.marker_id) AS marker_count, COUNT(DISTINCT allele_values.gid) AS gid_count FROM allele_values WHERE allele_values.dataset_id="+datasetId+" GROUP BY UCASE(allele_values.dataset_id)");
 				rs1=st.executeQuery("SELECT COUNT(DISTINCT allele_values.marker_id) AS marker_count, COUNT(DISTINCT allele_values.gid) AS gid_count FROM allele_values WHERE allele_values.dataset_id="+datasetId+" GROUP BY UCASE(allele_values.dataset_id)");
 			}
 			while(rs1.next()){
@@ -57,13 +57,11 @@ public class RetrieveSizeAction extends Action{
 				writer.println("1");
 				req.getSession().setAttribute("size", size);
 				return null;
-			}
-			
-			
+			}			
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-		
+		System.out.println("done");
 		return am.findForward("ret");
 	}
 	
